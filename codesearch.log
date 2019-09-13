@@ -1,0 +1,214 @@
+-------- Similar Code ---------
+if(dataset!=null){
+return result;
+}
+
+1.9999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1797,1799>
+
+-------- Similar Code ---------
+if(this.dataset==null){
+return result;
+}
+
+1.9999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PiePlot.java<3034,3036>
+
+
+
+-------- Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(this.dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(this.dataset!=null){
+return result;
+}
+-------- Similar Code ---------
+if(dataset==null){
+throw new IllegalArgumentException("Null \'dataset\' argument.");
+}
+Range result=null;
+
+1.857492925712544
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<918,921>
+
+-------- Similar Code ---------
+if(dataset==null){
+throw new IllegalArgumentException("Null \'dataset\' argument.");
+}
+Number result=null;
+
+1.857492925712544
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<1524,1527>
+
+-------- Similar Code ---------
+if(dataset!=null){
+result.add(dataset);
+}
+
+1.682522608121828
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/CategoryPlot.java<4413,4415>
+
+-------- Similar Code ---------
+if(dataset==null){
+throw new IllegalArgumentException("Null \'dataset\' argument.");
+}
+Range result=null;
+double minimum=Double.POSITIVE_INFINITY;
+
+1.6534918135881966
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<1879,1883>
+
+-------- Similar Code ---------
+if(dataset==null){
+throw new IllegalArgumentException("Null \'dataset\' argument.");
+}
+Number result=null;
+boolean hasValidData=false;
+
+1.6534918135881966
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<1989,1993>
+
+-------- Similar Code ---------
+if(dataset==null){
+return ;
+}
+
+1.6153499647171805
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/CategoryPlot.java<4069,4071>
+
+-------- Similar Code ---------
+if(dataset==null){
+return null;
+}
+
+1.5416666666666665
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<277,279>
+
+-------- Similar Code ---------
+if(this.dataset==null){
+return 0.0;
+}
+
+1.5416666666666665
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PiePlot.java<1649,1651>
+
+-------- Similar Code ---------
+if(getDataset()==null){
+return result;
+}
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/SpiderWebPlot.java<1085,1087>
+
+-------- Similar Code ---------
+if(this.plot==null){
+return result;
+}
+
+1.4999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1792,1794>
+
+-------- Similar Code ---------
+if(keys==null){
+return result;
+}
+
+1.4999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/SpiderWebPlot.java<1095,1097>
+
+
+
+-------- Patch ---------
+if(keys!=null){
+return result;
+}
+-------- Similar Code ---------
+if(result!=null){
+return result;
+}
+
+1.4999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PiePlot.java<941,943>
+
+-------- Similar Code ---------
+if(equations==1){
+return result;
+}
+
+1.4999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/statistics/Regression.java<339,341>
+
+
+
+-------- Patch ---------
+if(equations!=null){
+return result;
+}
+-------- Similar Code ---------
+if(s==null){
+return result;
+}
+
+1.4999999999999998
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/time/Month.java<449,451>
+
+
+
+-------- Patch ---------
+if(s!=null){
+return result;
+}
+-------- Similar Code ---------
+if(dataset==null){
+throw new IllegalArgumentException("Null \'dataset\' argument.");
+}
+
+1.4916245780509718
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/entity/CategoryItemEntity.java<103,105>
+
+-------- Similar Code ---------
+if(result==null){
+throw new IllegalStateException("resolveDomainAxisLocation()");
+}
+
+1.4916245780509718
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/Plot.java<1482,1484>
+
+
+
+-------- Patch ---------
+if(result!=null){
+return result;
+}
+-------- Similar Code ---------
+if(result==null){
+throw new IllegalStateException("resolveRangeAxisLocation()");
+}
+
+1.4916245780509718
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/Plot.java<1543,1545>
+
+
+
+-------- Patch ---------
+if(result==null){
+return result;
+}
+-------- Similar Code ---------
+if(!DatasetUtilities.isEmptyOrNull(dataset)){
+return false;
+}
+
+1.4916245780509718
+/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PlotUtilities.java<68,70>
+
