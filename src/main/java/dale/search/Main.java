@@ -1,9 +1,12 @@
 package dale.search;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -26,6 +29,8 @@ import org.eclipse.jdt.core.dom.FieldAccess;
 import org.eclipse.jdt.core.dom.Name;
 import org.eclipse.jdt.core.dom.Type;
 
+import dale.parser.Subject;
+import dale.parser.ProjectInfo;
 import dale.modify.Revision;
 import dale.search.Node;
 import dale.modify.Modification;
@@ -62,6 +67,16 @@ public class Main {
 		
 		// pre-process
 		init();
+		int len = path.length();
+		if (path.substring(len-1,len).equals("/")){
+			path = path.substring(0, len-1);
+		}
+		String  proj_id = path.split("/")[path.split("/").length - 1];
+		String projName = proj_id.split("_")[0];
+		projName = projName.toLowerCase();
+		int id = Integer.parseInt( proj_id.split("_")[1]);
+		Subject subject = getSubject(projName, id);
+		ProjectInfo.init(subject);
 		
 		// obtain source code path
 		String src_path = get_source_path(path);
@@ -109,108 +124,188 @@ public class Main {
 			List<String> source = null;
 			LocalLog.log("print candidates ---");
 			
-			int i = 1;
-			for(Triple<CodeBlock, Double, String> similar : candidates){
-				// only consider top 20 candidates
-				if (i > 20){
-					break;
-				}
-				i++;
-				
-				writeStringToFile(logfile, "-------- Similar Code ---------\n",true);
-				writeStringToFile(logfile,
-						similar.getFirst().toString() 
-						+ "\n" + similar.getSecond() 
-						+ "\n" + similar.getThird()
-						+ "\n\n",true);
-				
-				// compute transformation
-				List<Modification> modifications = CodeBlockMatcher.match(oneBuggyBlock, similar.getFirst(), usableVars);
-				Map<String, Set<Node>> already = new HashMap<>();
-				// try each transformation first
-				List<Set<Integer>> list = new ArrayList<>();
-				list.addAll(consistentModification(modifications));
-				modifications = removeDuplicateModifications(modifications);
-				for(int index = 0; index < modifications.size(); index++){
-					Modification modification = modifications.get(index);
-					String modify = modification.toString();
-					Set<Node> tested = already.get(modify);
-					if(tested != null){
-						if(tested.contains(modification.getSrcNode())){
-							continue;
-						} else {
-							tested.add(modification.getSrcNode());
-						}
+			getAllPatches(oneBuggyBlock, candidates,
+					usableVars, currentBlockString, haveTryPatches);
+			
+			
+		}
+		
+	}
+	
+	private static void getAllPatches(CodeBlock oneBuggyBlock, List<Triple<CodeBlock, Double, String>> candidates,
+			Map<String, Type> usableVars, String currentBlockString, Set<String> haveTryPatches){
+		int i = 1;
+		for(Triple<CodeBlock, Double, String> similar : candidates){
+			// only consider top 20 candidates
+			if (i > 20){
+				break;
+			}
+			i++;
+			
+			writeStringToFile(logfile, "\n-------- Similar Code ---------\n",true);
+			writeStringToFile(logfile,
+					similar.getFirst().toString() 
+					+ "\n" + similar.getSecond() 
+					+ "\n" + similar.getThird()
+					+ "\n",true);
+			
+			// compute transformation
+			List<Modification> modifications = CodeBlockMatcher.match(oneBuggyBlock, similar.getFirst(), usableVars);
+			if (modifications.size() == 0){
+				writeStringToFile(logfile, "\n-------- No Patch ---------\n\n",true);
+			}
+			
+			Map<String, Set<Node>> already = new HashMap<>();
+			// try each transformation first
+			List<Set<Integer>> list = new ArrayList<>();
+			list.addAll(consistentModification(modifications));
+			modifications = removeDuplicateModifications(modifications);
+			for(int index = 0; index < modifications.size(); index++){
+				Modification modification = modifications.get(index);
+				String modify = modification.toString();
+				Set<Node> tested = already.get(modify);
+				if(tested != null){
+					if(tested.contains(modification.getSrcNode())){
+//						continue;
+						print("continue");
 					} else {
-						tested = new HashSet<>();
 						tested.add(modification.getSrcNode());
-						already.put(modify, tested);
 					}
-					Set<Integer> set = new HashSet<>();
-					set.add(index);
-					list.add(set);
+				} else {
+					tested = new HashSet<>();
+					tested.add(modification.getSrcNode());
+					already.put(modify, tested);
 				}
-				
-				//
-				List<Modification> legalModifications = new ArrayList<>();
-				while(true){
-					for(Set<Integer> modifySet : list){
-						for(Integer index : modifySet){
-							modifications.get(index).apply(usableVars);
-						}
-						
-						String replace = oneBuggyBlock.toSrcString().toString();
-						if(replace.equals(currentBlockString)) {
-							for(Integer index : modifySet){
-								modifications.get(index).restore();
-							}
-							continue;
-						}
-						if(haveTryPatches.contains(replace)){
-	//						System.out.println("already try ...");
-							for(Integer index : modifySet){
-								modifications.get(index).restore();
-							}
-							if(legalModifications != null){
-								for(Integer index : modifySet){
-									legalModifications.add(modifications.get(index));
-								}
-							}
-							continue;
-						}
-						
-						System.out.println("========");
-						System.out.println(replace);
-						System.out.println("========");
-						
-						writeStringToFile(logfile, "\n\n-------- Patch ---------\n",true);
-						writeStringToFile(logfile, replace,true);
-						
-						haveTryPatches.add(replace);
-	//					try {
-	//						JavaFile.sourceReplace(file, source, range.getFirst(), range.getSecond(), replace);
-	//					} catch (IOException e) {
-	//						System.err.println("Failed to replace source code.");
-	//						continue;
-	//					}
-	//					try {
-	//						FileUtils.forceDelete(new File(binFile));
-	//					} catch (IOException e) {
-	//					}
+				Set<Integer> set = new HashSet<>();
+				set.add(index);
+				list.add(set);
+			}
+			
+			// also save repeated patches
+//			while(true){
+//				for(Set<Integer> modifySet : list){
+//					for(Integer index : modifySet){
+//						modifications.get(index).apply(usableVars);
+//					}
+//					
+//					String replace = oneBuggyBlock.toSrcString().toString();
+//					if(replace.equals(currentBlockString)) {
+//						for(Integer index : modifySet){
+//							modifications.get(index).restore();
+//						}
+//						continue;
+//					}
+//					System.out.println("========");
+//					System.out.println(replace);
+//					System.out.println("========");
+//					
+//					writeStringToFile(logfile, "\n\n-------- Patch ---------\n",true);
+//					writeStringToFile(logfile, replace,true);
+//				}
+//				break;
+//			}
+			
+			
+			//
+			List<Modification> legalModifications = new ArrayList<>();
+			while(true){
+				for(Set<Integer> modifySet : list){
+					for(Integer index : modifySet){
+						modifications.get(index).apply(usableVars);
+					}
+					
+					String replace = oneBuggyBlock.toSrcString().toString();
+					if(replace.equals(currentBlockString)) {
 						for(Integer index : modifySet){
 							modifications.get(index).restore();
 						}
+						continue;
 					}
-					if(legalModifications == null){
-						break;
+					if(haveTryPatches.contains(replace)){
+						// also save repeated patch
+						writeStringToFile(logfile, "\n\n-------- Repeated Patch ---------\n",true);
+						writeStringToFile(logfile, replace, true);
+						
+//						System.out.println("already try ...");
+						for(Integer index : modifySet){
+							modifications.get(index).restore();
+						}
+						if(legalModifications != null){
+							for(Integer index : modifySet){
+								legalModifications.add(modifications.get(index));
+							}
+						}
+						continue;
 					}
-					list = combineModification(legalModifications);
-					modifications = legalModifications;
-					legalModifications = null;
+					
+					System.out.println("========");
+					System.out.println(replace);
+					System.out.println("========");
+					
+					writeStringToFile(logfile, "\n\n-------- Patch ---------\n",true);
+					writeStringToFile(logfile, replace,true);
+					
+					haveTryPatches.add(replace);
+//					try {
+//						JavaFile.sourceReplace(file, source, range.getFirst(), range.getSecond(), replace);
+//					} catch (IOException e) {
+//						System.err.println("Failed to replace source code.");
+//						continue;
+//					}
+//					try {
+//						FileUtils.forceDelete(new File(binFile));
+//					} catch (IOException e) {
+//					}
+					for(Integer index : modifySet){
+						modifications.get(index).restore();
+					}
 				}
+				if(legalModifications == null){
+					break;
+				}
+				list = combineModification(legalModifications);
+				modifications = legalModifications;
+				legalModifications = null;
 			}
 		}
+	}
+	
+	public static Subject getSubject(String name, int id){
+		String fileName = Constant.PROJ_INFO + "/" + name + "/" + id + ".txt";
+		File file = new File(fileName);
+		if(!file.exists()){
+			System.out.println("File : " + fileName + " does not exist!");
+			return null;
+		}
+		BufferedReader br = null;
+		try {
+			br = new BufferedReader(new FileReader(file));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		String line = null;
+		List<String> source = new ArrayList<>();
+		try {
+			while((line = br.readLine()) != null){
+				source.add(line);
+			}
+			br.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
+		if(source.size() < 4){
+			System.err.println("PROJEC INFO CONFIGURE ERROR !");
+			System.exit(0);
+		}
+		
+		String ssrc = source.get(0);
+		String sbin = source.get(1);
+		String tsrc = source.get(2);
+		String tbin = source.get(3);
+		
+		Subject subject = new Subject(name, id, ssrc, tsrc, sbin, tbin);
+		return subject;
 	}
 	
 	private static List<Set<Integer>> combineModification(List<Modification> modifications){
@@ -502,6 +597,7 @@ public class Main {
 				// print(fileEntry.getName());
 				if (fileEntry.getName().equals("source")){
 					src_path = fileEntry.getPath();
+					break;
 				}else if(fileEntry.getName().equals("src")) {
 					// check whether src/main/java
 					String src_path_tmp = fileEntry.getPath() + "/main/java";
@@ -521,6 +617,7 @@ public class Main {
 						// check src
 						src_path = fileEntry.getPath();
 					}
+					break;
 				}
 
 			}

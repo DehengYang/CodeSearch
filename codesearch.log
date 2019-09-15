@@ -1,214 +1,502 @@
--------- Similar Code ---------
-if(dataset!=null){
-return result;
-}
-
-1.9999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1797,1799>
 
 -------- Similar Code ---------
-if(this.dataset==null){
-return result;
+if(Double.isNaN(result)){
+throw new MathInternalError(LocalizedFormats.DISCRETE_CUMULATIVE_PROBABILITY_RETURNED_NAN,argument);
 }
 
-1.9999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PiePlot.java<3034,3036>
+1.3016973856034173
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java<229,232>
 
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(FastMath.abs(result)<CUTOFF_THRESHOLD){
+result=0.0;
+}
+
+1.2857142857142856
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java<465,467>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(FastMath.abs(result)<cutOff){
+result=0.0;
+}
+
+1.2380952380952381
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optim/linear/SimplexTableau.java<485,487>
 
 
 -------- Patch ---------
-if(dataset==null){
+if(FastMath.abs(seriesCount)!=null){
 return result;
 }
-
-
--------- Patch ---------
-if(this.dataset==null){
-return result;
-}
-
-
--------- Patch ---------
-if(this.dataset!=null){
-return result;
-}
--------- Similar Code ---------
-if(dataset==null){
-throw new IllegalArgumentException("Null \'dataset\' argument.");
-}
-Range result=null;
-
-1.857492925712544
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<918,921>
+int seriesCount=dataset.getRowCount();
 
 -------- Similar Code ---------
-if(dataset==null){
-throw new IllegalArgumentException("Null \'dataset\' argument.");
-}
-Number result=null;
-
-1.857492925712544
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<1524,1527>
-
--------- Similar Code ---------
-if(dataset!=null){
-result.add(dataset);
-}
-
-1.682522608121828
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/CategoryPlot.java<4413,4415>
-
--------- Similar Code ---------
-if(dataset==null){
-throw new IllegalArgumentException("Null \'dataset\' argument.");
-}
-Range result=null;
-double minimum=Double.POSITIVE_INFINITY;
-
-1.6534918135881966
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<1879,1883>
-
--------- Similar Code ---------
-if(dataset==null){
-throw new IllegalArgumentException("Null \'dataset\' argument.");
-}
-Number result=null;
-boolean hasValidData=false;
-
-1.6534918135881966
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/general/DatasetUtilities.java<1989,1993>
-
--------- Similar Code ---------
-if(dataset==null){
-return ;
-}
-
-1.6153499647171805
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/CategoryPlot.java<4069,4071>
-
--------- Similar Code ---------
-if(dataset==null){
-return null;
-}
-
-1.5416666666666665
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<277,279>
-
--------- Similar Code ---------
-if(this.dataset==null){
-return 0.0;
-}
-
-1.5416666666666665
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PiePlot.java<1649,1651>
-
--------- Similar Code ---------
-if(getDataset()==null){
-return result;
-}
-
-1.5326920704511053
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/SpiderWebPlot.java<1085,1087>
-
--------- Similar Code ---------
-if(this.plot==null){
-return result;
-}
-
-1.4999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1792,1794>
-
--------- Similar Code ---------
-if(keys==null){
-return result;
-}
-
-1.4999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/SpiderWebPlot.java<1095,1097>
-
-
-
--------- Patch ---------
-if(keys!=null){
-return result;
-}
--------- Similar Code ---------
-if(result!=null){
-return result;
-}
-
-1.4999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PiePlot.java<941,943>
-
--------- Similar Code ---------
-if(equations==1){
-return result;
-}
-
-1.4999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/statistics/Regression.java<339,341>
-
-
-
--------- Patch ---------
-if(equations!=null){
-return result;
-}
--------- Similar Code ---------
-if(s==null){
-return result;
-}
-
-1.4999999999999998
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/data/time/Month.java<449,451>
-
-
-
--------- Patch ---------
-if(s!=null){
-return result;
-}
--------- Similar Code ---------
-if(dataset==null){
-throw new IllegalArgumentException("Null \'dataset\' argument.");
-}
-
-1.4916245780509718
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/entity/CategoryItemEntity.java<103,105>
-
--------- Similar Code ---------
-if(result==null){
-throw new IllegalStateException("resolveDomainAxisLocation()");
-}
-
-1.4916245780509718
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/Plot.java<1482,1484>
-
-
-
--------- Patch ---------
-if(result!=null){
-return result;
-}
--------- Similar Code ---------
-if(result==null){
-throw new IllegalStateException("resolveRangeAxisLocation()");
-}
-
-1.4916245780509718
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/Plot.java<1543,1545>
-
-
-
--------- Patch ---------
-if(result==null){
-return result;
-}
--------- Similar Code ---------
-if(!DatasetUtilities.isEmptyOrNull(dataset)){
+if(!result){
 return false;
+}else {
+return Arrays.equals(internalArray,other.internalArray);
 }
 
-1.4916245780509718
-/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/plot/PlotUtilities.java<68,70>
+1.2353857562112687
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java<1180,1184>
 
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(isInfinite()){
+result.add(INF);
+return result;
+}
+
+1.2348312050437509
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/complex/Complex.java<1142,1145>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result.sign==1){
+result=result.add(getOne());
+}
+
+1.2211286324077713
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp-2.java<1103,1106>
+
+
+-------- Patch ---------
+if(dataset==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(result.sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(result!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(result.sign==1){
+result=result.add(getOne());
+}
+
+1.2211286324077713
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1103,1106>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(result.sign==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(result==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(sign==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(sign==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(result.sign==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(value!=null){
+result=value.longValue();
+}
+
+1.2188532353459727
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<384,386>
+
+
+-------- Patch ---------
+if(value!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+Dfp result=newInstance(this);
+result.sign=1;
+return result;
+
+1.2128193550153923
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp-2.java<866,868>
+
+
+-------- Patch ---------
+result.sign=1;
+if(dataset!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+Dfp result=newInstance(this);
+result.sign=1;
+return result;
+
+1.2128193550153923
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<866,868>
+
+
+-------- Repeated Patch ---------
+result.sign=1;
+if(dataset!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+boolean invert=false;
+Dfp result=base.getOne();
+if(a==0){
+return result;
+}
+
+1.2098805515390845
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<213,220>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(a!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(dataset!=null){
+return result;
+}
+int seriesCount=base.getRowCount();
+
+-------- Similar Code ---------
+if(nans==INFINITE&&x!=0){
+result=newInstance(this);
+return result;
+}
+
+1.2090244476323129
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp-2.java<1632,1635>
+
+
+-------- Patch ---------
+if(nans!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(nans==INFINITE&&x!=0){
+result=newInstance(this);
+return result;
+}
+
+1.2090244476323129
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1632,1635>
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(n<=0){
+throw new NotPositiveException(LocalizedFormats.CANNOT_COMPUTE_NTH_ROOT_FOR_NEGATIVE_N,n);
+}
+ final List<Complex> result=new ArrayList<Complex>();
+if(isNaN){
+result.add(NaN);
+return result;
+}
+
+1.1841125605629743
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/complex/Complex.java<1131,1141>
+
+
+-------- Patch ---------
+if(n!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+int result=1;
+int k2p=k;
+
+1.178011861518687
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<643,648>
+
+
+-------- Patch ---------
+if(e!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+int result=1;
+int k2p=k;
+
+1.178011861518687
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<669,674>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+long result=1l;
+long k2p=k;
+
+1.178011861518687
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<695,700>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+long result=1l;
+long k2p=k;
+
+1.178011861518687
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<721,726>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+BigInteger result=BigInteger.ONE;
+BigInteger k2p=k;
+
+1.178011861518687
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<763,768>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,ADD_TRAP,x,result);
+}
+
+1.176459669449618
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp-2.java<1367,1369>
+
+
+-------- Patch ---------
+if(excp!=null){
+return result;
+}
+int seriesCount=dataset.getRowCount();

@@ -85,10 +85,13 @@ public class CodeSnippet {
 			
 			// Returns the innermost node that fully contains the selection.
 			ASTNode prefind = finder.getCoveringNode();
+			Main.print("prefind class name: " + prefind.getClass().getName());
 			//LocalLog.log("prefind:" + prefind.toString());
 			
 			// prefind is not null, and prefind is not Statement
 			while (prefind != null && !(prefind instanceof Statement)) {
+				Main.print("prefind class name: " + prefind.getClass().getName());
+				
 				// Returns this node's parent node, or null if this is the root node.
 				prefind = prefind.getParent();
 			}

@@ -86,9 +86,10 @@ public class SimpleFilter {
 		
 		Set<String> exist = new HashSet<>();
 		for(Triple<CodeBlock, Double, String> pair : filtered){
-			if(exist.contains(pair.getFirst().toSrcString().toString())){
-				continue;
-			}
+			// here to include repeated codeblock
+//			if(exist.contains(pair.getFirst().toSrcString().toString())){
+//				continue;
+//			}
 			exist.add(pair.getFirst().toSrcString().toString());
 			double similarity = CodeBlockMatcher.getRewardSimilarity(_buggyCode, pair.getFirst()) + pair.getSecond();
 			pair.setSecond(similarity);
@@ -184,6 +185,17 @@ public class SimpleFilter {
 		return filtered;
 	}
 	
+	private void printInfo(){
+		Main.print("_variables:");
+		for (Variable var : _variables){
+			Main.print(var.toString());
+		}
+		Main.print("_methods:");
+		for (String str : _methods){
+			Main.print(str);
+		}
+	}
+	
 	class CollectorVisitor extends ASTVisitor{
 		
 		private CompilationUnit _unit = null;
@@ -193,6 +205,8 @@ public class SimpleFilter {
 			// file name and relevant CU
 			_fileName = fileName;
 			_unit = unit;
+			
+//			Main.print("setUnit:" + fileName);
 		}
 		
 		@Override
@@ -200,12 +214,20 @@ public class SimpleFilter {
 			// SimpleName class: AST node for a simple name. A simple name is an identifier other than a keyword, boolean literal ("true", "false") or null literal ("null"). 
 			// getFullyQualifiedName(): Returns the standard dot-separated representation of this name. If the name is a simple name, the result is the name's identifier. If the name is a qualified name, the result is the name of the qualifier (as computed by this method) followed by "." followed by the name's identifier.
 			String name = node.getFullyQualifiedName();
+//			Main.print("name in visit:" + name);
 			if(Character.isUpperCase(name.charAt(0))){
 				return true;
 			}
 			Pair<String, String> classAndMethodName = NodeUtils.getTypeDecAndMethodDec(node);
 			Type type = ProjectInfo.getVariableType(classAndMethodName.getFirst(), classAndMethodName.getSecond(), name);
 			Variable variable = new Variable(null, name, type);
+			
+//			if (variable != null){ //type != null && 
+//				Main.print("classAndMethodName variable:" +
+//						'\n' + classAndMethodName.toString() + '\n' + variable.toString());//'\n' + type.toString() + 
+//			}
+//			printInfo();
+			
 			boolean match = false;
 			if(_variables.contains(variable) || _methods.contains(name) || sameStructure(node)){
 				match = true;
@@ -237,6 +259,9 @@ public class SimpleFilter {
 					CodeBlock codeBlock = new CodeBlock(_fileName, _unit, codeSnippet.getASTNodes());
 					if(codeBlock.getCurrentLine() < _max_line){
 						_candidates.add(codeBlock);
+						Main.print("codeBlock info:" +_fileName 
+								+ '\n' + codeBlock.toSrcString().toString()
+								+ '\n');
 //						_candidates_paths.add(_fileName);
 					}
 				}
