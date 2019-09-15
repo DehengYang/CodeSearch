@@ -1,5 +1,6 @@
 package dale.search;
 
+import java.io.IOException;
 import java.util.logging.Logger;
 
 import junit.framework.Test;
@@ -43,7 +44,7 @@ public class MainTest
 //    }
     
 //    @Test
-    public void test_source_path(){
+    public void test_source_path() throws IOException{
     	log.info("Testing Chart 1");
     	String[] args = new String[] {
     			"org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797",

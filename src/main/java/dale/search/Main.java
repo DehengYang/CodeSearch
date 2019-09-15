@@ -19,7 +19,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.io.FileUtils;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTNode;
@@ -34,7 +33,6 @@ import dale.parser.ProjectInfo;
 import dale.modify.Revision;
 import dale.search.Node;
 import dale.modify.Modification;
-import dale.search.Pair;
 import dale.parser.NodeUtils;
 import dale.search.CodeBlock;
 import dale.search.SimpleFilter;
@@ -45,10 +43,60 @@ import java.util.regex.Pattern;
 
 public class Main {
 	private static Logger logger = Logger.getLogger(Main.class.getName());
-	private static String path = System.getProperty("user.dir");
-	private static String logfile = path + "/codesearch.log";
+	private static String project_dir = System.getProperty("user.dir");
+	private static String logfile = project_dir + "/codesearch.log";
 	
-	public static void main(String[] args){
+	// args
+	private static String proj = "";
+	private static String id = "";
+//	private static String line = "";
+	private static String src_path = "";
+	private static String fixed_src_path = "";
+	private static String target_source_path = "";
+	
+	public static void main(String[] args) throws IOException{
+		// args: 
+		// Chart 1 /home/dale/d4j/Chart/Chart_1 /home/dale/d4j/fixed_bugs_dir/Chart/Chart_1  /home/dale/d4j/Math/Math_1
+		// Chart 3 /home/dale/d4j/Chart/Chart_3 /home/dale/d4j/fixed_bugs_dir/Chart/Chart_3  /home/dale/d4j/Math/Math_1
+		
+		// conduct code search for buggy lines
+		proj = args[0];
+		id = args[1];
+		src_path = args[2];
+		fixed_src_path = args[3];
+		target_source_path = args[4];
+		List<String> lines = readFile(proj, id, "buggy");
+		
+		// init subject & search log
+		proj = proj.toLowerCase();
+		Subject subject = getSubject(proj, Integer.parseInt(id));
+		ProjectInfo.init(subject);
+		
+		init();
+		
+		// obtain source code path (recipient code) & target path(for code search)
+		src_path = get_source_path(src_path);
+		fixed_src_path = get_source_path(fixed_src_path);
+		target_source_path = get_source_path(target_source_path);
+
+		for (String line : lines){
+			codeSearchForLine(line, src_path, "buggy");
+			
+		}
+		List<String> fixed_lines = readFile(proj, id, "fixed");
+		for (String line : fixed_lines){
+			codeSearchForLine(line, fixed_src_path, "fixed");	
+		}
+		
+		// ----------------
+		// conduct code search for fixed lines
+		
+		
+		// args: 
+		// org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797 
+		// /home/dale/d4j/Chart/Chart_1/   
+		// /home/dale/d4j/Chart/Chart_1
+		//
 		// parse arguments
 		// #1 specified line
 		// #2 program path
@@ -56,42 +104,94 @@ public class Main {
 		// org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797
 		// /home/dale/d4j/Chart/Chart_1
 		// #3 target source path: /home/dale/d4j/Math/Math_1/
-		String line = args[0];
-		String path = args[1];
-		String target_source_path = args[2];
-		print("The arguments:");
-		for(String arg : args){
-			print(arg);
-		}
-		print("");
+//		line = args[0];
+//		path = args[1];
+//		target_source_path = args[2];
+//		print("The arguments:");
+//		for(String arg : args){
+//			print(arg);
+//		}
+//		print("");
+//		
+//		// pre-process
+//		init();
+//		int len = path.length();
+//		if (path.substring(len-1,len).equals("/")){
+//			path = path.substring(0, len-1);
+//		}
+//		String  proj_id = path.split("/")[path.split("/").length - 1];
+//		String projName = proj_id.split("_")[0];
+//		projName = projName.toLowerCase();
+//		int id = Integer.parseInt( proj_id.split("_")[1]);
+//		Subject subject = getSubject(projName, id);
+//		ProjectInfo.init(subject);
+//		
+//		// obtain source code path
+//		String src_path = get_source_path(path);
+//		target_source_path = get_source_path(target_source_path);
+//		
+//		// get compilation unit for the line
+//		String line_path = src_path + "/" + line.split(":")[0].replace(".", "/") + ".java";
+//		print(line_path);
+//		CompilationUnit unit = (CompilationUnit)genASTFromFile(line_path, ASTParser.K_COMPILATION_UNIT);
+////		print(unit.getRoot().toString());
+//		
+//		// get code snippet
+//		int lineNo = Integer.parseInt(line.split(":")[1]);
+//		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, 5, null, 3);
+//	
+//		// get code block
+//		CodeBlock codeBlock = new CodeBlock(line_path, unit, codeSnippet.getASTNodes());
+//		Integer methodID = codeBlock.getWrapMethodID();
+//		if(methodID == null){
+//			LocalLog.log("Find no block");
+//		}
+//		List<CodeBlock> buggyBlockList = new LinkedList<>();
+//		buggyBlockList.addAll(codeBlock.reduce());
+//		buggyBlockList.add(codeBlock);
+//		Set<String> haveTryBuggySourceCode = new HashSet<>();
+//		for(CodeBlock oneBuggyBlock : buggyBlockList){
+//			String currentBlockString = oneBuggyBlock.toSrcString().toString();
+//			if(currentBlockString == null || currentBlockString.length() <= 0){
+//				continue;
+//			}
+//			// skip duplicated source code
+//			if(haveTryBuggySourceCode.contains(currentBlockString)){
+//				continue;
+//			}
+//			haveTryBuggySourceCode.add(currentBlockString);
+//			Set<String> haveTryPatches = new HashSet<>();
+//			
+//			// get all variables can be used at buggy line
+//			Map<String, Type> usableVars = NodeUtils.getUsableVarTypes(line_path, lineNo);
+//			
+//			// search candidate similar code block
+//			SimpleFilter simpleFilter = new SimpleFilter(oneBuggyBlock);
+//			
+//			List<Triple<CodeBlock, Double, String>> candidates = simpleFilter.filter(target_source_path, 0.3);
+//			List<String> source = null;
+//			LocalLog.log("print candidates ---");
+//			
+//			getAllPatches(oneBuggyBlock, candidates,
+//					usableVars, currentBlockString, haveTryPatches);
+//			
+//			
+//		}
 		
-		// pre-process
-		init();
-		int len = path.length();
-		if (path.substring(len-1,len).equals("/")){
-			path = path.substring(0, len-1);
-		}
-		String  proj_id = path.split("/")[path.split("/").length - 1];
-		String projName = proj_id.split("_")[0];
-		projName = projName.toLowerCase();
-		int id = Integer.parseInt( proj_id.split("_")[1]);
-		Subject subject = getSubject(projName, id);
-		ProjectInfo.init(subject);
-		
-		// obtain source code path
-		String src_path = get_source_path(path);
-		target_source_path = get_source_path(target_source_path);
-		
+	}
+	
+	private static void codeSearchForLine(String line, String src_path, String flag) {
 		// get compilation unit for the line
 		String line_path = src_path + "/" + line.split(":")[0].replace(".", "/") + ".java";
 		print(line_path);
 		CompilationUnit unit = (CompilationUnit)genASTFromFile(line_path, ASTParser.K_COMPILATION_UNIT);
-//		print(unit.getRoot().toString());
-		
+		//				print(unit.getRoot().toString());
+
 		// get code snippet
 		int lineNo = Integer.parseInt(line.split(":")[1]);
+		// for test: change 5 to 1
 		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, 5, null, 3);
-	
+
 		// get code block
 		CodeBlock codeBlock = new CodeBlock(line_path, unit, codeSnippet.getASTNodes());
 		Integer methodID = codeBlock.getWrapMethodID();
@@ -113,34 +213,80 @@ public class Main {
 			}
 			haveTryBuggySourceCode.add(currentBlockString);
 			Set<String> haveTryPatches = new HashSet<>();
-			
+
 			// get all variables can be used at buggy line
 			Map<String, Type> usableVars = NodeUtils.getUsableVarTypes(line_path, lineNo);
-			
+
 			// search candidate similar code block
 			SimpleFilter simpleFilter = new SimpleFilter(oneBuggyBlock);
-			
+
 			List<Triple<CodeBlock, Double, String>> candidates = simpleFilter.filter(target_source_path, 0.3);
-			List<String> source = null;
+//			List<String> source = null;
 			LocalLog.log("print candidates ---");
-			
+
+			// each line with a specified log
+			logfile = "./search-log/" + proj + '/' + id + '/' + line + "_" + flag + ".log";
 			getAllPatches(oneBuggyBlock, candidates,
-					usableVars, currentBlockString, haveTryPatches);
-			
-			
+					usableVars, currentBlockString, haveTryPatches, logfile, flag);
 		}
 		
 	}
+
+	private static List<String> readFile(String proj, String id, String flag) throws IOException {
+		String file_path = "";
+		proj = upperFirstCase(proj);
+		if (flag.equals("buggy")){
+			file_path = "buggy_locs/" + proj + '/' + proj + '_' + id + ".txt";
+		}else if(flag.equals("fixed")){
+			file_path = "buggy_locs/" + proj + '/' + proj + '_' + id + "_fixed.txt";
+		}else{
+			print("Invalid flag:" + flag);
+		}
+		
+		List<String> lines = new ArrayList<>();
+		BufferedReader br = null;
+		try {
+			br = new BufferedReader(new FileReader(file_path));
+			String line;
+			while ((line = br.readLine()) != null) {
+				lines.add(line);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				br.close();
+			}
+		}
+		
+		return lines;
+	}
 	
+	/*
+	 * to capitalize the first letter of a string
+	 */
+	private static String upperFirstCase(String str){
+		if (str.length() > 0){
+			return str.substring(0, 1).toUpperCase() + str.substring(1);
+		}
+		return null;
+	}
+
 	private static void getAllPatches(CodeBlock oneBuggyBlock, List<Triple<CodeBlock, Double, String>> candidates,
-			Map<String, Type> usableVars, String currentBlockString, Set<String> haveTryPatches){
-		int i = 1;
+			Map<String, Type> usableVars, String currentBlockString, Set<String> haveTryPatches,
+			String logfile, String flag){
+		
+		// save original code snippet
+		writeStringToFile(logfile, "-------- Original Code ---------\n",true);
+		writeStringToFile(logfile, currentBlockString, true);
+		
+		//		int i = 1;
 		for(Triple<CodeBlock, Double, String> similar : candidates){
 			// only consider top 20 candidates
-			if (i > 20){
-				break;
-			}
-			i++;
+//			if (i > 2000){
+//				break;
+//			}
+//			i++;
 			
 			writeStringToFile(logfile, "\n-------- Similar Code ---------\n",true);
 			writeStringToFile(logfile,
@@ -151,7 +297,7 @@ public class Main {
 			
 			// compute transformation
 			List<Modification> modifications = CodeBlockMatcher.match(oneBuggyBlock, similar.getFirst(), usableVars);
-			if (modifications.size() == 0){
+			if (modifications.size() == 0 && flag.equals("buggy")){
 				writeStringToFile(logfile, "\n-------- No Patch ---------\n\n",true);
 			}
 			
@@ -222,9 +368,11 @@ public class Main {
 						continue;
 					}
 					if(haveTryPatches.contains(replace)){
-						// also save repeated patch
-						writeStringToFile(logfile, "\n\n-------- Repeated Patch ---------\n",true);
-						writeStringToFile(logfile, replace, true);
+						if(flag.equals("buggy")){
+							// also save repeated patch
+							writeStringToFile(logfile, "\n\n-------- Repeated Patch ---------\n",true);
+							writeStringToFile(logfile, replace, true);
+						}
 						
 //						System.out.println("already try ...");
 						for(Integer index : modifySet){
@@ -242,8 +390,10 @@ public class Main {
 					System.out.println(replace);
 					System.out.println("========");
 					
-					writeStringToFile(logfile, "\n\n-------- Patch ---------\n",true);
-					writeStringToFile(logfile, replace,true);
+					if(flag.equals("buggy")){
+						writeStringToFile(logfile, "\n\n-------- Patch ---------\n",true);
+						writeStringToFile(logfile, replace,true);
+					}
 					
 					haveTryPatches.add(replace);
 //					try {
@@ -439,10 +589,13 @@ public class Main {
 	}
 	
 	private static void init() {
-		File file = new File(logfile);
-		if (file.exists()) {
-			file.delete();
-			print(logfile + " exists, and now clear it at the beginning of the process.");
+		logfile = "./search-log/" + proj + '/' + id + '/' ;
+		File dir = new File(logfile);
+		if (dir.exists() && dir.isDirectory()) {
+			for (File file : dir.listFiles()){
+				file.delete();
+				print(file.getName() + " exists, and now clear it at the beginning of the process.");
+			}
 		}
 	}
 
