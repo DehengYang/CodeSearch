@@ -26,7 +26,7 @@ public class CodeSnippetTest extends TestCase{
 //		int lineNo = 1797;
 		int lineNo = 860; // 188 250 293 296
 		CompilationUnit unit = (CompilationUnit)Main.genASTFromFile(line_path, ASTParser.K_COMPILATION_UNIT);
-		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, 5, null, 3);
+		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, 5, null, 3, 5);
 		List<ASTNode> astnodes = codeSnippet.getASTNodes();
 		
 		log.info("print astnodes");

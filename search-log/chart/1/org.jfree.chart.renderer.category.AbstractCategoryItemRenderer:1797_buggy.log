@@ -1,0 +1,6959 @@
+
+
+-------- Original Code ---------
+if(dataset!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(dataset==null){
+return result;
+}
+
+1.9999999999999998
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java<62,64>
+
+
+-------- Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(dataset!=null){
+return result;
+}
+
+1.9999999999999998
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/FunctionUtils.java<65,67>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(a==0){
+return result;
+}
+
+1.4999999999999998
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<217,220>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(a!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(Double.isNaN(result)){
+throw new MathInternalError(LocalizedFormats.DISCRETE_CUMULATIVE_PROBABILITY_RETURNED_NAN,argument);
+}
+
+1.382522608121828
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java<229,232>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(FastMath.abs(result)<CUTOFF_THRESHOLD){
+result=0.0;
+}
+
+1.3486684247915055
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java<465,467>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+default :
+def=result;
+break;
+
+
+1.301783725737273
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2297,2297>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!result){
+return false;
+}else {
+return Arrays.equals(internalArray,other.internalArray);
+}
+
+1.2616404368553291
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java<1180,1184>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(c==null){
+c=new NaturalComparator();
+}
+long result=0;
+
+1.257492925712544
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<377,380>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(c!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if((e&0x1)!=0){
+result*=k2p;
+}
+
+1.257492925712544
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<650,652>
+
+
+-------- Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(e!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if((e&0x1)!=0){
+result*=k2p;
+}
+
+1.257492925712544
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<676,678>
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if((e&0x1)!=0){
+result*=k2p;
+}
+
+1.257492925712544
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<702,704>
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if((e&0x1)!=0){
+result*=k2p;
+}
+
+1.257492925712544
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<728,730>
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(b1<0){
+result=-result;
+}
+
+1.2504200642707612
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java<568,570>
+
+
+-------- Patch ---------
+if(b1!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(count!=null){
+result=count.longValue();
+}
+
+1.2504200642707612
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<257,259>
+
+
+-------- Patch ---------
+if(count!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(value!=null){
+result=value.longValue();
+}
+
+1.2504200642707612
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<384,386>
+
+
+-------- Patch ---------
+if(value!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(FastMath.abs(result)<cutOff){
+result=0.0;
+}
+
+1.2486684247915054
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optim/linear/SimplexTableau.java<485,487>
+
+
+-------- Patch ---------
+if(FastMath.abs(result)!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(a==0){
+return result[0].add(result[1]);
+}
+
+1.2320502943378437
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<162,165>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(a!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(a==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(isInfinite()){
+result.add(INF);
+return result;
+}
+
+1.2302967433402214
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/complex/Complex.java<1142,1145>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(nans==INFINITE&&x!=0){
+result=newInstance(this);
+return result;
+}
+
+1.2297547903341286
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1632,1635>
+
+
+-------- Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+int result=1;
+int k2p=k;
+
+1.2033772211965328
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<643,648>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+int result=1;
+int k2p=k;
+
+1.2033772211965328
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<669,674>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+long result=1l;
+long k2p=k;
+
+1.2033772211965328
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<695,700>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+long result=1l;
+long k2p=k;
+
+1.2033772211965328
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<721,726>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(e<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+BigInteger result=BigInteger.ONE;
+BigInteger k2p=k;
+
+1.2033772211965328
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<763,768>
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result.sign==1){
+result=result.add(getOne());
+}
+
+1.1938566201357355
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1103,1106>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result.sign!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(rounded.sign==-1){
+result=-result;
+}
+
+1.1938566201357355
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1159,1161>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(rounded.sign==-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(rounded.sign!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(rounded!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(x<0||invx<0){
+if(y<0||invy<0){
+return -Math.PI;
+}else {
+return Math.PI;
+}
+}else {
+return result;
+}
+
+1.1925595983518003
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<2598,2606>
+
+
+-------- Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+return -Math.PI;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+return PI;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+return PI;
+}
+
+-------- Similar Code ---------
+Dfp result=newInstance(this);
+result.sign=1;
+return result;
+
+1.190569415042095
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<866,868>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result==0){
+result=result*x;
+}
+
+1.1820017581248388
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<2958,2960>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((e&0x1)!=0){
+result=result.multiply(k2p);
+}
+
+1.1818614707571904
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<770,772>
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(e!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if((dataset&0x1)!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result.sign==-1){
+result=result.add(newInstance(-1));
+}
+
+1.162000762001143
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1096,1099>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result.sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result.sign==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(result==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result.sign!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result!=-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result==-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.sign!=-1){
+return result;
+}
+
+-------- Similar Code ---------
+if(e.compareTo(BigInteger.ZERO)<0){
+throw new NotPositiveException(LocalizedFormats.EXPONENT,e);
+}
+BigInteger result=BigInteger.ONE;
+BigInteger k2p=k;
+
+1.1532419029499945
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<790,795>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(n<=0){
+throw new NotPositiveException(LocalizedFormats.CANNOT_COMPUTE_NTH_ROOT_FOR_NEGATIVE_N,n);
+}
+ final List<Complex> result=new ArrayList<Complex>();
+if(isNaN){
+result.add(NaN);
+return result;
+}
+
+1.1311404262115234
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/complex/Complex.java<1131,1141>
+
+
+-------- Patch ---------
+if(n!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(k>n/2){
+return binomialCoefficient(n,n-k);
+}
+long result=1;
+
+1.1175276172357087
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/CombinatoricsUtils.java<91,100>
+
+
+-------- Patch ---------
+if(k!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(negate){
+result=-result;
+}
+
+1.1144345083117604
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<575,577>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(negate){
+result=-result;
+}
+
+1.1144345083117604
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<699,701>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(negative){
+result=-result;
+}
+
+1.1144345083117604
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<2412,2414>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,ADD_TRAP,x,result);
+}
+
+1.1139507312756347
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1367,1369>
+
+
+-------- Patch ---------
+if(excp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,ADD_TRAP,x,result);
+}
+
+1.1139507312756347
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1397,1399>
+
+
+-------- Repeated Patch ---------
+if(excp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,MULTIPLY_TRAP,x,result);
+}
+
+1.1139507312756347
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1598,1600>
+
+
+-------- Repeated Patch ---------
+if(excp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,MULTIPLY_TRAP,result,result);
+}
+
+1.1139507312756347
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1674,1676>
+
+
+-------- Repeated Patch ---------
+if(excp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,DIVIDE_TRAP,divisor,result);
+}
+
+1.1139507312756347
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1888,1890>
+
+
+-------- Repeated Patch ---------
+if(excp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(excp!=0){
+result=dotrap(excp,DIVIDE_TRAP,result,result);
+}
+
+1.1139507312756347
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1952,1954>
+
+
+-------- Repeated Patch ---------
+if(excp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(x<0.0){
+x=-x;
+negate=true;
+}
+double result;
+
+1.1106721970985909
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<494,499>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(x<0.0){
+x=-x;
+negate=true;
+}
+double result;
+
+1.1106721970985909
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<611,616>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+-------- Similar Code ---------
+default :
+ final Dfp half=newInstance("0.5");
+Dfp a=subtract(result);
+a.sign=1;
+
+
+1.1102319294006893
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1110,1113>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+field.setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+result=dotrap(DfpField.FLAG_INEXACT,TRUNC_TRAP,this,result);
+return result;
+
+1.1102319294006893
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1129,1131>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(n<=0){
+throw new NotStrictlyPositiveException(n);
+}
+int result=(int)(nextDouble()*n);
+return result<n?result:n-1;
+
+1.1045340337332907
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java<157,161>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result[1]!=result[1]){
+result[1]=0.0;
+}
+
+1.0974858324629158
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMathCalc.java<415,417>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(c.compare(v,nextValue)>0){
+result+=getCount(nextValue);
+}else {
+return result;
+}
+
+1.0932740427115677
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<402,406>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result[0].classify()==Dfp.INFINITE||result[0].equals(result[1])){
+return result;
+}
+
+1.0909477417474913
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<120,122>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(n==0){
+result[resultOffset]=1.0;
+Arrays.fill(result,resultOffset+1,resultOffset+getSize(),0);
+return ;
+}
+
+1.0906728074767074
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<924,929>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(n!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(n==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(ra==0){
+ra=copySign(0.0,y);
+}
+ final double result=atan(ra,rb,x<0);
+return result;
+
+1.0872442622820284
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<2687,2694>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double result=ya+yb;
+result*=0.5;
+return result;
+
+1.073552882872621
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<452,454>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(e.testBit(0)){
+result=result.multiply(k2p);
+}
+
+1.070543114107819
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java<797,799>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result.classify()==INFINITE&&this.classify()!=INFINITE){
+field.setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+result=dotrap(DfpField.FLAG_INEXACT,NEXT_AFTER_TRAP,x,result);
+}
+
+1.064026068208442
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2397,2400>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Dfp result;
+boolean negative=false;
+if(a.lessThan(a.getZero())){
+negative=true;
+}
+
+1.0626128817816416
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<950,955>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final int prime=31;
+int result=1;
+result=prime*result+((freqTable==null)?0:freqTable.hashCode());
+return result;
+
+1.0619614423452406
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<605,609>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Min result=new Min();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Min.java<150,153>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Percentile result=new Percentile();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Percentile.java<485,488>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Max result=new Max();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Max.java<150,153>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SummaryStatistics result=new SummaryStatistics();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/SummaryStatistics.java<657,660>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Skewness result=new Skewness();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Skewness.java<202,205>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Kurtosis result=new Kurtosis();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Kurtosis.java<202,205>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ThirdMoment result=new ThirdMoment();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/ThirdMoment.java<124,127>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+GeometricMean result=new GeometricMean();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/GeometricMean.java<95,98>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+FirstMoment result=new FirstMoment();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/FirstMoment.java<144,147>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Mean result=new Mean();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Mean.java<262,265>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Variance result=new Variance();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Variance.java<604,607>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SemiVariance result=new SemiVariance();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/SemiVariance.java<149,152>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SecondMoment result=new SecondMoment();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/SecondMoment.java<111,114>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+StandardDeviation result=new StandardDeviation();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/StandardDeviation.java<258,261>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+FourthMoment result=new FourthMoment();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/FourthMoment.java<129,132>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+DescriptiveStatistics result=new DescriptiveStatistics();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/DescriptiveStatistics.java<729,732>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SynchronizedDescriptiveStatistics result=new SynchronizedDescriptiveStatistics();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/SynchronizedDescriptiveStatistics.java<158,162>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Product result=new Product();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/summary/Product.java<208,211>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SumOfSquares result=new SumOfSquares();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/summary/SumOfSquares.java<137,140>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SumOfLogs result=new SumOfLogs();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/summary/SumOfLogs.java<149,152>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Sum result=new Sum();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/summary/Sum.java<204,207>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SynchronizedSummaryStatistics result=new SynchronizedSummaryStatistics();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/SynchronizedSummaryStatistics.java<331,335>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final ResizableDoubleArray result=new ResizableDoubleArray();
+copy(this,result);
+return result;
+
+1.0614378277661476
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java<1149,1151>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Dfp result=newInstance(this);
+result.sign=(byte)-result.sign;
+return result;
+
+1.0600554260207649
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1408,1410>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(exp<0){
+field.setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+Dfp result=newInstance(getZero());
+result=dotrap(DfpField.FLAG_INEXACT,TRUNC_TRAP,this,result);
+return result;
+}
+
+1.0506407690254356
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1069,1074>
+
+
+-------- Patch ---------
+if(exp!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_INEXACT,TRUNC_TRAP,this,result);
+return result;
+}
+
+-------- Similar Code ---------
+if(nans==SNAN){
+Dfp result;
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+1.0463856059143564
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1987,1994>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==SNAN){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=SNAN){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+
+return result;
+}
+
+
+-------- Patch ---------
+if(nans==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(nans==null){
+result=newInstance(this);
+return result;
+}
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.pow(data,0,-1,result.data,0);
+return result;
+
+1.045495128834866
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<598,600>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(negate^leftPlane){
+result=-result;
+}
+
+1.0448458068712185
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<2567,2569>
+
+
+-------- Patch ---------
+if(negate!=null){
+return result;
+}
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.exp(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<695,697>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.expm1(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<704,706>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.log(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<713,715>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.log1p(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<722,724>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.log10(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<731,733>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.cos(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<740,742>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.sin(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<749,751>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.tan(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<758,760>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.acos(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<767,769>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.asin(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<776,778>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.atan(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<785,787>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.cosh(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<818,820>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.sinh(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<827,829>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.tanh(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<836,838>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.acosh(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<845,847>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.asinh(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<854,856>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.atanh(data,0,result.data,0);
+return result;
+
+1.0392051872524704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<863,865>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+result[0]=nP;
+result[1]=nD;
+return result;
+
+1.0313154207936113
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer.java<289,292>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+result[0]=nP;
+result[1]=nD;
+return result;
+
+1.0313154207936113
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java<279,282>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(intVal>709){
+ final double result=exp(x+40.191406,extra,hiPrec)/2.85040092E17;
+if(hiPrec!=null){
+hiPrec[0]/=2.85040092E17;
+hiPrec[1]/=2.85040092E17;
+}
+return result;
+}
+
+1.0299404473232852
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<867,875>
+
+
+-------- Patch ---------
+if(intVal!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(intVal==709){
+ final double result=exp(x+1.4941406,extra,hiPrec)/4.455506;
+if(hiPrec!=null){
+hiPrec[0]/=4.455506;
+hiPrec[1]/=4.455506;
+}
+return result;
+}
+
+1.0299404473232852
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<877,885>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(intVal!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(intVal==null){
+return result;
+}
+
+-------- Similar Code ---------
+int result=key==null?0:key.hashCode();
+ final int h=value==null?0:value.hashCode();
+result=37*result+h^(h>>>16);
+return result;
+
+1.0258982511059422
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/Pair.java<129,134>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(rh!=0){
+lostdigit=result.mant[0];
+result.shiftRight();
+result.mant[mant.length-1]=rh;
+}
+
+1.0257526553887533
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1663,1667>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+if(v instanceof Integer){
+return getCount(((Integer)v).longValue());
+}
+long result=0;
+try{
+Long count=freqTable.get(v);
+if(count!=null){
+result=count.longValue();
+}
+}catch (ClassCastException ex) {
+}
+
+return result;
+}
+
+1.0250617419456187
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<250,264>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result.classify()==INFINITE&&this.classify()!=INFINITE){
+getField().setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+result=dotrap(DfpField.FLAG_INEXACT,trapName,x,result);
+}
+
+1.0143310251192874
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpDec.java<356,359>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(sign==-1){
+Dfp result;
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+result=newInstance(this);
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+1.013119623433464
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1997,2006>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==null){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign!=-1){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=null){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(sign==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==null){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==null){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=null){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign==null){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset==-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(sign!=-1){
+result=newInstance(this);
+result=dotrap(DfpField.FLAG_INVALID,SQRT_TRAP,null,result);
+return result;
+}
+
+-------- Similar Code ---------
+if(x.nans==INFINITE&&nans==INFINITE){
+result=newInstance(this);
+result.sign=(byte)(sign*x.sign);
+return result;
+}
+
+1.0122879293985627
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1538,1542>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+-------- Similar Code ---------
+if(nans==INFINITE&&divisor.nans==FINITE){
+result=newInstance(this);
+result.sign=(byte)(sign*divisor.sign);
+return result;
+}
+
+1.0122879293985627
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1717,1721>
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+-------- Similar Code ---------
+double result;
+if((quadrant&1)==0){
+result=tanQ(xa,xb,false);
+}else {
+result=-tanQ(xa,xb,true);
+}
+
+1.0109307588519343
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<2405,2410>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if((dataset&1)!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(quadrant!=null){
+return result;
+}
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.rootN(data,0,n,result.data,0);
+return result;
+
+1.008447816394472
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<621,623>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.pow(data,0,p,result.data,0);
+return result;
+
+1.008447816394472
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<664,666>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.pow(data,0,n,result.data,0);
+return result;
+
+1.008447816394472
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<673,675>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(divisor.nans==INFINITE&&nans==FINITE){
+result=newInstance(getZero());
+result.sign=(byte)(sign*divisor.sign);
+return result;
+}
+
+1.0048460143471485
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1723,1727>
+
+
+-------- Patch ---------
+if(divisor!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(nans==INFINITE&&x.nans==FINITE&&x.mant[mant.length-1]!=0){
+result=newInstance(this);
+result.sign=(byte)(sign*x.sign);
+return result;
+}
+
+0.9985833029869879
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1526,1530>
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(this);
+return result;
+}
+
+-------- Similar Code ---------
+ final int prime=31;
+int result=1;
+result=prime*result+Arrays.hashCode(means);
+return result;
+
+0.9978939741035618
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/VectorialMean.java<84,87>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final int prime=31;
+int result=1;
+result=prime*result+Arrays.hashCode(coefficients);
+return result;
+
+0.9978939741035618
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java<368,371>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DerivativeStructure result=new DerivativeStructure(x.compiler);
+x.compiler.pow(a,x.data,0,result.data,0);
+return result;
+
+0.9974393134047751
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<655,657>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(lessThan(getZero())){
+up=!up;
+}
+ final Dfp inc;
+Dfp result;
+
+0.9968221360303704
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2363,2368>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(divisor<0||divisor>=RADIX){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+Dfp result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,DIVIDE_TRAP,result,result);
+return result;
+}
+
+0.996695099054093
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1924,1930>
+
+
+-------- Repeated Patch ---------
+if(divisor!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_INVALID,DIVIDE_TRAP,result,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,DIVIDE_TRAP,result,result);
+
+return result;
+}
+
+
+-------- Patch ---------
+if(divisor!=null){
+result.nans=QNAN;
+return result;
+}
+
+-------- Similar Code ---------
+if(this.equals(getZero())){
+inc.exp=MIN_EXP-mant.length;
+}
+result=add(inc);
+
+0.9962459406957216
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2374,2378>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.equals(getZero())){
+inc.exp=MIN_EXP-mant.length;
+}
+result=this.subtract(inc);
+
+0.9962459406957216
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2390,2394>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result!=null){
+result[0]=ys[0];
+result[1]=ys[1];
+}
+
+0.9940476190476191
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMathCalc.java<235,238>
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result!=null){
+result[0]=ys[0];
+result[1]=ys[1];
+}
+
+0.9940476190476191
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMathCalc.java<279,282>
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result!=null){
+result[0]=ys[0];
+result[1]=ys[1];
+}
+
+0.9940476190476191
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMathCalc.java<316,319>
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(invert){
+result[0]=base[0].getOne().divide(result[0]);
+}
+return result[0];
+
+0.9928210669008332
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<198,202>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+z=z*lnb;
+ final double result=exp(lna,z,null);
+return result;
+
+0.9920225811417233
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<1597,1601>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(f.length!=getOrder()+1){
+throw new DimensionMismatchException(f.length,getOrder()+1);
+}
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.compose(data,0,f,result.data,0);
+return result;
+
+0.9920096754851151
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<588,593>
+
+
+-------- Patch ---------
+if(f.length!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(f!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(length!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(x<0||x>=RADIX){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,result,result);
+return result;
+}
+
+0.9869357420007216
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1647,1653>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,result,result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,result,result);
+
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+-------- Similar Code ---------
+Dfp result=x.newInstance(x);
+result.sign=y.sign;
+return result;
+
+0.984288161744156
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2333,2335>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(x.nans==INFINITE&&nans==FINITE&&mant[mant.length-1]!=0){
+result=newInstance(x);
+result.sign=(byte)(sign*x.sign);
+return result;
+}
+
+0.9834317878354727
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1532,1536>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result!=null){
+result[0]=ys[0];
+result[1]=ys[1];
+resplit(result);
+}
+
+0.9829409123199365
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMathCalc.java<522,527>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final ParsePosition parsePosition=new ParsePosition(0);
+ final ArrayRealVector result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),ArrayRealVector.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java<224,231>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final ParsePosition parsePosition=new ParsePosition(0);
+ final RealMatrix result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),Array2DRowRealMatrix.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/linear/RealMatrixFormat.java<285,292>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ParsePosition parsePosition=new ParsePosition(0);
+Complex result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),Complex.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/complex/ComplexFormat.java<352,359>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ParsePosition parsePosition=new ParsePosition(0);
+Vector2D result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),Vector2D.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java<119,126>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ParsePosition parsePosition=new ParsePosition(0);
+Vector1D result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),Vector1D.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Vector1DFormat.java<116,123>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ParsePosition parsePosition=new ParsePosition(0);
+Vector3D result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),Vector3D.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Vector3DFormat.java<131,138>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final ParsePosition parsePosition=new ParsePosition(0);
+ final Fraction result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),Fraction.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/fraction/FractionFormat.java<197,202>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final ParsePosition parsePosition=new ParsePosition(0);
+ final BigFraction result=parse(source,parsePosition);
+if(parsePosition.getIndex()==0){
+throw new MathParseException(source,parsePosition.getErrorIndex(),BigFraction.class);
+}
+return result;
+
+0.9817359599705715
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java<192,197>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=x.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+dotrap(DfpField.FLAG_INVALID,LESS_THAN_TRAP,x,result);
+return false;
+}
+
+0.9814788245875187
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<758,764>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=x.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+dotrap(DfpField.FLAG_INVALID,GREATER_THAN_TRAP,x,result);
+return false;
+}
+
+0.9814788245875187
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<783,789>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+MathUtils.checkNotNull(coefficients);
+int n=coefficients.length;
+if(n==0){
+throw new NoDataException(LocalizedFormats.EMPTY_POLYNOMIALS_COEFFICIENTS_ARRAY);
+}
+if(n==1){
+return new double[]{0};
+}
+double[] result=new double[n-1];
+for(int i=n-1;i>0;i--){
+result[i-1]=i*coefficients[i];
+}
+return result;
+}
+
+0.9712885616791754
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java<259,273>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(divisor.nans==INFINITE&&nans==INFINITE){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,DIVIDE_TRAP,divisor,result);
+return result;
+}
+
+0.9696567789765171
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1729,1735>
+
+
+-------- Repeated Patch ---------
+if(divisor!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(divisor!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(divisor!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(divisor!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+-------- Similar Code ---------
+if(nans==INFINITE&&x==0){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,newInstance(getZero()),result);
+return result;
+}
+
+0.9654904374034319
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1637,1643>
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,newInstance(getZero()),result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,newInstance(getZero()),result);
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=d.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+return dotrap(DfpField.FLAG_INVALID,NEW_INSTANCE_TRAP,d,result);
+}
+
+0.9653727636825155
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<599,604>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=x.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+return dotrap(DfpField.FLAG_INVALID,ADD_TRAP,x,result);
+}
+
+0.9653727636825155
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1262,1267>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=x.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+return dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,x,result);
+}
+
+0.9653727636825155
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1507,1512>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=divisor.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+return dotrap(DfpField.FLAG_INVALID,DIVIDE_TRAP,divisor,result);
+}
+
+0.9653727636825155
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1698,1703>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(field.getRadixDigits()!=x.field.getRadixDigits()){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=newInstance(getZero());
+result.nans=QNAN;
+return dotrap(DfpField.FLAG_INVALID,NEXT_AFTER_TRAP,x,result);
+}
+
+0.9653727636825155
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2346,2351>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(n<67){
+return binomialCoefficient(n,k);
+}
+double result=1.0;
+for(int i=1;i<=k;i++){
+result*=(double)(n-k+i)/(double)i;
+}
+
+0.9645913244021326
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/CombinatoricsUtils.java<174,181>
+
+
+-------- Repeated Patch ---------
+if(n!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(invert){
+result=base.getOne().divide(result);
+}
+return base.newInstance(result);
+
+0.9644345083117603
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<249,253>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+int n=sample1.length;
+if(n!=sample2.length){
+throw new DimensionMismatchException(n,sample2.length);
+}
+if(n<=0){
+throw new NoDataException(LocalizedFormats.INSUFFICIENT_DIMENSION);
+}
+double result=0;
+for(int i=0;i<n;i++){
+result+=sample1[i]-sample2[i];
+}
+return result;
+}
+
+0.9616046224680136
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/StatUtils.java<705,718>
+
+
+-------- Patch ---------
+if(sample1.length!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=sample2.length){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(n!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(n==0){
+throw new NoDataException(LocalizedFormats.EMPTY_POLYNOMIALS_COEFFICIENTS_ARRAY);
+}
+double result=coefficients[n-1];
+for(int j=n-2;j>=0;j--){
+result=argument*result+coefficients[j];
+}
+
+0.9601306180410178
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java<132,138>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(md>(mant.length-1)){
+excp=result.round(product[md-mant.length]);
+}else {
+excp=result.round(0);
+}
+
+0.9587167778855377
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1592,1596>
+
+
+-------- Patch ---------
+if(md!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(md>(mant.length-1)){
+excp=result.round(quotient[md-mant.length]);
+}else {
+excp=result.round(0);
+}
+
+0.9587167778855377
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1882,1886>
+
+
+-------- Repeated Patch ---------
+if(md!=null){
+return result;
+}
+
+-------- Similar Code ---------
+compiler.checkCompatibility(a.compiler);
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.multiply(data,0,a.data,0,result.data,0);
+return result;
+
+0.9572064676885776
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<349,352>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+compiler.checkCompatibility(a.compiler);
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.divide(data,0,a.data,0,result.data,0);
+return result;
+
+0.9572064676885776
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<372,375>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+compiler.checkCompatibility(a.compiler);
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.remainder(data,0,a.data,0,result.data,0);
+return result;
+
+0.9572064676885776
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<392,395>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+compiler.checkCompatibility(e.compiler);
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.pow(data,0,e.data,0,result.data,0);
+return result;
+
+0.9572064676885776
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<685,688>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+compiler.checkCompatibility(x.compiler);
+ final DerivativeStructure result=new DerivativeStructure(compiler);
+compiler.atan2(data,0,x.data,0,result.data,0);
+return result;
+
+0.9572064676885776
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java<795,798>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(exp>=mant.length){
+return newInstance(this);
+}
+Dfp result=newInstance(this);
+for(int i=0;i<mant.length-result.exp;i++){
+changed|=result.mant[i]!=0;
+result.mant[i]=0;
+}
+
+0.9543660412816168
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1080,1091>
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(divisor==0){
+field.setIEEEFlagsBits(DfpField.FLAG_DIV_ZERO);
+Dfp result=newInstance(getZero());
+result.sign=sign;
+result.nans=INFINITE;
+result=dotrap(DfpField.FLAG_DIV_ZERO,DIVIDE_TRAP,getZero(),result);
+return result;
+}
+
+0.9534066972908413
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1914,1921>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(divisor!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result.nans=INFINITE;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=dotrap(DfpField.FLAG_DIV_ZERO,DIVIDE_TRAP,getZero(),result);
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result.nans=INFINITE;
+result=dotrap(DfpField.FLAG_DIV_ZERO,DIVIDE_TRAP,getZero(),result);
+
+return result;
+}
+
+
+-------- Patch ---------
+if(divisor==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(x.nans==INFINITE&&nans==INFINITE&&sign!=x.sign){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+Dfp result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,ADD_TRAP,x,result);
+return result;
+}
+
+0.9517859942982497
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1291,1297>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+-------- Similar Code ---------
+long result=0;
+for(int k=1;k<=BITS;k++){
+ final long shift=grayCode>>(k-1);
+if(shift==0){
+break;
+}
+ final long ik=shift&1;
+result^=ik*direction[j][k];
+}
+
+0.9517802290639679
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/random/SobolSequenceGenerator.java<298,308>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+case DfpField.FLAG_UNDERFLOW :
+if((result.exp+mant.length)<MIN_EXP){
+def=newInstance(getZero());
+def.sign=result.sign;
+}else {
+def=newInstance(result);
+}
+result.exp=result.exp+ERR_SCALE;
+break;
+
+
+0.9466711088570996
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2280,2288>
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(mant!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(length!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(length!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(length!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(length!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result.equals(getZero())&&this.equals(getZero())==false){
+field.setIEEEFlagsBits(DfpField.FLAG_INEXACT);
+result=dotrap(DfpField.FLAG_INEXACT,NEXT_AFTER_TRAP,x,result);
+}
+
+0.9376345262345506
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2402,2405>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((x.nans==INFINITE&&nans==FINITE&&mant[mant.length-1]==0)||(nans==INFINITE&&x.nans==FINITE&&x.mant[mant.length-1]==0)){
+field.setIEEEFlagsBits(DfpField.FLAG_INVALID);
+result=newInstance(getZero());
+result.nans=QNAN;
+result=dotrap(DfpField.FLAG_INVALID,MULTIPLY_TRAP,x,result);
+return result;
+}
+
+0.9369836364337251
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1544,1551>
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(x!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(INFINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(INFINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(FINITE!=null){
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(nans!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(FINITE!=null){
+result=newInstance(getZero());
+result.nans=QNAN;
+result=newInstance(getZero());
+result.nans=QNAN;
+
+return result;
+}
+
+-------- Similar Code ---------
+if(Double.isNaN(result)){
+result=a1*b1+a2*b2;
+}
+
+0.9346531968814575
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<948,952>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(Double.isNaN(result)){
+result=0;
+for(int i=0;i<len;++i){
+result+=a[i]*b[i];
+}
+}
+
+0.9340356514516478
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<868,875>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(divisor.mant[mant.length-1]==0){
+field.setIEEEFlagsBits(DfpField.FLAG_DIV_ZERO);
+result=newInstance(getZero());
+result.sign=(byte)(sign*divisor.sign);
+result.nans=INFINITE;
+result=dotrap(DfpField.FLAG_DIV_ZERO,DIVIDE_TRAP,divisor,result);
+return result;
+}
+
+0.921968424054642
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1739,1746>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(divisor.mant[mant.length-1]!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(dataset!=null){
+result.nans=INFINITE;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=INFINITE;
+
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==null){
+result=newInstance(getZero());
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==null){
+result.nans=INFINITE;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset!=null){
+result=newInstance(getZero());
+result.nans=INFINITE;
+return result;
+}
+
+
+-------- Patch ---------
+if(dataset==null){
+result=newInstance(getZero());
+result.nans=INFINITE;
+return result;
+}
+
+-------- Similar Code ---------
+result=result*31+MathUtils.hash(getSumsq());
+result=result*31+MathUtils.hash(getVariance());
+return result;
+
+0.9192668793392261
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/SummaryStatistics.java<401,403>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+result=result*31+MathUtils.hash(getSum());
+result=result*31+MathUtils.hash(getVariance());
+return result;
+
+0.9192668793392261
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/StatisticalSummaryValues.java<160,162>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result.mant[mant.length-1]!=0){
+break;
+}
+
+0.9192388155425117
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1374,1376>
+
+
+-------- Patch ---------
+if(result.mant[mant.length-1]!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(negative){
+result=a.getField().getPi().subtract(result);
+}
+return a.newInstance(result);
+
+0.9174238124719146
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<961,965>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(a.equals(half)&&result.exp>0&&(result.mant[mant.length-result.exp]&1)!=0){
+a=newInstance(getOne());
+a.sign=sign;
+result=result.add(a);
+}
+
+0.9155245521433986
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1121,1125>
+
+
+-------- Repeated Patch ---------
+if(a!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(exp!=null){
+return result;
+}
+
+-------- Similar Code ---------
+double result=0;
+for(int i=0;i<N;i++){
+for(int j=0;j<N;j++){
+result+=coeff[i][j]*pX[i];
+}
+}
+return result;
+
+0.9152958142673178
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatingFunction.java<453,460>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] result=new double[means.length];
+for(int i=0;i<result.length;++i){
+result[i]=means[i].getResult();
+}
+return result;
+
+0.911773295405663
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/VectorialMean.java<66,70>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(a.length!=b.length){
+throw new DimensionMismatchException(a.length,b.length);
+}
+ final double[] result=a.clone();
+for(int i=0;i<a.length;i++){
+result[i]+=b[i];
+}
+return result;
+
+0.9102794031384436
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<123,131>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(a.length!=b.length){
+throw new DimensionMismatchException(a.length,b.length);
+}
+ final double[] result=a.clone();
+for(int i=0;i<a.length;i++){
+result[i]-=b[i];
+}
+return result;
+
+0.9102794031384436
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<145,153>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(a.length!=b.length){
+throw new DimensionMismatchException(a.length,b.length);
+}
+ final double[] result=a.clone();
+for(int i=0;i<a.length;i++){
+result[i]*=b[i];
+}
+return result;
+
+0.9102794031384436
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<167,175>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(a.length!=b.length){
+throw new DimensionMismatchException(a.length,b.length);
+}
+ final double[] result=a.clone();
+for(int i=0;i<a.length;i++){
+result[i]/=b[i];
+}
+return result;
+
+0.9102794031384436
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<189,197>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<buf.length;i++){
+buf[i]=a.charAt(i);
+if(buf[i]>='0'&&buf[i]<='9'&&i<sp){
+buf[i]='0';
+}
+}
+result[1]=new Dfp(this,new String(buf));
+return result;
+
+0.9081484043938515
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpField.java<561,570>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+int len=c.size();
+if(k>len){
+throw new NumberIsTooLargeException(LocalizedFormats.SAMPLE_SIZE_EXCEEDS_COLLECTION_SIZE,k,len,true);
+}
+if(k<=0){
+throw new NotStrictlyPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,k);
+}
+Object[] objects=c.toArray();
+int[] index=nextPermutation(len,k);
+Object[] result=new Object[k];
+for(int i=0;i<k;i++){
+result[i]=objects[index[i]];
+}
+return result;
+}
+
+0.9041719598682735
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java<654,672>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+result.setSubMatrix(result10.getData(),splitIndex1,0);
+result.setSubMatrix(result11.getData(),splitIndex1,splitIndex1);
+return result;
+
+0.9027819284987273
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/linear/MatrixUtils.java<1061,1064>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<buf.length;i++){
+buf[i]=a.charAt(i);
+if(buf[i]>='0'&&buf[i]<='9'&&i<sp){
+buf[i]='0';
+}
+}
+result[1]=field.newDfp(new String(buf));
+return result;
+
+0.9025562475860786
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<78,87>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int result=17;
+for(double comp : new double[]{q0,q1,q2,q3}){
+ final int c=MathUtils.hash(comp);
+result=31*result+c;
+}
+return result;
+
+0.8987218938140389
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/complex/Quaternion.java<289,294>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+if(indices.isEmpty()){
+return input;
+}
+ final double[] result=new double[input.length-indices.size()];
+for(int i=0,j=0;i<input.length;i++){
+if(!indices.contains(i)){
+result[j++]=input[i];
+}
+}
+return result;
+}
+
+0.8948583650312827
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/correlation/SpearmansCorrelation.java<248,259>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(order>0){
+function[1]=FastMath.sinh(operand[operandOffset]);
+for(int i=2;i<=order;++i){
+function[i]=function[i-2];
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8934914011345108
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1489,1497>
+
+
+-------- Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(order>0){
+function[1]=FastMath.cosh(operand[operandOffset]);
+for(int i=2;i<=order;++i){
+function[i]=function[i-2];
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8934914011345108
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1515,1523>
+
+
+-------- Repeated Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(order>0){
+function[1]=FastMath.cos(operand[operandOffset]);
+for(int i=2;i<=order;++i){
+function[i]=-function[i-2];
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8903321569854749
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1186,1194>
+
+
+-------- Repeated Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+{
+MathUtils.checkNotNull(coefficients);
+int n=coefficients.length;
+if(n==0){
+throw new NoDataException(LocalizedFormats.EMPTY_POLYNOMIALS_COEFFICIENTS_ARRAY);
+}
+DerivativeStructure result=new DerivativeStructure(t.getFreeParameters(),t.getOrder(),coefficients[n-1]);
+for(int j=n-2;j>=0;j--){
+result=result.multiply(t).add(coefficients[j]);
+}
+return result;
+}
+
+0.8900812879085611
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java<149,161>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(order>0){
+function[1]=-FastMath.sin(operand[operandOffset]);
+for(int i=2;i<=order;++i){
+function[i]=-function[i-2];
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8851501267629994
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1160,1168>
+
+
+-------- Repeated Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result.mant[mant.length-1]==0){
+result.shiftLeft();
+ final int r=rl*RADIX;
+ final int rh=r/divisor;
+rl=r-rh*divisor;
+result.mant[0]=rh;
+}
+
+0.879615428178118
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1942,1949>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(result.mant[mant.length-1]==null){
+return result;
+}
+
+-------- Similar Code ---------
+ final double[][] result=newPointAndDirection(x,d,alphaMin);
+x=result[0];
+if((fX2-fVal)>delta){
+delta=fX2-fVal;
+bigInd=i;
+}
+
+0.8742207790103892
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer.java<208,214>
+
+
+-------- Patch ---------
+if(fX2!=null){
+return result;
+}
+
+
+-------- Patch ---------
+if(fVal!=null){
+return result;
+}
+
+-------- Similar Code ---------
+ final double[][] result=newPointAndDirection(x,d,alphaMin);
+x=result[0];
+if((fX2-fVal)>delta){
+delta=fX2-fVal;
+bigInd=i;
+}
+
+0.8742207790103892
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java<198,204>
+
+
+-------- Repeated Patch ---------
+if(fX2!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(fVal!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(fVal!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(order>0){
+double inv=1.0/(1.0+operand[operandOffset]);
+double xk=inv;
+for(int i=1;i<=order;++i){
+function[i]=xk;
+xk*=-i*inv;
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8703801339932025
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1105,1115>
+
+
+-------- Repeated Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(asign!=bsign){
+result.sign=1;
+}
+
+0.8696263565463043
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1389,1392>
+
+
+-------- Patch ---------
+if(asign!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(order>0){
+double inv=1.0/operand[operandOffset];
+double xk=inv/FastMath.log(10.0);
+for(int i=1;i<=order;++i){
+function[i]=xk;
+xk*=-i*inv;
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8665142683967026
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1132,1142>
+
+
+-------- Repeated Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+if(order>0){
+double inv=1.0/operand[operandOffset];
+double xk=inv;
+for(int i=1;i<=order;++i){
+function[i]=xk;
+xk*=-i*inv;
+}
+}
+compose(operand,operandOffset,function,result,resultOffset);
+
+0.8656193431667905
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java<1078,1088>
+
+
+-------- Repeated Patch ---------
+if(order!=null){
+return result;
+}
+
+-------- Similar Code ---------
+long result=0;
+Iterator<Long> iterator=freqTable.values().iterator();
+while(iterator.hasNext()){
+result+=iterator.next().longValue();
+}
+return result;
+
+0.8627348374425706
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/Frequency.java<235,240>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(x.getField().getRadixDigits()!=y.getField().getRadixDigits()){
+x.getField().setIEEEFlagsBits(DfpField.FLAG_INVALID);
+ final Dfp result=x.newInstance(x.getZero());
+result.nans=Dfp.QNAN;
+return x.dotrap(DfpField.FLAG_INVALID,POW_TRAP,x,result);
+}
+
+0.8541905394378251
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<508,513>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result.mant[mant.length-1]==0){
+result.exp=0;
+}
+
+0.8499999999999999
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1586,1589>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result.mant[mant.length-1]==0){
+result.exp=0;
+}
+
+0.8499999999999999
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1669,1671>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(result.mant[mant.length-1]==0){
+result.exp=0;
+}
+
+0.8499999999999999
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1878,1880>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]==null){
+return result;
+}
+
+-------- Similar Code ---------
+if(a.greaterThan(half)){
+a=newInstance(getOne());
+a.sign=sign;
+result=result.add(a);
+}
+
+0.84940663067343
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1114,1118>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(Double.isNaN(result)){
+result=a1*b1+a2*b2+a3*b3;
+}
+
+0.8463931265677831
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<1045,1049>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+double[][] betaVariance=estimateRegressionParametersVariance();
+double sigma=calculateErrorVariance();
+int length=betaVariance[0].length;
+double[] result=new double[length];
+for(int i=0;i<length;i++){
+result[i]=FastMath.sqrt(sigma*betaVariance[i][i]);
+}
+return result;
+}
+
+0.8396934513601642
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/regression/AbstractMultipleLinearRegression.java<288,297>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final Dfp[] result=new Dfp[2];
+ final Dfp shift=a.multiply(a.power10K(a.getRadixDigits()/2));
+result[0]=a.add(shift).subtract(shift);
+result[1]=a.subtract(result[0]);
+return result;
+
+0.8376940583938324
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<95,99>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(result.mant[mant.length-1]==0){
+result.sign=sign;
+}
+
+0.8356290217967333
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1039,1041>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]!=null){
+return result;
+}
+
+
+-------- Repeated Patch ---------
+if(result.mant[mant.length-1]==null){
+return result;
+}
+
+-------- Similar Code ---------
+{
+int dimension=sums.length;
+RealMatrix result=MatrixUtils.createRealMatrix(dimension,dimension);
+if(n>1){
+double c=1.0/(n*(isBiasCorrected?(n-1):n));
+int k=0;
+for(int i=0;i<dimension;++i){
+for(int j=0;j<=i;++j){
+double e=c*(n*productsSums[k++]-sums[i]*sums[j]);
+result.setEntry(i,j,e);
+result.setEntry(j,i,e);
+}
+}
+}
+return result;
+}
+
+0.8320234610557528
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/VectorialCovariance.java<83,102>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+ final int prime=31;
+int result=1;
+result=prime*result+((field==null)?0:field.hashCode());
+result=prime*result+virtualSize;
+OpenIntToFieldHashMap<T>.Iterator iter=entries.iterator();
+while(iter.hasNext()){
+iter.advance();
+int temp=iter.value().hashCode();
+result=prime*result+temp;
+}
+return result;
+}
+
+0.8288326497443081
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java<546,558>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+ final int prime=31;
+int result=1;
+result=prime*result+(isBiasCorrected?1231:1237);
+result=prime*result+(int)(n^(n>>>32));
+result=prime*result+Arrays.hashCode(productsSums);
+result=prime*result+Arrays.hashCode(sums);
+return result;
+}
+
+0.8276448866467502
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/stat/descriptive/moment/VectorialCovariance.java<123,131>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(i==0){
+result.mant[0]=aextradigit+bextradigit;
+aextradigit=0;
+bextradigit=0;
+}
+
+0.8006407690254356
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<1378,1382>
+
+
+-------- Repeated Patch ---------
+if(dataset==null){
+return result;
+}
+
+
+-------- Patch ---------
+if(i!=null){
+return result;
+}
+
+-------- Similar Code ---------
+double result=numerator.doubleValue()/denominator.doubleValue();
+if(Double.isNaN(result)){
+int shift=Math.max(numerator.bitLength(),denominator.bitLength())-FastMath.getExponent(Double.MAX_VALUE);
+result=numerator.shiftRight(shift).doubleValue()/denominator.shiftRight(shift).doubleValue();
+}
+return result;
+
+0.7947711610994809
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/fraction/BigFraction.java<684,693>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+float result=numerator.floatValue()/denominator.floatValue();
+if(Double.isNaN(result)){
+int shift=Math.max(numerator.bitLength(),denominator.bitLength())-FastMath.getExponent(Float.MAX_VALUE);
+result=numerator.shiftRight(shift).floatValue()/denominator.shiftRight(shift).floatValue();
+}
+return result;
+
+0.7947711610994809
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/fraction/BigFraction.java<737,746>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(Double.isNaN(result)){
+result=a1*b1+a2*b2+a3*b3+a4*b4;
+}
+
+0.7867051125864375
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/MathArrays.java<1164,1168>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+checkVectorDimensions(v);
+RealVector result=v.mapMultiply(-1.0);
+Iterator<Entry> it=iterator();
+while(it.hasNext()){
+ final Entry e=it.next();
+ final int index=e.getIndex();
+result.setEntry(index,e.getValue()+result.getEntry(index));
+}
+return result;
+}
+
+0.7571356724054746
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/linear/RealVector.java<254,264>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final double tempC=tempB+tempA;
+ final double result;
+if(extra!=0.0){
+result=tempC*extra+tempC*extra+tempC*z+tempB+tempA;
+}else {
+result=tempC*z+tempB+tempA;
+}
+
+0.7507558116139514
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<947,953>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+{
+checkVectorDimensions(v);
+RealVector result=v.copy();
+Iterator<Entry> it=iterator();
+while(it.hasNext()){
+ final Entry e=it.next();
+ final int index=e.getIndex();
+result.setEntry(index,e.getValue()+result.getEntry(index));
+}
+return result;
+}
+
+0.7411484985231048
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/linear/RealVector.java<233,243>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final Dfp[] result;
+result=new Dfp[2];
+result[0]=a[0].divide(b[0]);
+result[1]=a[1].multiply(b[0]).subtract(a[0].multiply(b[1]));
+result[1]=result[1].divide(b[0].multiply(b[0]).add(b[0].multiply(b[1])));
+return result;
+
+0.7271614017759801
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/DfpMath.java<137,145>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(xb!=0.0){
+t=((costA+costB)*(cosEpsA+cosEpsB)-(sintA+sintB)*(sinEpsA+sinEpsB))*xb;
+c=a+t;
+d=-(c-a);
+a=c;
+b=b+d;
+}
+result=a+b;
+
+0.7233187178278575
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/util/FastMath.java<1821,1830>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+case DfpField.FLAG_OVERFLOW :
+result.exp=result.exp-ERR_SCALE;
+def=newInstance(getZero());
+
+
+0.7219948723811553
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2290,2292>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+case DfpField.FLAG_INVALID :
+def=newInstance(getZero());
+def.sign=result.sign;
+def.nans=QNAN;
+
+
+0.716001555758157
+/home/dale/d4j/Math/Math_1/src/main/java/org/apache/commons/math3/dfp/Dfp.java<2249,2252>
+
+-------- No Patch ---------
+

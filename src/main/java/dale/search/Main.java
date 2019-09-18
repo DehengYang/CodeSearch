@@ -12,6 +12,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -54,6 +56,11 @@ public class Main {
 	private static String fixed_src_path = "";
 	private static String target_source_path = "";
 	
+	// code block line range
+	private static int snippet_line_range = 5;
+	private static int MAX_LESS_THRESHOLD = 3;
+	private static int MAX_MORE_THRESHOLD = 5;
+	
 	public static void main(String[] args) throws IOException{
 		// args: 
 		// Chart 1 /home/dale/d4j/Chart/Chart_1 /home/dale/d4j/fixed_bugs_dir/Chart/Chart_1  /home/dale/d4j/Math/Math_1
@@ -80,13 +87,25 @@ public class Main {
 		target_source_path = get_source_path(target_source_path);
 
 		for (String line : lines){
-			codeSearchForLine(line, src_path, "buggy");
-			
+//			codeSearchForLine(line, src_path, "buggy");
 		}
+		
 		List<String> fixed_lines = readFile(proj, id, "fixed");
-		for (String line : fixed_lines){
-			codeSearchForLine(line, fixed_src_path, "fixed");	
+		// do code search for a single fixed line.
+//		for (String line : fixed_lines){
+//			codeSearchForLine(line, fixed_src_path, "fixed");	
+//		}
+		// now to do code search for a chunk.
+		// 1) first get all chunks 
+		List<List<String>> fixed_chunks = getFixedChunks(fixed_lines);
+		//codeSearchForLine("org.jfree.data.general.DatasetUtilities:1242", fixed_src_path, "fixed");	
+//		codeSearchForLine("org.jfree.data.time.TimeSeries:825", fixed_src_path, "fixed");
+		
+//		codeSearchForLine("org.jfree.chart.plot.XYPlot:4493", fixed_src_path, "fixed");
+		for (List<String> fixed_chunk : fixed_chunks){
+			codeSearchForLine(fixed_chunk, fixed_src_path, "fixed");
 		}
+		
 		
 		// ----------------
 		// conduct code search for fixed lines
@@ -180,6 +199,82 @@ public class Main {
 		
 	}
 	
+	private static List<List<String>> getFixedChunks(List<String> fixed_lines) {
+		// sort
+//		String a = "hello";
+//		String b = "iello";
+//		int c = a.compareTo(b);
+		Collections.sort(fixed_lines, new Comparator<String>() {
+			@Override
+			public int compare(String  o1, String o2) {
+				String clazz1 = o1.split(":")[0];
+				int lineNo1 = Integer.parseInt(o1.split(":")[1]);
+				
+				String clazz2 = o2.split(":")[0];
+				int lineNo2 = Integer.parseInt(o2.split(":")[1]);
+				
+				// if clazz1 greater than 2, compareTo return 1. 
+				if(clazz1.compareTo(clazz2) == 0){
+					if(lineNo1 < lineNo2){
+						return -1;
+					}else if(lineNo1 > lineNo2){
+						return 1;
+					}else{
+						return 0;
+					}
+				} 
+//				else if(o1.getSecond() > o2.getSecond()){
+//					return -1;
+				else if (clazz1.compareTo(clazz2) > 0){
+					return 1;
+				}else{
+					return -1;
+				}
+			}
+		});
+		
+		
+		List<List<String>> chunks = new ArrayList<>();
+		for(String line : fixed_lines){
+			String clazz = line.split(":")[0];
+			int lineNo = Integer.parseInt(line.split(":")[1]);
+			if (chunks.isEmpty()){
+				List<String> first_chunk = new ArrayList<>();
+				first_chunk.add(line);
+				chunks.add(first_chunk);
+				continue;
+			}
+			
+			// traveser the chunks nested list
+			int flag = 0;
+			for(List<String> chunk : chunks){
+				int len = chunk.size();
+				for(int i = 0; i < len; i++){
+					String lineInChunk = chunk.get(i);
+					String clazz_chunk = lineInChunk.split(":")[0];
+					int lineNo_chunk = Integer.parseInt(lineInChunk.split(":")[1]);
+					// judge if in the same chunk 
+					if(clazz_chunk.equals(clazz) && Math.abs(lineNo_chunk - lineNo) == 1){
+						chunk.add(line);
+						flag = 1;
+						break;
+					}
+				}
+				if(flag ==1){
+					break;
+				}
+			}
+			// add new chunk
+			if(flag == 0){
+				List<String> new_chunk = new ArrayList<>();
+				new_chunk.add(line);
+				chunks.add(new_chunk);
+			}
+		}
+		
+		return chunks;
+	}
+
 	private static void codeSearchForLine(String line, String src_path, String flag) {
 		// get compilation unit for the line
 		String line_path = src_path + "/" + line.split(":")[0].replace(".", "/") + ".java";
@@ -190,7 +285,7 @@ public class Main {
 		// get code snippet
 		int lineNo = Integer.parseInt(line.split(":")[1]);
 		// for test: change 5 to 1
-		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, 5, null, 3);
+		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, snippet_line_range, null, MAX_LESS_THRESHOLD, MAX_MORE_THRESHOLD);
 
 		// get code block
 		CodeBlock codeBlock = new CodeBlock(line_path, unit, codeSnippet.getASTNodes());
@@ -199,7 +294,7 @@ public class Main {
 			LocalLog.log("Find no block");
 		}
 		List<CodeBlock> buggyBlockList = new LinkedList<>();
-		buggyBlockList.addAll(codeBlock.reduce());
+//		buggyBlockList.addAll(codeBlock.reduce());
 		buggyBlockList.add(codeBlock);
 		Set<String> haveTryBuggySourceCode = new HashSet<>();
 		for(CodeBlock oneBuggyBlock : buggyBlockList){

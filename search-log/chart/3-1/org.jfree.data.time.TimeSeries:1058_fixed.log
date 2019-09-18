@@ -1,0 +1,425 @@
+-------- Original Code ---------
+copy.maxY=Double.NaN;
+
+-------- Similar Code ---------
+this.maxY=Double.NaN;
+
+1.9970544855015815
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<177,177>
+
+-------- Similar Code ---------
+this.maxY=Double.NaN;
+
+1.9970544855015815
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<307,307>
+
+-------- Similar Code ---------
+this.maxY=Double.NaN;
+
+1.9970544855015815
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<606,606>
+
+-------- Similar Code ---------
+this.maxY=Double.NaN;
+
+1.9970544855015815
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<194,194>
+
+-------- Similar Code ---------
+this.maxY=Double.NaN;
+
+1.9970544855015815
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<954,954>
+
+-------- Similar Code ---------
+this.maxY=Double.NaN;
+
+1.9970544855015815
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1247,1247>
+
+-------- Similar Code ---------
+return this.maxY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<185,185>
+
+-------- Similar Code ---------
+return this.maxY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<237,237>
+
+-------- Similar Code ---------
+return this.maxY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<360,360>
+
+-------- Similar Code ---------
+y1=maxY;
+
+1.6428537268506194
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<101,101>
+
+-------- Similar Code ---------
+y2=maxY;
+
+1.6428537268506194
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<126,126>
+
+-------- Similar Code ---------
+y1=maxY;
+
+1.6428537268506194
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<666,666>
+
+-------- Similar Code ---------
+y2=maxY;
+
+1.6428537268506194
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<691,691>
+
+-------- Similar Code ---------
+this.maxY=maxY;
+
+1.6428537268506194
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<115,115>
+
+-------- Similar Code ---------
+double maxY=area.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/axis/PeriodAxis.java<1003,1003>
+
+-------- Similar Code ---------
+double maxY=area.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/axis/DateAxis.java<769,769>
+
+-------- Similar Code ---------
+float maxY=(float)plotArea.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<99,99>
+
+-------- Similar Code ---------
+int maxY=(int)(plotArea.getMaxY());
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/PinNeedle.java<81,81>
+
+-------- Similar Code ---------
+float maxY=(float)plotArea.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<90,90>
+
+-------- Similar Code ---------
+float maxY=(float)plotArea.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/PointerNeedle.java<80,80>
+
+-------- Similar Code ---------
+int maxY=(int)(plotArea.getMaxY());
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/MiddlePinNeedle.java<81,81>
+
+-------- Similar Code ---------
+double maxY=screenDataArea.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<175,175>
+
+-------- Similar Code ---------
+double maxY=rect.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<72,72>
+
+-------- Similar Code ---------
+double maxY=rect.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<637,637>
+
+-------- Similar Code ---------
+double maxY=series.getMaxY();
+
+1.5343884979412912
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<706,706>
+
+-------- Similar Code ---------
+if(Double.isInfinite(maxY)||Double.isNaN(maxY)){
+throw new IllegalArgumentException("\'maxY\' cannot be INF or NaN.");
+}
+
+1.5134764651066077
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<106,108>
+
+-------- Similar Code ---------
+if(this.maxY!=that.maxY){
+return false;
+}
+
+1.4738740194622415
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<301,303>
+
+-------- Similar Code ---------
+shape1.moveTo(x,maxY);
+
+1.4203579866168443
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<108,108>
+
+-------- Similar Code ---------
+shape3.lineTo(midX,maxY);
+
+1.4203579866168443
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<110,110>
+
+-------- Similar Code ---------
+shape2.lineTo(midX,maxY);
+
+1.4203579866168443
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/PointerNeedle.java<90,90>
+
+-------- Similar Code ---------
+if(!Double.isNaN(maxY)){
+upper=Math.max(upper,maxY);
+}
+
+1.3709195467257715
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<707,709>
+
+-------- Similar Code ---------
+h=Math.min(this.zoomRectangle.getHeight(),maxY-this.zoomPoint.getY());
+
+1.3147743679249677
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<190,191>
+
+-------- Similar Code ---------
+h=Math.min(this.zoomRectangle.getHeight(),maxY-this.zoomPoint.getY());
+
+1.3147743679249677
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<198,199>
+
+-------- Similar Code ---------
+this.maxIcon.paintIcon(null,g2,(int)x1,(int)maxY);
+
+1.314659120760047
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<379,379>
+
+-------- Similar Code ---------
+this.maxIcon.paintIcon(null,g2,(int)maxY,(int)x1);
+
+1.314659120760047
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<384,384>
+
+-------- Similar Code ---------
+shape.setLine(x,minY,x,maxY);
+
+1.2846363216423216
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<100,100>
+
+-------- Similar Code ---------
+double maxY=rangeAxis.valueToJava2D(this.max,dataArea,plot.getRangeAxisEdge());
+
+1.2340880315554235
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<373,374>
+
+-------- Similar Code ---------
+g2.draw(new Line2D.Double(x1,minY,x1,maxY));
+
+1.2340880315554235
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<377,377>
+
+-------- Similar Code ---------
+g2.draw(new Line2D.Double(minY,x1,maxY,x1));
+
+1.2340880315554235
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<382,382>
+
+-------- Similar Code ---------
+if(y<=this.minY||y>=this.maxY){
+itemContributesToYBounds=true;
+}
+
+1.2199540282669064
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<278,280>
+
+-------- Similar Code ---------
+pointer.moveTo(midX-lenX,maxY-lenX);
+
+1.2189482188734286
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/PinNeedle.java<89,89>
+
+-------- Similar Code ---------
+pointer.lineTo(midX+lenX,maxY-lenX);
+
+1.2189482188734286
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/PinNeedle.java<90,90>
+
+-------- Similar Code ---------
+if(!Double.isNaN(oldY)){
+iterate=oldY<=this.minY||oldY>=this.maxY;
+}
+
+1.2173285067089772
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<673,675>
+
+-------- Similar Code ---------
+if(!Double.isNaN(oldY)){
+iterate=oldY<=this.minY||oldY>=this.maxY;
+}
+
+1.2173285067089772
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<814,816>
+
+-------- Similar Code ---------
+if(!Double.isNaN(oldY)){
+iterate=oldY<=this.minY||oldY>=this.maxY;
+}
+
+1.2173285067089772
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<726,728>
+
+-------- Similar Code ---------
+if(!Double.isNaN(oldY)){
+iterate=oldY<=this.minY||oldY>=this.maxY;
+}
+
+1.2173285067089772
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<834,836>
+
+-------- Similar Code ---------
+if(y<=this.minY||y>=this.maxY){
+findBoundsByIteration();
+}
+
+1.209154779878678
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1232,1234>
+
+-------- Similar Code ---------
+float y=maxY-(2*(maxY-midY));
+
+1.1610423906471907
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<95,95>
+
+-------- Similar Code ---------
+int midY=((maxY-minY)/2)+minY;
+
+1.1610423906471907
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/MiddlePinNeedle.java<82,82>
+
+-------- Similar Code ---------
+if(y!=null){
+double yy=y.doubleValue();
+this.minY=minIgnoreNaN(this.minY,yy);
+this.maxY=maxIgnoreNaN(this.maxY,yy);
+}
+
+1.135778943797919
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<681,685>
+
+-------- Similar Code ---------
+if(value!=null){
+double yy=value.doubleValue();
+this.minY=minIgnoreNaN(this.minY,yy);
+this.maxY=maxIgnoreNaN(this.maxY,yy);
+}
+
+1.135778943797919
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<734,738>
+
+-------- Similar Code ---------
+x1=x1+(maxY-y1)*dx/dy;
+
+1.1185850415302476
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<100,100>
+
+-------- Similar Code ---------
+x2=x2+(maxY-y2)*dx/dy;
+
+1.1185850415302476
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<125,125>
+
+-------- Similar Code ---------
+x1=x1+(maxY-y1)*dx/dy;
+
+1.1185850415302476
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<665,665>
+
+-------- Similar Code ---------
+x2=x2+(maxY-y2)*dx/dy;
+
+1.1185850415302476
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<690,690>
+
+-------- Similar Code ---------
+if(item.getY()!=null){
+double y=item.getYValue();
+this.minY=minIgnoreNaN(this.minY,y);
+this.maxY=maxIgnoreNaN(this.maxY,y);
+}
+
+1.1037378388935388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<251,255>
+
+-------- Similar Code ---------
+if(item.getValue()!=null){
+double y=yN.doubleValue();
+this.minY=minIgnoreNaN(this.minY,y);
+this.maxY=maxIgnoreNaN(this.maxY,y);
+}
+
+1.1037378388935388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1212,1216>
+
+-------- Similar Code ---------
+double y=this.minY+(this.maxY-this.minY)*(yIndex/(double)this.ySamples);
+return y;
+
+1.085914007637145
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<209,211>
+
+-------- Similar Code ---------
+if(item.getY()!=null){
+double yy=item.getY().doubleValue();
+this.minY=minIgnoreNaN(this.minY,yy);
+this.maxY=minIgnoreNaN(this.maxY,yy);
+}
+
+1.0670016304329233
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<822,826>
+
+-------- Similar Code ---------
+if(item.getValue()!=null){
+double yy=item.getValue().doubleValue();
+this.minY=minIgnoreNaN(this.minY,yy);
+this.maxY=minIgnoreNaN(this.maxY,yy);
+}
+
+1.0670016304329233
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<841,845>
+
+-------- Similar Code ---------
+if(isInverted()){
+result=minY+(((value-axisMin)/(axisMax-axisMin))*(maxY-minY));
+}else {
+result=maxY-(((value-axisMin)/(axisMax-axisMin))*(maxY-minY));
+}
+
+0.9120785625309759
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/axis/PeriodAxis.java<1004,1011>
+
+-------- Similar Code ---------
+if(isInverted()){
+result=minY+(((value-axisMin)/(axisMax-axisMin))*(maxY-minY));
+}else {
+result=maxY-(((value-axisMin)/(axisMax-axisMin))*(maxY-minY));
+}
+
+0.9120785625309759
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/axis/DateAxis.java<770,777>

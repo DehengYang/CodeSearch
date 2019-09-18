@@ -53,18 +53,19 @@ public class CodeSnippet {
 	}
 	
 	public CodeSnippet(CompilationUnit unit, int extendedLine, int lineRange, Statement extendedStatement){
-		this(unit, extendedLine, lineRange, extendedStatement, 0);
+		this(unit, extendedLine, lineRange, extendedStatement, 0, 0);
 	}
 	
 	// initialization. 
 	// e.g., unit, lineNo, 5, null, 3
 	public CodeSnippet(CompilationUnit unit, int extendedLine, int lineRange, Statement extendedStatement,
-			int max_less_threshold) {
+			int max_less_threshold, int max_more_threshold) {
 		this.unit = unit;
 		this.extendedLine = extendedLine;
 		this.lineRange = lineRange;
 		this.extendedStatement = extendedStatement;
 		this.MAX_LESS_THRESHOLD = max_less_threshold;
+		this.MAX_MORE_THRESHOLD = max_more_threshold;
 		search();
 	}
 	
@@ -98,6 +99,10 @@ public class CodeSnippet {
 				
 				// Returns this node's parent node, or null if this is the root node.
 				prefind = prefind.getParent();
+			}
+			
+			if (prefind != null){
+				Main.print("prefind class name: " + prefind.getClass().getName());
 			}
 			
 			// the accept method is to find the extendedLine ast node (by traverse visiting).
@@ -341,11 +346,16 @@ public class CodeSnippet {
 		}
 		
 		// print result info
-		LocalLog.log("All ast nodes in rslt:");
-		for (ASTNode astnode : rslt){
-			// Returns a string representation of this node suitable for debugging purposes only.
-			LocalLog.log(astnode.toString());
+		if (rslt.size() == 0){
+			LocalLog.log("Find no ast nodes in SimpleExtend()");
+		}else{
+			LocalLog.log("Ast nodes in SimpleExtend():");
+			for (ASTNode astnode : rslt){
+				// Returns a string representation of this node suitable for debugging purposes only.
+				LocalLog.log(astnode.toString());
+			}
 		}
+		
 		return rslt;
 	}
 	

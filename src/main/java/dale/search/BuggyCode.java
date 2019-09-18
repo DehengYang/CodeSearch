@@ -37,7 +37,7 @@ public class BuggyCode {
 //		FindNodeVisitor visitor = new FindNodeVisitor(unit, buggyLine);
 //		unit.accept(visitor);
 //		CodeBlock codeBlock = new CodeBlock(fileName, unit, visitor.getNodes());
-		CodeSnippet codeSearch = new CodeSnippet(unit, buggyLine, 5, null, 3);
+		CodeSnippet codeSearch = new CodeSnippet(unit, buggyLine, 5, null, 3, 5);
 		CodeBlock codeBlock = new CodeBlock(fileName, unit, codeSearch.getASTNodes());
 		return codeBlock;
 	}

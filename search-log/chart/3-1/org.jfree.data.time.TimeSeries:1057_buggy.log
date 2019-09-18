@@ -1,0 +1,5630 @@
+-------- Original Code ---------
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+clone.data=new java.util.ArrayList();
+
+3.0
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<326,326>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+copy.data=new java.util.ArrayList();
+
+3.0
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<927,927>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+copy.data=new java.util.ArrayList();
+
+3.0
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1057,1057>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+copy.data=new java.util.ArrayList();
+
+3.0
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1119,1119>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.keys=new java.util.ArrayList();
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<89,90>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<73,73>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<171,171>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<71,71>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<74,74>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<74,74>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<72,72>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<115,115>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<190,190>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+
+2.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<79,79>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+clone.data=new java.util.ArrayList(seriesCount);
+
+2.6513985945013285
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<381,381>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+clone.data=new java.util.ArrayList(seriesCount);
+
+2.6513985945013285
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<547,547>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+copy.data=new ArrayList();
+
+2.0
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<500,500>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+super(key);
+this.data=new java.util.ArrayList();
+this.autoSort=autoSort;
+this.allowDuplicateXValues=allowDuplicateXValues;
+
+1.9438410863646198
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<98,101>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new KeyedObjects();
+
+1.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<105,105>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new DefaultKeyedValues2D();
+
+1.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/WaferMapDataset.java<102,102>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new KeyedObjects2D();
+
+1.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<106,106>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new KeyedObjects2D();
+
+1.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<129,129>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new ArrayList();
+
+1.9428090415820636
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<185,185>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Arrays.sort(this.data);
+
+1.912870929175277
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<298,298>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ValueDataset data=getDataset();
+
+1.8660254037844388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/MeterPlot.java<855,855>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.clear();
+
+1.8660254037844388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<329,329>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.clear();
+
+1.8660254037844388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<284,284>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.clear();
+
+1.8660254037844388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<363,363>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.clear();
+
+1.8660254037844388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<436,436>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new KeyedObjects();
+setSelectionState(this);
+
+1.8333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<91,92>
+
+
+-------- Patch ---------
+setSelectionState(this);
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+this.data=new KeyedObjects2D();
+setSelectionState(this);
+
+1.8333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<81,83>
+
+
+-------- Repeated Patch ---------
+setSelectionState(this);
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+return Collections.unmodifiableList(this.data);
+
+1.8333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<354,354>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.unmodifiableList(this.data);
+
+1.8333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<227,227>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.unmodifiableList(this.data);
+
+1.8333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<236,236>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.unmodifiableList(this.data);
+
+1.8333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<265,265>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.unmodifiableList(this.data.getKeys());
+
+1.8164965809277263
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<129,129>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeriesCollection clone=(TaskSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+clone.keys=new java.util.ArrayList(this.keys);
+return clone;
+
+1.7490782747851856
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<681,684>
+
+
+-------- Patch ---------
+clone.keys=new java.util.ArrayList(this.keys);
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+this.data=new java.util.ArrayList();
+this.xPosition=TimePeriodAnchor.MIDDLE;
+if(series!=null){
+this.data.add(series);
+series.addChangeListener(this);
+}
+
+1.7215334860716922
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<102,107>
+
+
+-------- Patch ---------
+this.data=TimePeriodAnchor.MIDDLE;
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+return this.data.getItemCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<118,118>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.hashCode();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<378,378>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<157,157>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<94,94>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<105,105>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<167,167>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<205,205>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.hashCode();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<447,447>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<82,82>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<279,279>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<310,310>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<319,319>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<328,328>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<540,540>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<578,578>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<589,589>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<600,600>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<271,271>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKeys();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<303,303>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<314,314>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnCount();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<325,325>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<344,344>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<138,138>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<99,99>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<99,99>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<97,97>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<218,218>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<219,219>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<131,131>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<193,193>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<245,245>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<141,141>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<254,254>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.size();
+
+1.7071067811865475
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<134,134>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.xDataRange=calculateXDataRange(data);
+
+1.666666666666667
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<205,205>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.yDataRange=calculateYDataRange(data);
+
+1.666666666666667
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<206,206>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=data;
+fireChangeEvent();
+
+1.666666666666667
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<255,256>
+
+
+-------- Patch ---------
+fireChangeEvent();
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+WaferMapDataset data=this.plot.getDataset();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/WaferMapRenderer.java<211,211>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number dataMin=data.getMinValue();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/WaferMapRenderer.java<212,212>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number dataMax=data.getMaxValue();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/WaferMapRenderer.java<213,213>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Set uniqueValues=data.getUniqueValues();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/WaferMapRenderer.java<214,214>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int categories=data.getColumnCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/GroupedStackedBarRenderer.java<158,158>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int columns=data.getColumnCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/StackedBarRenderer.java<252,252>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number n=data.getValue();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/MeterPlot.java<880,880>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=data;
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<204,204>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int count=this.data.size();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<221,221>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<255,255>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<307,307>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<322,322>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<137,137>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<155,155>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(ko);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<212,212>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(index);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<256,256>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<327,327>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int rowCount=data.getRowCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<128,128>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int rowCount=data.getRowCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<156,156>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int columnCount=data.getColumnCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<183,183>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int colCount=data.getColumnCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<211,211>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=data;
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<88,88>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int rowCount=this.data.getRowCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<555,555>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int columnCount=this.data.getColumnCount();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<556,556>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double avg=calculateMean(data);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Statistics.java<316,316>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<308,308>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int size=this.data.size();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<516,516>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(item);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<542,542>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<309,309>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<284,284>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.seriesList.add(data);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<428,428>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.seriesList.add(data);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYDataset.java<271,271>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<286,286>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<171,171>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<280,280>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<156,156>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int seriesCount=this.data.size();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<180,180>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<385,385>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.remove(series);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<411,411>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int seriesCount=this.data.size();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<546,546>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.seriesList.add(data);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYZDataset.java<316,316>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int size=this.data.size();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<228,228>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(item);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<254,254>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DefaultKeyedValue[] data=new DefaultKeyedValue[size];
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<356,356>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ final DefaultKeyedValue[] data=new DefaultKeyedValue[size];
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<383,383>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<290,290>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<653,653>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<383,383>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int count=this.data.size();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<296,296>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(item);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<599,599>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(item);
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<605,605>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Iterator iterator=this.data.iterator();
+
+1.5795375958419435
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1248,1248>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this(Arrays.asList(seriesNames),data);
+
+1.5724882939823432
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultWindDataset.java<101,101>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Arrays.sort(data,comparator);
+
+1.5703627807817306
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<365,365>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Arrays.sort(data,comparator);
+
+1.5703627807817306
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<391,391>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return ObjectUtilities.equal(this.data,that.data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<317,317>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return ObjectUtilities.equal(this.data,that.data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<367,367>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return ObjectUtilities.equal(this.data,that.data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<342,342>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return ObjectUtilities.equal(this.data,that.data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<344,344>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return ObjectUtilities.equal(this.data,that.data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<491,491>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return ObjectUtilities.equal(this.data,that.data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<460,460>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this(seriesNameListFromDataArray(data),data);
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultWindDataset.java<87,87>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.isEmpty()){
+this.timePeriodClass=null;
+}
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<973,975>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.isEmpty()){
+this.timePeriodClass=null;
+}
+
+1.5326920704511053
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1007,1009>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.equals(that.data);
+
+1.528307103521996
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<390,390>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.binarySearch(this.data,new XYDataItem(x,null));
+
+1.5099407093782344
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<864,864>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.binarySearch(this.data,new ComparableObjectItem(x,null));
+
+1.5099407093782344
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<276,277>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getKey(item);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<144,144>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<158,158>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKey(row);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<142,142>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<156,156>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKey(column);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<180,180>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<194,194>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<259,259>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKey(column);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<270,270>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<290,290>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKey(row);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<301,301>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<516,516>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKey(column);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<529,529>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<554,554>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKey(row);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<567,567>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[][] data=new double[2][itemCount];
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<257,257>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<251,251>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getColumnKey(column);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<262,262>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowIndex(key);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<283,283>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getRowKey(row);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<294,294>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return (XYDataItem)this.data.get(index);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<633,633>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return (ComparableObjectItem)this.data.get(index);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<333,333>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return (TimePeriodValue)this.data.get(index);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<205,205>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return (TimeSeriesDataItem)this.data.get(index);
+
+1.5
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<429,429>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int seriesCount=data.length;
+List seriesNameList=new java.util.ArrayList(seriesCount);
+for(int i=0;i<seriesCount;i++){
+seriesNameList.add("Series "+(i+1));
+}
+return seriesNameList;
+
+1.4930009106795135
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultWindDataset.java<282,287>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ArrayUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<1023,1025>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<666,668>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<972,974>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!Arrays.equals(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<319,321>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<515,517>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<417,419>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<755,757>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<445,447>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data,that.data)){
+return false;
+}
+
+1.4684503924039398
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1165,1167>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeRow(rowIndex);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.4592605905678837
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<341,342>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeRow(rowKey);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.4592605905678837
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<355,356>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeColumn(columnIndex);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.4592605905678837
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<369,370>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeColumn(columnKey);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.4592605905678837
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<386,387>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data.getKey(),that.getKey())){
+return false;
+}
+
+1.4500161184673068
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<164,166>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!ObjectUtilities.equal(this.data.getValue(),that.getValue())){
+return false;
+}
+
+1.4500161184673068
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<167,169>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data[item].getDate();
+
+1.438183416477126
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<109,109>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data[item].getHigh();
+
+1.438183416477126
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<133,133>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data[item].getLow();
+
+1.438183416477126
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<163,163>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data[item].getOpen();
+
+1.438183416477126
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<193,193>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data[item].getClose();
+
+1.438183416477126
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<223,223>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data[item].getVolume();
+
+1.438183416477126
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<253,253>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new DefaultKeyedValue(key,value);
+this.fireDatasetChanged(new DatasetChangeInfo());
+
+1.4365858115816939
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<138,139>
+
+
+-------- Patch ---------
+this.fireDatasetChanged(new DatasetChangeInfo());
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+if(!this.data.equals(that.data)){
+return false;
+}
+
+1.4304292824926401
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<714,716>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.setObject(key,new SelectableValue(value));
+
+1.4058216273156767
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<211,211>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.size()==0){
+this.xPoints.clear();
+}
+
+1.4052156125426631
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<386,388>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(getItemCount()>this.maximumItemCount){
+this.data.remove(0);
+}
+
+1.4052156125426631
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<256,258>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return new Long(this.data[item].getDate().getTime());
+
+1.4045314540392884
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<97,97>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+CategoryDataset data=plot.getDataset(rendererIndex);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/GroupedStackedBarRenderer.java<146,146>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+CategoryDataset data=plot.getDataset(rendererIndex);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/StackedBarRenderer.java<241,241>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int index=this.data.getIndex(key);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<205,205>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries ts=(TaskSeries)this.data.get(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<305,305>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<371,371>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<408,408>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<458,458>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<491,491>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<527,527>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<567,567>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(row);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<607,607>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(i);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<636,636>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+KeyedObject ko=(KeyedObject)this.data.get(keyIndex);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<207,207>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int rowIndex=this.data.getRowIndex(chipx);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/WaferMapDataset.java<203,203>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int colIndex=this.data.getColumnIndex(chipy);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/WaferMapDataset.java<207,207>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int r=this.data.getRowIndex(rowKey);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<148,148>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int c=this.data.getColumnIndex(columnKey);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<149,149>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeObject(rowKey,columnKey);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<209,209>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int n=data.getItemCount(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<110,110>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int n=data.getItemCount(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<197,197>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int r=this.data.getColumnIndex(columnKey);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<365,365>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int c=this.data.getRowIndex(rowKey);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<366,366>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeObject(rowKey,columnKey);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<435,435>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYDataItem existing=(XYDataItem)this.data.get(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<809,809>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYDataItem item=(XYDataItem)this.data.get(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<930,930>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+boolean removed=this.data.remove(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<103,103>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries ts=(XYIntervalSeries)this.data.get(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<307,307>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries ts=(YIntervalSeries)this.data.get(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<282,282>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.seriesList.add(seriesIndex,data);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<432,432>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[][] data=(double[][])this.seriesList.get(i);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<528,528>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.seriesList.add(seriesIndex,data);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYDataset.java<275,275>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[][] data=(double[][])this.seriesList.get(i);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYDataset.java<367,367>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries ts=(XIntervalSeries)this.data.get(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<284,284>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries ts=(XYSeries)this.data.get(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<169,169>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries s=(XYSeries)this.data.get(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<409,409>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.seriesList.add(seriesIndex,data);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYZDataset.java<320,320>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[][] data=(double[][])this.seriesList.get(i);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYZDataset.java<417,417>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimePeriodValue item=(TimePeriodValue)this.data.get(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<503,503>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeriesDataItem item=(TimeSeriesDataItem)this.data.get(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<721,721>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeriesDataItem existing=(TimeSeriesDataItem)this.data.get(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<826,827>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeriesDataItem item=(TimeSeriesDataItem)this.data.remove(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<970,971>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeriesDataItem item=(TimeSeriesDataItem)this.data.get(index);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1060,1061>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+boolean removed=this.data.remove(series);
+
+1.4036961141150641
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<407,407>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeRow(rowIndex);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<234,236>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeRow(rowKey);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<251,253>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeColumn(columnIndex);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<268,270>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeColumn(columnKey);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<285,287>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeRow(rowIndex);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<468,470>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeRow(rowKey);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<485,487>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeColumn(columnIndex);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<502,504>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeColumn(columnKey);
+updateBounds();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<519,521>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.length;
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/MatrixSeries.java<154,154>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.length;
+
+1.396963410006888
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<291,291>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data!=null){
+clone.data=ArrayUtilities.clone(this.data);
+}
+
+1.394427190999916
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<1071,1073>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int index=Collections.binarySearch(this.data,item);
+
+1.3911327886790068
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<509,509>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int index=Collections.binarySearch(this.data,item);
+
+1.3911327886790068
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<221,221>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int index=Collections.binarySearch(this.data,item);
+
+1.3911327886790068
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<609,609>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int index=Collections.binarySearch(this.data,item);
+
+1.3911327886790068
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<824,824>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Collections.unmodifiableList((List)this.data.getObject(rowKey,columnKey));
+
+1.390870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<191,192>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.size()>0){
+this.data.clear();
+fireSeriesChanged();
+}
+
+1.381101174978427
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<356,359>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data!=null){
+result=this.data.getKey();
+}
+
+1.3728715609439694
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<99,101>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data!=null){
+result=this.data.getValue();
+}
+
+1.3728715609439694
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<112,114>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(startIndex==this.data.size()){
+emptyRange=true;
+}
+
+1.3728715609439694
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1105,1107>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.removeObject(rowKey,columnKey);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.3660254037844388
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<327,328>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+xStr=((XisSymbolic)data).getXSymbolicValue(series,item);
+
+1.3622504486493763
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/labels/SymbolicXYItemLabelGenerator.java<92,92>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return this.data.getValue(rowIndex,colIndex);
+
+1.3616404368553292
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/WaferMapDataset.java<211,211>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return (BoxAndWhiskerItem)this.data.getObject(row,column);
+
+1.3616404368553292
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<313,313>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int remove=this.data.size()-maximum;
+
+1.3616404368553292
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<385,385>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+super(name);
+this.data=new double[rows][columns];
+zeroAll();
+
+1.3607689228305229
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/MatrixSeries.java<77,79>
+
+
+-------- Patch ---------
+zeroAll();
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+DefaultPieDataset clone=(DefaultPieDataset)super.clone();
+clone.data=(KeyedObjects)this.data.clone();
+return clone;
+
+1.3532062476387967
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<390,392>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+DefaultCategoryDataset clone=(DefaultCategoryDataset)super.clone();
+clone.data=(KeyedObjects2D)this.data.clone();
+return clone;
+
+1.3532062476387967
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<459,461>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+DefaultMultiValueCategoryDataset clone=(DefaultMultiValueCategoryDataset)super.clone();
+clone.data=(KeyedObjects2D)this.data.clone();
+return clone;
+
+1.3532062476387967
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<401,404>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+DefaultBoxAndWhiskerCategoryDataset clone=(DefaultBoxAndWhiskerCategoryDataset)super.clone();
+clone.data=(KeyedObjects2D)this.data.clone();
+return clone;
+
+1.3532062476387967
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<916,919>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+DefaultStatisticalCategoryDataset clone=(DefaultStatisticalCategoryDataset)super.clone();
+clone.data=(KeyedObjects2D)this.data.clone();
+return clone;
+
+1.3532062476387967
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<728,731>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries clone=(XYSeries)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+return clone;
+
+1.3449111825230682
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<908,910>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorSeriesCollection clone=(VectorSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+return clone;
+
+1.3449111825230682
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<328,331>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeriesCollection clone=(YIntervalSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+return clone;
+
+1.3449111825230682
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<353,356>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeriesCollection clone=(XIntervalSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+return clone;
+
+1.3449111825230682
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<355,358>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeries clone=(TimeSeries)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+return clone;
+
+1.3449111825230682
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1031,1033>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeriesCollection clone=(OHLCSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+return clone;
+
+1.3449111825230682
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<485,488>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] x=data[0];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<529,529>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] xStart=data[1];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<530,530>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] xEnd=data[2];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<531,531>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] y=data[3];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<532,532>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] yStart=data[4];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<533,533>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] yEnd=data[5];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<534,534>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] x=data[0];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYDataset.java<368,368>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] y=data[1];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYDataset.java<369,369>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] x=data[0];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYZDataset.java<418,418>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] y=data[1];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYZDataset.java<419,419>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double[] z=data[2];
+
+1.3333333333333335
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultXYZDataset.java<420,420>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+result=29*result+this.data.hashCode();
+
+1.3164965809277263
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<454,454>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.key=key;
+this.data=data;
+
+1.312870929175277
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<73,74>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double x=Math.log(data.getXValue(series,i));
+
+1.309717652294684
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<207,207>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double y=Math.log(data.getYValue(series,i));
+
+1.309717652294684
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<208,208>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Comparator comparator=new KeyedObjectComparator(KeyedObjectComparatorType.BY_KEY,order);
+Collections.sort(this.data,comparator);
+
+1.294427190999916
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<295,297>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Comparator comparator=new KeyedObjectComparator(KeyedObjectComparatorType.BY_VALUE,order);
+Collections.sort(this.data,comparator);
+
+1.294427190999916
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<310,312>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(pos>=0){
+this.data.remove(pos);
+}
+
+1.292593923901217
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<236,238>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+result=(this.data!=null?this.data.hashCode():0);
+
+1.2921180343813394
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<528,528>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.addObject(vlist,rowKey,columnKey);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<128,128>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+List l=(List)this.data.getObject(row,column);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<204,204>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+List l=(List)this.data.getObject(row,column);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<232,232>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.addObject(item,rowKey,columnKey);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<145,145>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double x=data.getXValue(series,i);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<120,120>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double y=data.getYValue(series,i);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<121,121>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.addObject(item,rowKey,columnKey);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<353,353>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+MeanAndStandardDeviation masd=(MeanAndStandardDeviation)this.data.getObject(r,c);
+
+1.291132788679007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<561,562>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SelectableValue item=(SelectableValue)this.data.getObject(key);
+return item.isSelected();
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<396,397>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries ts=(TaskSeries)this.data.get(series);
+return ts.getKey();
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<147,148>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TaskSeries series=(TaskSeries)this.data.get(index);
+return series.getKey();
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<240,241>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYDataItem item=(XYDataItem)this.data.get(index);
+return (XYDataItem)item.clone();
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<619,620>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorDataItem result=(VectorDataItem)this.data.remove(index);
+fireSeriesChanged();
+return result;
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeries.java<106,108>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+ComparableObjectItem result=(ComparableObjectItem)this.data.remove(index);
+fireSeriesChanged();
+return result;
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<371,374>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeriesDataItem item=(TimeSeriesDataItem)this.data.get(index);
+return (TimeSeriesDataItem)item.clone();
+
+1.290870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<389,390>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.size()>0){
+this.data.clear();
+this.timePeriodClass=null;
+this.minY=Double.NaN;
+this.maxY=Double.NaN;
+fireSeriesChanged();
+}
+
+1.2895162208008484
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<950,956>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.subList(start,end+1).clear();
+findBoundsByIteration();
+fireSeriesChanged();
+
+1.2856742013183862
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<562,564>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double x=Math.log(data[i][0]);
+
+1.2833494518006403
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<163,163>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+double y=Math.log(data[i][1]);
+
+1.2833494518006403
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<164,164>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+super(name);
+this.domain=domain;
+this.range=range;
+this.data=new ArrayList();
+
+1.2771744196979533
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<129,132>
+
+
+-------- Patch ---------
+this.domain=domain;
+copy.data=new java.util.ArrayList();
+
+
+-------- Patch ---------
+this.range=range;
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+ValueDataset data=this.datasets[i];
+
+1.2745966692414834
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/CompassPlot.java<683,683>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data[i][j]=mij;
+fireSeriesChanged();
+
+1.2703882797784893
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/MatrixSeries.java<184,185>
+
+
+-------- Patch ---------
+fireSeriesChanged();
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+this.autoPrune=autoPrune;
+this.data=new ArrayList();
+this.xPoints=new HashSet();
+this.intervalDelegate=new IntervalXYDelegate(this,false);
+addChangeListener(this.intervalDelegate);
+
+1.2686606600802666
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<121,125>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.addObject(new SelectableValue(value),rowKey,columnKey);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.2660254037844387
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<243,244>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.setObject(new SelectableValue(value),rowKey,columnKey);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.2660254037844387
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<274,275>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+while(this.data.size()>maximum){
+this.data.remove(0);
+dataRemoved=true;
+}
+
+1.2642416214502248
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<162,165>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series!=null){
+this.data.add(series);
+series.addChangeListener(this);
+}
+
+1.2512565307587487
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<118,121>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series!=null){
+this.data.add(series);
+series.addChangeListener(this);
+}
+
+1.2512565307587487
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<186,189>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.size()==0){
+this.xPoints.clear();
+}else if(this.autoPrune){
+prune();
+}
+
+1.25
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<412,417>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeriesCollection clone=(XYSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+clone.intervalDelegate=(IntervalXYDelegate)this.intervalDelegate.clone();
+return clone;
+
+1.2490782747851856
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<502,506>
+
+
+-------- Patch ---------
+clone.intervalDelegate=(IntervalXYDelegate)this.intervalDelegate.clone();
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+TimeSeriesCollection clone=(TimeSeriesCollection)super.clone();
+clone.data=(List)ObjectUtilities.deepClone(this.data);
+clone.workingCalendar=(Calendar)this.workingCalendar.clone();
+return clone;
+
+1.2490782747851856
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<784,787>
+
+
+-------- Patch ---------
+clone.workingCalendar=(Calendar)this.workingCalendar.clone();
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+if(getItemCount()>this.maximumItemCount){
+XYDataItem removed=(XYDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(removed);
+}
+
+1.2486684247915054
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<545,548>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(getItemCount()>this.maximumItemCount){
+XYDataItem removed=(XYDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(removed);
+}
+
+1.2486684247915054
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<843,846>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+
+1.2486684247915054
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<629,632>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+
+1.2486684247915054
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<853,856>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.size()>0){
+this.data.clear();
+this.minX=Double.NaN;
+this.maxX=Double.NaN;
+this.minY=Double.NaN;
+this.maxY=Double.NaN;
+fireSeriesChanged();
+}
+
+1.2404175554967525
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<601,608>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int length=data[0].length;
+
+1.2385489458759964
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<418,418>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+sumX+=data[0][item];
+
+1.2378647873726218
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<278,278>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+sumY+=data[1][item];
+
+1.2378647873726218
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<279,279>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(-index-1,item);
+
+1.2378647873726218
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<511,511>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(-index-1,item);
+
+1.2378647873726218
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<223,223>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(-index-1,item);
+
+1.2378647873726218
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<611,611>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.add(-index-1,item);
+
+1.2378647873726218
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<849,849>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data==null){
+throw new RuntimeException("updateValue: can\'t update null.");
+}
+setValue(this.data.getKey(),value);
+
+1.2348469228349535
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultKeyedValueDataset.java<124,127>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(remove>0){
+this.data.subList(0,remove).clear();
+findBoundsByIteration();
+fireSeriesChanged();
+}
+
+1.2332355751067667
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<386,390>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+while(iterator.hasNext()){
+KeyedObject ko=(KeyedObject)iterator.next();
+clone.data.add(ko.clone());
+}
+
+1.2305687798806042
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<328,331>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYDataItem removed=(XYDataItem)this.data.remove(index);
+updateBoundsForRemovedItem(removed);
+fireSeriesChanged();
+return removed;
+
+1.230418560478394
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<576,579>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return new Double(s.getYValue(item));
+
+1.230418560478394
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<214,215>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return new Double(s.getYLowValue(item));
+
+1.230418560478394
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<253,254>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return new Double(s.getYHighValue(item));
+
+1.230418560478394
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<266,267>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(getItemCount()>item){
+SelectableValue dataItem=(SelectableValue)this.data.getObject(item);
+result=dataItem.getValue();
+}
+
+1.2285233272963492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<170,173>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SelectableValue sv=(SelectableValue)this.data.getObject(row,column);
+return sv.isSelected();
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<465,466>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries s=(XYIntervalSeries)this.data.get(series);
+return s.getX(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<159,160>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries s=(XYIntervalSeries)this.data.get(series);
+return s.getXLowValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<173,174>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries s=(XYIntervalSeries)this.data.get(series);
+return s.getXHighValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<187,188>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries s=(XYIntervalSeries)this.data.get(series);
+return s.getYValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<201,202>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries s=(XYIntervalSeries)this.data.get(series);
+return s.getYLowValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<215,216>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYIntervalSeries s=(XYIntervalSeries)this.data.get(series);
+return s.getYHighValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<229,230>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return s.getX(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<159,160>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return s.getYValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<173,174>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return s.getYLowValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<187,188>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+YIntervalSeries s=(YIntervalSeries)this.data.get(series);
+return s.getYHighValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<201,202>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+return s.getXLowValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<172,173>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+return s.getXHighValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<186,187>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+return s.getYValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<200,201>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries s=(XYSeries)this.data.get(series);
+return s.getX(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<330,331>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries s=(XYSeries)this.data.get(series);
+return s.getY(index);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<367,368>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries s=(XYSeries)this.data.get(series);
+return s.getX(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<283,284>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYSeries s=(XYSeries)this.data.get(series);
+return s.getY(index);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<321,322>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeries ts=(TimeSeries)this.data.get(series);
+return ts.getValue(item);
+
+1.2277605243332492
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<476,477>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+yObsSquare+=Math.pow(data[1][item]-meanY,2);
+
+1.2164965809277262
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<311,311>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+while((latest-getTimePeriod(0).getSerialIndex())>this.maximumItemAge){
+this.data.remove(0);
+removed=true;
+}
+
+1.1947194142390263
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<880,884>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data=new KeyedObjects2D();
+this.minimumRangeValue=null;
+this.maximumRangeValue=null;
+this.rangeBounds=new Range(0.0,0.0);
+
+1.192593923901217
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<89,92>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int maxItemCount=data[seriesIndex].length;
+
+1.1921180343813396
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultWindDataset.java<142,142>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.contains(series)){
+series.removeChangeListener(this);
+this.data.remove(series);
+fireDatasetChanged(new DatasetChangeInfo());
+}
+
+1.1908262590458776
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<283,288>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.contains(series)){
+series.removeChangeListener(this);
+this.data.remove(series);
+fireDatasetChanged(new DatasetChangeInfo());
+}
+
+1.1908262590458776
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<326,331>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.contains(series)){
+series.removeChangeListener(this);
+this.data.remove(series);
+fireDatasetChanged(new DatasetChangeInfo());
+}
+
+1.1908262590458776
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<301,306>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.contains(series)){
+series.removeChangeListener(this);
+this.data.remove(series);
+fireDatasetChanged(new DatasetChangeInfo());
+}
+
+1.1908262590458776
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<303,308>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.data.contains(series)){
+series.removeChangeListener(this);
+this.data.remove(series);
+fireDatasetChanged(new DatasetChangeInfo());
+}
+
+1.1908262590458776
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<186,191>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SelectableValue item=(SelectableValue)this.data.getObject(key);
+item.setSelected(selected);
+if(notify){
+fireSelectionEvent();
+}
+
+1.1886081838575548
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<405,409>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeries ts=(TimeSeries)this.data.get(series);
+return new Long(ts.getTimePeriod(item).getFirstMillisecond(this.workingCalendar));
+
+1.1829497322615565
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<448,450>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeries ts=(TimeSeries)this.data.get(series);
+return new Long(ts.getTimePeriod(item).getLastMillisecond(this.workingCalendar));
+
+1.1829497322615565
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<462,464>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+return this.data.indexOf(series);
+
+1.181005224606999
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<183,186>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+return this.data.indexOf(series);
+
+1.181005224606999
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<241,244>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+return this.data.indexOf(series);
+
+1.181005224606999
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<259,262>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(obj instanceof DefaultBoxAndWhiskerCategoryDataset){
+DefaultBoxAndWhiskerCategoryDataset dataset=(DefaultBoxAndWhiskerCategoryDataset)obj;
+return ObjectUtilities.equal(this.data,dataset.data);
+}
+
+1.1744915644713998
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<900,904>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(position<0||position>this.data.size()){
+throw new IllegalArgumentException("\'position\' out of bounds.");
+}
+
+1.1666666666666667
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<229,231>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<81,86>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<84,89>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<84,89>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<82,87>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<148,153>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<321,326>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.remove(series);
+series.removeChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<337,342>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<179,185>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.remove(series);
+series.removeChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<197,202>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(series==null){
+throw new IllegalArgumentException("Null \'series\' argument.");
+}
+this.data.add(series);
+series.addChangeListener(this);
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.1660323462854265
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<119,124>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int s=0;s<this.data.size();s++){
+updateXPoints((XYSeries)this.data.get(s));
+}
+
+1.1605320509939923
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<204,206>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int hash=5;
+hash=HashUtilities.hashCode(hash,this.intervalDelegate);
+hash=HashUtilities.hashCode(hash,this.data);
+return hash;
+
+1.15642095521605
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<515,518>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.sortByKeys(order);
+PieDatasetChangeType ct=PieDatasetChangeType.UPDATE;
+fireDatasetChanged(new PieDatasetChangeInfo(ct,0,getItemCount()-1));
+
+1.1559289460184545
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<306,309>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.sortByObjects(order);
+PieDatasetChangeType ct=PieDatasetChangeType.UPDATE;
+fireDatasetChanged(new PieDatasetChangeInfo(ct,0,getItemCount()-1));
+
+1.1559289460184545
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<321,324>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+XIntervalDataItem di=(XIntervalDataItem)s.getDataItem(item);
+return new Double(di.getYValue());
+
+1.1545340337332908
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<213,215>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+XIntervalDataItem di=(XIntervalDataItem)s.getDataItem(item);
+return new Double(di.getXLowValue());
+
+1.1545340337332908
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<227,229>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+XIntervalDataItem di=(XIntervalDataItem)s.getDataItem(item);
+return new Double(di.getXHighValue());
+
+1.1545340337332908
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<241,243>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeries ts=(TimeSeries)this.data.get(series);
+RegularTimePeriod period=ts.getTimePeriod(item);
+return new Long(getX(period));
+
+1.1545340337332908
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<413,415>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeries s=(OHLCSeries)this.data.get(series);
+OHLCItem di=(OHLCItem)s.getDataItem(item);
+return new Double(di.getYValue());
+
+1.1545340337332908
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<242,244>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SelectableValue sv=(SelectableValue)this.data.getObject(row,column);
+sv.setSelected(selected);
+if(notify){
+fireSelectionEvent();
+}
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<475,479>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorSeries s=(VectorSeries)this.data.get(series);
+VectorDataItem di=(VectorDataItem)s.getDataItem(item);
+return di.getXValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<213,215>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorSeries s=(VectorSeries)this.data.get(series);
+VectorDataItem di=(VectorDataItem)s.getDataItem(item);
+return di.getYValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<241,243>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorSeries s=(VectorSeries)this.data.get(series);
+VectorDataItem di=(VectorDataItem)s.getDataItem(item);
+return di.getVector();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<269,271>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorSeries s=(VectorSeries)this.data.get(series);
+VectorDataItem di=(VectorDataItem)s.getDataItem(item);
+return di.getVectorX();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<283,285>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+VectorSeries s=(VectorSeries)this.data.get(series);
+VectorDataItem di=(VectorDataItem)s.getDataItem(item);
+return di.getVectorY();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<297,299>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XIntervalSeries s=(XIntervalSeries)this.data.get(series);
+XIntervalDataItem di=(XIntervalDataItem)s.getDataItem(item);
+return di.getX();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<157,159>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeries s=(TimeSeries)this.data.get(series);
+RegularTimePeriod period=s.getTimePeriod(item);
+return getX(period);
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<399,401>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimePeriodValues ts=(TimePeriodValues)this.data.get(series);
+TimePeriodValue dp=ts.getDataItem(item);
+return dp.getValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<309,311>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeries s=(OHLCSeries)this.data.get(series);
+OHLCItem di=(OHLCItem)s.getDataItem(item);
+return di.getOpenValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<256,258>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeries s=(OHLCSeries)this.data.get(series);
+OHLCItem di=(OHLCItem)s.getDataItem(item);
+return di.getCloseValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<282,284>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeries s=(OHLCSeries)this.data.get(series);
+OHLCItem di=(OHLCItem)s.getDataItem(item);
+return di.getHighValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<308,310>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeries s=(OHLCSeries)this.data.get(series);
+OHLCItem di=(OHLCItem)s.getDataItem(item);
+return di.getLowValue();
+
+1.1535398058696478
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<334,336>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(position<=this.data.size()){
+this.data.add(position,item);
+}else {
+this.data.add(item);
+}
+
+1.1459786703810408
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<240,245>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(index<this.data.size()){
+this.data.add(index,item);
+}else {
+this.data.add(item);
+}
+
+1.1459786703810408
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<521,526>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(index<this.data.size()){
+this.data.add(index,item);
+}else {
+this.data.add(item);
+}
+
+1.1459786703810408
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<233,238>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+result=HashUtilities.hashCode(result,this.data.get(i));
+}
+
+1.1437008204639525
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<471,473>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+clone.data.set(i,getSeries(i).clone());
+}
+
+1.140870806374748
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<382,384>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(key==null){
+throw new IllegalArgumentException("Null \'key\' argument.");
+}
+SelectableValue dataItem=(SelectableValue)this.data.getObject(key);
+return dataItem.getValue();
+
+1.1334280246989963
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<187,191>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimePeriodValues ts=(TimePeriodValues)this.data.get(series);
+TimePeriodValue dp=ts.getDataItem(item);
+return new Long(dp.getPeriod().getStart().getTime());
+
+1.1304509063256238
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<281,283>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimePeriodValues ts=(TimePeriodValues)this.data.get(series);
+TimePeriodValue dp=ts.getDataItem(item);
+return new Long(dp.getPeriod().getEnd().getTime());
+
+1.1304509063256238
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<295,297>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int i=getIndex(key);
+this.data.removeValue(key);
+PieDatasetChangeType ct=PieDatasetChangeType.REMOVE;
+fireDatasetChanged(new PieDatasetChangeInfo(ct,i,i));
+
+1.1294406454752512
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<277,280>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(this.autoSort){
+this.data.add(-index-1,item);
+}else {
+this.data.add(item);
+}
+
+1.12841525731467
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<834,839>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+this.data.setValue(value,chipx,chipy);
+if(isMaxValue(value)){
+this.maxValue=(Double)value;
+}
+if(isMinValue(value)){
+this.minValue=(Double)value;
+}
+
+1.1253823769386784
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/WaferMapDataset.java<145,151>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+State state=(State)super.initialise(g2,dataArea,plot,data,info);
+state.setProcessVisibleItemsOnly(false);
+this.points=new Vector();
+setDrawSeriesLineAsPath(true);
+return state;
+
+1.1251956847154994
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/xy/XYSplineRenderer.java<151,155>
+
+
+-------- Patch ---------
+setDrawSeriesLineAsPath(true);
+copy.data=new java.util.ArrayList();
+
+-------- Similar Code ---------
+this.data.insertValue(position,key,value);
+PieDatasetChangeType ct=PieDatasetChangeType.ADD;
+fireDatasetChanged(new PieDatasetChangeInfo(ct,position,position));
+
+1.1239223181870963
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<261,264>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(period==null){
+throw new IllegalArgumentException("Null \'period\' argument.");
+}
+TimeSeriesDataItem dummy=new TimeSeriesDataItem(period,Integer.MIN_VALUE);
+return Collections.binarySearch(this.data,dummy);
+
+1.123902748375428
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<519,524>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (TaskSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<124,127>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (VectorSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<152,155>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (XYIntervalSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<113,116>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (YIntervalSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<113,116>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (XIntervalSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<111,114>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (XYSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<258,261>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Index outside valid range.");
+}
+return (XYSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<244,247>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Index \'series\' out of range.");
+}
+return (TimePeriodValues)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<152,155>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("Series index out of bounds");
+}
+return (OHLCSeries)this.data.get(series);
+
+1.119092495506675
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<148,151>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(data instanceof YisSymbolic){
+yStr=((YisSymbolic)data).getYSymbolicValue(series,item);
+}else {
+double y=data.getYValue(series,item);
+yStr=Double.toString(round(y,2));
+}
+
+1.114402702076512
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/labels/SymbolicXYItemLabelGenerator.java<84,90>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Object result=null;
+KeyedObject kobj=(KeyedObject)this.data.get(item);
+if(kobj!=null){
+result=kobj.getObject();
+}
+return result;
+
+1.1119787432248316
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<95,100>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Comparable result=null;
+KeyedObject item=(KeyedObject)this.data.get(index);
+if(item!=null){
+result=item.getKey();
+}
+return result;
+
+1.1119787432248316
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/KeyedObjects.java<115,120>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+while(index<size&&item.compareTo(this.data.get(index))==0){
+index++;
+}
+
+1.1106721970985913
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<517,520>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+while(index<size&&item.compareTo(this.data.get(index))==0){
+index++;
+}
+
+1.1106721970985913
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<229,232>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+while(getItemCount()>0&&(index-getTimePeriod(0).getSerialIndex())>this.maximumItemAge){
+this.data.remove(0);
+removed=true;
+}
+
+1.1092081432669754
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<932,936>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+List values=(List)this.data.getObject(row,column);
+if(values!=null){
+return Collections.unmodifiableList(values);
+}else {
+return Collections.EMPTY_LIST;
+}
+
+1.1086654855121092
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<172,178>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimePeriodValues ts=(TimePeriodValues)this.data.get(series);
+TimePeriodValue dp=ts.getDataItem(item);
+TimePeriod period=dp.getPeriod();
+return new Long(getX(period));
+
+1.1077375936584373
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValuesCollection.java<241,244>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+OHLCSeries s=(OHLCSeries)this.data.get(series);
+OHLCItem di=(OHLCItem)s.getDataItem(item);
+RegularTimePeriod period=di.getPeriod();
+return getX(period);
+
+1.1072647087265548
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<215,218>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+DefaultOHLCDataset clone=(DefaultOHLCDataset)super.clone();
+clone.data=new OHLCDataItem[this.data.length];
+System.arraycopy(this.data,0,clone.data,0,this.data.length);
+return clone;
+
+1.1065334715334467
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultOHLCDataset.java<333,336>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+XYSeries series=(XYSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+
+1.1061822221007696
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<357,360>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+OHLCSeries series=(OHLCSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+
+1.1061822221007696
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/ohlc/OHLCSeriesCollection.java<430,433>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYItemRendererState state=super.initialise(g2,dataArea,plot,data,info);
+state.setProcessVisibleItemsOnly(false);
+return state;
+
+1.100532287875902
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java<343,346>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+XYItemRendererState state=super.initialise(g2,dataArea,plot,data,info);
+state.setProcessVisibleItemsOnly(false);
+return state;
+
+1.100532287875902
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/xy/XYStepAreaRenderer.java<323,328>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<size;i++){
+data[i]=new DefaultKeyedValue((Comparable)this.keys.get(i),(Number)this.values.get(i));
+}
+
+1.095482566970439
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<358,361>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<size;i++){
+data[i]=new DefaultKeyedValue((Comparable)this.keys.get(i),(Number)this.values.get(i));
+}
+
+1.095482566970439
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<384,387>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SelectableValue sv=(SelectableValue)this.data.getObject(row,column);
+if(sv==null){
+return null;
+}else {
+return sv.getValue();
+}
+
+1.0940046625797617
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<120,127>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+SelectableValue sv=(SelectableValue)this.data.getObject(rowKey,columnKey);
+if(sv!=null){
+return sv.getValue();
+}else {
+return null;
+}
+
+1.0940046625797617
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/category/DefaultCategoryDataset.java<221,228>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+TimePeriodValue tpv=(TimePeriodValue)this.data.get(i);
+updateBounds(tpv.getPeriod(),i);
+}
+
+1.0936889100726264
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<347,350>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(data instanceof TimeSeriesCollection){
+RegularTimePeriod p=((TimeSeriesCollection)data).getSeries(series).getTimePeriod(item);
+xStr=p.toString();
+}else {
+double x=data.getXValue(series,item);
+xStr=Double.toString(round(x,2));
+}
+
+1.0935230622928662
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/labels/SymbolicXYItemLabelGenerator.java<94,103>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(item==null){
+throw new IllegalArgumentException("Null item not allowed.");
+}
+this.data.add(item);
+updateBounds(item.getPeriod(),this.data.size()-1);
+fireSeriesChanged();
+
+1.0926597299353324
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<243,248>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if((series<0)||(series>=getSeriesCount())){
+throw new IllegalArgumentException("The \'series\' argument is out of bounds ("+series);
+}
+return (TimeSeries)this.data.get(series);
+
+1.091508729909079
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<273,277>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=start;i<=end;i++){
+this.data.remove(start);
+}
+
+1.0911582311380665
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<344,346>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+VectorSeries series=(VectorSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+this.data.clear();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.0907235428302466
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/VectorSeriesCollection.java<120,127>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+XYIntervalSeries series=(XYIntervalSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+this.data.clear();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.0907235428302466
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYIntervalSeriesCollection.java<343,348>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+YIntervalSeries series=(YIntervalSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+this.data.clear();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.0907235428302466
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/YIntervalSeriesCollection.java<318,323>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+XIntervalSeries series=(XIntervalSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+this.data.clear();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.0907235428302466
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XIntervalSeriesCollection.java<320,325>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+XYSeries series=(XYSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+this.data.clear();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.0907235428302466
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<201,208>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+TimeSeries series=(TimeSeries)this.data.get(i);
+series.removeChangeListener(this);
+}
+this.data.clear();
+fireDatasetChanged(new DatasetChangeInfo());
+
+1.0907235428302466
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<366,373>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getMean();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<357,363>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getMean();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<377,383>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getMedian();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<397,403>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getMedian();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<417,423>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getQ1();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<437,443>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getQ1();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<457,463>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getQ3();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<477,483>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getQ3();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<497,503>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getMinRegularValue();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<654,660>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getMinRegularValue();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<674,680>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getMaxRegularValue();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<694,700>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getMaxRegularValue();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<714,720>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getMinOutlier();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<734,740>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getMinOutlier();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<754,760>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getMaxOutlier();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<774,780>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getMaxOutlier();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<794,800>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+List result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(row,column);
+if(item!=null){
+result=item.getOutliers();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<814,820>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+List result=null;
+BoxAndWhiskerItem item=(BoxAndWhiskerItem)this.data.getObject(rowKey,columnKey);
+if(item!=null){
+result=item.getOutliers();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<834,840>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+MeanAndStandardDeviation masd=(MeanAndStandardDeviation)this.data.getObject(row,column);
+if(masd!=null){
+result=masd.getMean();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<153,159>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+MeanAndStandardDeviation masd=(MeanAndStandardDeviation)this.data.getObject(rowKey,columnKey);
+if(masd!=null){
+result=masd.getMean();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<197,203>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+MeanAndStandardDeviation masd=(MeanAndStandardDeviation)this.data.getObject(row,column);
+if(masd!=null){
+result=masd.getStandardDeviation();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<215,221>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number result=null;
+MeanAndStandardDeviation masd=(MeanAndStandardDeviation)this.data.getObject(rowKey,columnKey);
+if(masd!=null){
+result=masd.getStandardDeviation();
+}
+return result;
+
+1.0890008890013336
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java<233,239>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int s=0;s<this.data.size();s++){
+XYSeries series=(XYSeries)this.data.get(s);
+series.remove(x);
+}
+
+1.084259517119845
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<434,437>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<seriesCount;i++){
+XYSeries series=(XYSeries)this.data.get(i);
+clone.data.add(series.clone());
+}
+
+1.083309678538954
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<548,551>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(row<rowCount){
+Number n=data.getValue(row,column);
+if(n!=null){
+total+=n.doubleValue();
+}
+}
+
+1.0795932074125607
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<159,164>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(col<colCount){
+Number n=data.getValue(row,col);
+if(n!=null){
+total+=n.doubleValue();
+}
+}
+
+1.0795932074125607
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<214,219>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data.length;i++){
+ final DefaultKeyedValue value=data[i];
+addValue(value.getKey(),value.getValue());
+}
+
+1.0794269798371536
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<368,371>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data.length;i++){
+ final DefaultKeyedValue value=data[i];
+addValue(value.getKey(),value.getValue());
+}
+
+1.0794269798371536
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DefaultKeyedValues.java<394,397>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data.length;i++){
+result[i]=new Double(data[i]);
+}
+
+1.078143207244048
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<237,239>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<l1;i++){
+result[i]=createNumberArray(data[i]);
+}
+
+1.0764644183994714
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<257,259>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<=(end-start);i++){
+this.data.remove(start);
+}
+
+1.0757228238447705
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimePeriodValues.java<400,402>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<=(end-start);i++){
+this.data.remove(start);
+}
+
+1.0757228238447705
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1003,1005>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<count;i++){
+TaskSeries s=(TaskSeries)this.data.get(i);
+if(s.getKey().equals(rowKey)){
+result=i;
+break;
+}
+}
+
+1.0735208050063691
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/gantt/TaskSeriesCollection.java<222,228>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<itemCount;i++){
+SelectableValue item=(SelectableValue)this.data.getObject(i);
+item.setSelected(false);
+}
+
+1.0707503596460792
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<414,417>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+XYDataItem item=(XYDataItem)this.data.get(i);
+if(item.getX().equals(x)){
+return i;
+}
+}
+
+1.0688837069636692
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<867,872>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data.size();i++){
+ComparableObjectItem item=(ComparableObjectItem)this.data.get(i);
+if(item.getComparable().equals(x)){
+return i;
+}
+}
+
+1.0688837069636692
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/ComparableObjectSeries.java<280,286>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data.getItemCount();i++){
+SelectableValue dataItem=new SelectableValue(data.getValue(i));
+this.data.addObject(data.getKey(i),dataItem);
+}
+
+1.0666666666666669
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/pie/DefaultPieDataset.java<106,109>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+TimeSeriesDataItem temp=new TimeSeriesDataItem(period,value);
+int index=Collections.binarySearch(this.data,temp);
+if(index<0){
+throw new SeriesException("There is no existing value for the "+"specified \'period\'.");
+}
+update(index,value);
+
+1.0626621856275074
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<705,711>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data.getItemCount();i++){
+Number v=data.getValue(i);
+if(v!=null){
+total=total+v.doubleValue();
+}
+}
+
+1.0542920312652613
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<279,284>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number[] result=new Number[data.length];
+for(int i=0;i<data.length;i++){
+result[i]=new Double(data[i]);
+}
+return result;
+
+1.0418455450776793
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultHighLowDataset.java<429,433>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int r=0;r<rowCount;r++){
+Number n=data.getValue(r,column);
+if(n!=null){
+total+=n.doubleValue();
+}
+}
+
+1.0386417996856114
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<129,134>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int c=0;c<columnCount;c++){
+Number n=data.getValue(row,c);
+if(n!=null){
+total+=n.doubleValue();
+}
+}
+
+1.0386417996856114
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<184,189>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int column=0;column<columns;column++){
+this.data[row][column]=0.0;
+}
+
+1.0340625602339752
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/MatrixSeries.java<199,201>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int r=0;r<data.length;r++){
+columnCount=Math.max(columnCount,data[r].length);
+}
+
+1.0332020894025513
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DatasetUtilities.java<445,447>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int s=0;s<this.data.size();s++){
+XYSeries series=(XYSeries)this.data.get(s);
+if(series.getY(series.indexOf(x))!=null){
+return false;
+}
+}
+
+1.0314089723039284
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<453,458>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int c=0;c<this.data.getColumnCount();c++){
+Number value=this.data.getValue(r,c);
+if(value!=null){
+unique.add(value);
+}
+}
+
+1.026184371882328
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/WaferMapDataset.java<172,177>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int seriesNo=0;seriesNo<seriesCount;seriesNo++){
+XYSeries dataSeries=(XYSeries)this.data.get(seriesNo);
+if(!dataSeries.equals(series)){
+dataSeries.add(xValue,null);
+}
+}
+
+1.026184371882328
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultTableXYDataset.java<181,186>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data.getItemCount();i++){
+Number v=data.getValue(i);
+if(v!=null){
+runningTotal=runningTotal+v.doubleValue();
+}
+result.addValue(data.getKey(i),new Double(runningTotal/total));
+}
+
+1.0248691639620384
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<286,292>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(data!=null&&data.getValue()!=null){
+value=(data.getValue().doubleValue())%this.revolutionDistance;
+value=value/this.revolutionDistance*360;
+current=i%x;
+this.seriesNeedle[current].draw(g2,needleArea,value);
+}
+
+1.0175938091119188
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/CompassPlot.java<685,691>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int eq=0;eq<equations;eq++){
+yCalc+=result[eq]*Math.pow(data[0][item],eq);
+}
+
+1.009896853029007
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<307,309>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int counter=0;counter<data.length;counter++){
+double diff=data[counter].doubleValue()-avg;
+sum=sum+diff*diff;
+}
+
+0.9942664691088838
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Statistics.java<319,322>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(!Double.isNaN(x)&&!Double.isNaN(y)){
+data[0][validItems]=x;
+data[1][validItems]=y;
+validItems++;
+}
+
+0.9844645405527361
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<261,265>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int result;
+result=this.data.hashCode();
+result=29*result+(this.workingCalendar!=null?this.workingCalendar.hashCode():0);
+result=29*result+(this.xPosition!=null?this.xPosition.hashCode():0);
+return result;
+
+0.9739959815668662
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeriesCollection.java<767,773>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int coe=0;coe<coefficients-1;coe++){
+matrix[eq][coe]+=Math.pow(data[0][item],eq+coe);
+}
+
+0.9622537464374026
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<281,283>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int c=0;c<data[r].length;c++){
+String columnKey=columnKeyPrefix+(c+1);
+result.addValue(new Double(data[r][c]),rowKey,columnKey);
+}
+
+0.9528938940867552
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DatasetUtilities.java<372,375>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int c=0;c<data[r].length;c++){
+Comparable columnKey=columnKeys[c];
+result.addValue(new Double(data[r][c]),rowKey,columnKey);
+}
+
+0.9528938940867552
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DatasetUtilities.java<458,461>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int c=0;c<data[r].length;c++){
+String columnKey=columnKeyPrefix+(c+1);
+result.addValue(data[r][c],rowKey,columnKey);
+}
+
+0.931897769757798
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DatasetUtilities.java<400,403>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data[0].length;i++){
+float v=data[0][i];
+if(v<lowest){
+lowest=v;
+}
+if(v>highest){
+highest=v;
+}
+}
+
+0.9285511315994629
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<723,731>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<data[0].length;i++){
+float v=data[1][i];
+if(v<lowest){
+lowest=v;
+}
+if(v>highest){
+highest=v;
+}
+}
+
+0.9285511315994629
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<755,763>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+Number[] result=new Number[data.length];
+
+0.903696114115064
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<236,236>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+for(int i=0;i<this.data[0].length;i++){
+float x=this.data[0][i];
+float y=this.data[1][i];
+int transX=(int)this.domainAxis.valueToJava2D(x,dataArea,RectangleEdge.BOTTOM);
+int transY=(int)this.rangeAxis.valueToJava2D(y,dataArea,RectangleEdge.LEFT);
+g2.fillRect(transX,transY,1,1);
+}
+
+0.8802690259546695
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/FastScatterPlot.java<617,628>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(length!=data[1].length||length!=data[2].length||length!=data[3].length||length!=data[4].length||length!=data[5].length){
+throw new IllegalArgumentException("The \'data\' array must contain six arrays with equal length.");
+}
+
+0.821673191212017
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultIntervalXYDataset.java<419,424>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int l1=data.length;
+
+0.8164965809277261
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/DataUtilities.java<255,255>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int n=data.length;
+
+0.8164965809277261
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<66,66>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int n=data.length;
+
+0.8164965809277261
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Regression.java<153,153>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+int seriesCount=data.length;
+
+0.8164965809277261
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultWindDataset.java<137,137>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(rowKeys.length!=data.length){
+throw new IllegalArgumentException("The number of row keys does not match the number of rows in "+"the data array.");
+}
+
+0.7348469228349535
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DatasetUtilities.java<439,443>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+if(seriesKeys.size()!=data.length){
+throw new IllegalArgumentException("The number of series keys does "+"not match the number of series in the data array.");
+}
+
+0.7126966450997985
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/DefaultWindDataset.java<132,135>
+
+-------- No Patch ---------
+
+
+-------- Similar Code ---------
+return Math.sqrt(sum/(data.length-1));
+
+0.6963106238227914
+/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/statistics/Statistics.java<323,323>
+
+-------- No Patch ---------
+
