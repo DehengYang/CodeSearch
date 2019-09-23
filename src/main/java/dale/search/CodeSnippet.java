@@ -41,6 +41,7 @@ import org.eclipse.jdt.core.dom.WhileStatement;
 public class CodeSnippet {
 	private CompilationUnit unit = null;
 	private int extendedLine = 0;
+	private int last_extendedLine = 0;
 	private Statement extendedStatement = null;
 	private int lineRange = 0;
 	private List<ASTNode> nodes = new ArrayList<>(); 
@@ -58,10 +59,25 @@ public class CodeSnippet {
 	
 	// initialization. 
 	// e.g., unit, lineNo, 5, null, 3
-	public CodeSnippet(CompilationUnit unit, int extendedLine, int lineRange, Statement extendedStatement,
+	public CodeSnippet(CompilationUnit unit, int first_extendedLine, int last_extendedLine,
+			int lineRange, Statement extendedStatement,
 			int max_less_threshold, int max_more_threshold) {
 		this.unit = unit;
-		this.extendedLine = extendedLine;
+		this.extendedLine = first_extendedLine;
+		this.last_extendedLine = last_extendedLine;
+		this.lineRange = lineRange;
+		this.extendedStatement = extendedStatement;
+		this.MAX_LESS_THRESHOLD = max_less_threshold;
+		this.MAX_MORE_THRESHOLD = max_more_threshold;
+		searchNodes(extendedLine);
+		searchNodes(last_extendedLine);
+	}
+	public CodeSnippet(CompilationUnit unit, int first_extendedLine,
+			int lineRange, Statement extendedStatement,
+			int max_less_threshold, int max_more_threshold) {
+		this.unit = unit;
+		this.extendedLine = first_extendedLine;
+		this.last_extendedLine = last_extendedLine;
 		this.lineRange = lineRange;
 		this.extendedStatement = extendedStatement;
 		this.MAX_LESS_THRESHOLD = max_less_threshold;
@@ -71,6 +87,49 @@ public class CodeSnippet {
 	
 	public List<ASTNode> getASTNodes(){
 		return nodes;
+	}
+	
+	// for only adding first and last line
+	private void searchNodes(int line){
+		// initialize
+		this.extendedStatement = null;
+		extendedLine = line;
+		
+		// 0 is column
+		int position = this.unit.getPosition(line, 0);
+
+		// Instantiate a new node finder using the given root node, the given start and the given length.
+		// TODO: I think 20 can also be changed to 100, 1000. The length here seems do not influence the results.
+		NodeFinder finder = new NodeFinder(this.unit, position, 20);
+
+		// Returns the innermost node that fully contains the selection.
+		ASTNode prefind = finder.getCoveringNode();
+		Main.print("-prefind class name: " + prefind.getClass().getName());
+		
+		// prefind is not null, and prefind is not Statement
+		while (prefind != null && !(prefind instanceof Statement)) {	
+			// Returns this node's parent node, or null if this is the root node.
+			prefind = prefind.getParent();
+			Main.print("prefind class name: " + prefind.getClass().getName());
+		}
+
+		if (prefind != null){
+			Main.print("-prefind class name: " + prefind.getClass().getName());
+		}
+
+		// the accept method is to find the extendedLine ast node (by traverse visiting).
+		if(prefind != null){
+			// Accepts the given visitor on a visit of the current node.
+			prefind.accept(new FindExactLineVisitor());
+		} else {
+			System.out.println("Executing branch: this.unit.accept(new Traverse());");
+			this.unit.accept(new Traverse());
+		}
+		
+		// directly add extendedStatement
+		if(this.extendedStatement != null){
+			this.nodes.add(this.extendedStatement);
+		}
 	}
 	
 	private void search(){
@@ -148,7 +207,7 @@ public class CodeSnippet {
 							this.extendedStatement = (Statement) node;
 						}
 					}
-					// add parent node
+					// directly add extendedStatement if not block, otherwise add parent node
 					this.nodes.add(this.extendedStatement);
 				}
 			}

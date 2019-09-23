@@ -256,6 +256,7 @@ public class SimpleFilter {
 				if(parent != null && !(parent.getParent() instanceof AnonymousClassDeclaration)){
 					int line = _unit.getLineNumber(node.getStartPosition());
 					CodeSnippet codeSnippet = new CodeSnippet(_unit, line, _buggyCode.getCurrentLine(), statement);
+					// TODO
 					CodeBlock codeBlock = new CodeBlock(_fileName, _unit, codeSnippet.getASTNodes());
 					if(codeBlock.getCurrentLine() < _max_line){
 						_candidates.add(codeBlock);

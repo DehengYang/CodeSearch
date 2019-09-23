@@ -1,5 +1,6 @@
 package dale.search;
 
+import java.beans.Expression;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -21,12 +22,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.eclipse.core.runtime.QualifiedName;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTParser;
+import org.eclipse.jdt.core.dom.Assignment;
 import org.eclipse.jdt.core.dom.CompilationUnit;
+import org.eclipse.jdt.core.dom.ExpressionStatement;
 import org.eclipse.jdt.core.dom.FieldAccess;
+import org.eclipse.jdt.core.dom.InfixExpression;
+import org.eclipse.jdt.core.dom.MethodInvocation;
 import org.eclipse.jdt.core.dom.Name;
 import org.eclipse.jdt.core.dom.Type;
 
@@ -34,6 +40,7 @@ import dale.parser.Subject;
 import dale.parser.ProjectInfo;
 import dale.modify.Revision;
 import dale.search.Node;
+import dale.metric.Variable;
 import dale.modify.Modification;
 import dale.parser.NodeUtils;
 import dale.search.CodeBlock;
@@ -86,9 +93,9 @@ public class Main {
 		fixed_src_path = get_source_path(fixed_src_path);
 		target_source_path = get_source_path(target_source_path);
 
-		for (String line : lines){
-//			codeSearchForLine(line, src_path, "buggy");
-		}
+//		for (String line : lines){
+////			codeSearchForLine(line, src_path, "buggy");
+//		}
 		
 		List<String> fixed_lines = readFile(proj, id, "fixed");
 		// do code search for a single fixed line.
@@ -275,17 +282,20 @@ public class Main {
 		return chunks;
 	}
 
-	private static void codeSearchForLine(String line, String src_path, String flag) {
+	private static void codeSearchForLine(List<String> line_chunk, String src_path, String flag) {
 		// get compilation unit for the line
-		String line_path = src_path + "/" + line.split(":")[0].replace(".", "/") + ".java";
+		String first_line = line_chunk.get(0);
+		String last_line = line_chunk.get(line_chunk.size() - 1);
+		String line_path = src_path + "/" + first_line.split(":")[0].replace(".", "/") + ".java";
 		print(line_path);
 		CompilationUnit unit = (CompilationUnit)genASTFromFile(line_path, ASTParser.K_COMPILATION_UNIT);
 		//				print(unit.getRoot().toString());
 
 		// get code snippet
-		int lineNo = Integer.parseInt(line.split(":")[1]);
+		int first_lineNo = Integer.parseInt(first_line.split(":")[1]);
+		int last_lineNo = Integer.parseInt(last_line.split(":")[1]);
 		// for test: change 5 to 1
-		CodeSnippet codeSnippet = new CodeSnippet(unit, lineNo, snippet_line_range, null, MAX_LESS_THRESHOLD, MAX_MORE_THRESHOLD);
+		CodeSnippet codeSnippet = new CodeSnippet(unit, first_lineNo, last_lineNo, snippet_line_range, null, MAX_LESS_THRESHOLD, MAX_MORE_THRESHOLD);
 
 		// get code block
 		CodeBlock codeBlock = new CodeBlock(line_path, unit, codeSnippet.getASTNodes());
@@ -298,6 +308,47 @@ public class Main {
 		buggyBlockList.add(codeBlock);
 		Set<String> haveTryBuggySourceCode = new HashSet<>();
 		for(CodeBlock oneBuggyBlock : buggyBlockList){
+			// get all values for the line.
+			List<ASTNode> buggyNodes = oneBuggyBlock.getNodes();
+//			for (ASTNode buggyNode : buggyNodes){
+//				print("buggyNode: " + buggyNode.toString() 
+//						+ "\n name:" + buggyNode.getClass().getName()
+////						+ "\nsimpleName:" + buggyNode.getClass().getSimpleName()
+//						);
+//				if (buggyNode instanceof ExpressionStatement){
+//					ExpressionStatement infixExpression = (ExpressionStatement) buggyNode;
+//					print("infixExpression:" 
+//							+ "\n expr:" + infixExpression.getExpression().getClass().toString()
+////							+ "\n right:" + infixExpression.
+//							);
+//					Assignment assign = (Assignment)infixExpression.getExpression();
+//					QualifiedName name = new QualifiedName("", "Series");
+//					
+//					ASTParser parser = ASTParser.newParser(AST.JLS8);
+//					parser.setSource("".toCharArray());
+//					CompilationUnit comp = (CompilationUnit) parser.createAST(null); 
+//					comp.recordModifications();
+//					AST ast = comp.getAST();
+//					
+////					ast.newExpressionStatement(expression)
+//					MethodInvocation invokeIteratorNextExpression = ast.newMethodInvocation();
+//					invokeIteratorNextExpression.setName(ast.newSimpleName("Series")); 
+//					invokeIteratorNextExpression.setExpression(ast.newSimpleName("SeriesSecond"));
+////					assign.setRightHandSide( ast.newSimpleName("Series"));
+//					assign.setRightHandSide(ast.newSimpleName("Series"));
+//					
+//					print("infixExpression:" 
+//							+ "\n left:" + assign.getLeftHandSide().getClass().getName()
+//							+ "\n right:" + assign.getRightHandSide().toString()
+//							);
+//					
+//				}
+//				
+//				
+////						+ "\nmodifiers:" + buggyNode.getClass().getModifiers());
+//				
+//			}
+			
 			String currentBlockString = oneBuggyBlock.toSrcString().toString();
 			if(currentBlockString == null || currentBlockString.length() <= 0){
 				continue;
@@ -310,7 +361,12 @@ public class Main {
 			Set<String> haveTryPatches = new HashSet<>();
 
 			// get all variables can be used at buggy line
-			Map<String, Type> usableVars = NodeUtils.getUsableVarTypes(line_path, lineNo);
+			// TODO:
+			Map<String, Type> usableVars = new HashMap<String, Type>();
+			for(int line_no = first_lineNo; line_no <= last_lineNo; line_no ++){
+				usableVars.putAll(NodeUtils.getUsableVarTypes(line_path, line_no));
+			}
+			
 
 			// search candidate similar code block
 			SimpleFilter simpleFilter = new SimpleFilter(oneBuggyBlock);
@@ -320,14 +376,17 @@ public class Main {
 			LocalLog.log("print candidates ---");
 
 			// each line with a specified log
-			logfile = "./search-log/" + proj + '/' + id + '/' + line + "_" + flag + ".log";
+			logfile = "./search-log/" + proj + '/' + id + '/' + first_line + "-"
+					+ last_lineNo + "_" + flag + ".log";
+			String log2 = "./search-log/" + proj + '/' + id + "/lines_" + first_line + "-"
+					+ last_lineNo + "_" + flag + ".log";
 			getAllPatches(oneBuggyBlock, candidates,
-					usableVars, currentBlockString, haveTryPatches, logfile, flag);
+					usableVars, currentBlockString, haveTryPatches, logfile, log2, flag);
 		}
 		
 	}
 
-	private static List<String> readFile(String proj, String id, String flag) throws IOException {
+	public static List<String> readFile(String proj, String id, String flag) throws IOException {
 		String file_path = "";
 		proj = upperFirstCase(proj);
 		if (flag.equals("buggy")){
@@ -369,11 +428,33 @@ public class Main {
 
 	private static void getAllPatches(CodeBlock oneBuggyBlock, List<Triple<CodeBlock, Double, String>> candidates,
 			Map<String, Type> usableVars, String currentBlockString, Set<String> haveTryPatches,
-			String logfile, String flag){
+			String logfile, String log2, String flag){
 		
 		// save original code snippet
 		writeStringToFile(logfile, "-------- Original Code ---------\n",true);
-		writeStringToFile(logfile, currentBlockString, true);
+		writeStringToFile(logfile, currentBlockString + "\n" + oneBuggyBlock.getFileName()
+			+ "<" + oneBuggyBlock.getCodeRange().getFirst() 
+			+ "," + oneBuggyBlock.getCodeRange().getSecond() + ">\n", true);
+		
+		writeStringToFile(log2, "fixed code:" 
+				+ oneBuggyBlock.getFileName() + "-"
+//				+ oneBuggyBlock.getClass() + "-"
+				+ oneBuggyBlock.getCodeRange().getFirst() + "-"
+				+ oneBuggyBlock.getCodeRange().getSecond()
+				+ "\n"
+				, true);
+
+		
+		// visit original buggy code
+		
+		
+//		List<Variable> vars = oneBuggyBlock.getVariables();
+//		oneBuggyBlock.getConstants();
+////		oneBuggyBlock.getLiterals();
+//		oneBuggyBlock.getLoopStruct();
+//		oneBuggyBlock.getCondStruct();
+		
+		
 		
 		//		int i = 1;
 		for(Triple<CodeBlock, Double, String> similar : candidates){
@@ -389,6 +470,14 @@ public class Main {
 					+ "\n" + similar.getSecond() 
 					+ "\n" + similar.getThird()
 					+ "\n",true);
+			
+			writeStringToFile(log2, "similar code:" 
+					+ similar.getFirst().getFileName() + "-"
+//					+ oneBuggyBlock.getClass() + "-"
+					+ similar.getFirst().getCodeRange().getFirst() + "-"
+					+ similar.getFirst().getCodeRange().getSecond()
+					+ "\n"
+					, true);
 			
 			// compute transformation
 			List<Modification> modifications = CodeBlockMatcher.match(oneBuggyBlock, similar.getFirst(), usableVars);
@@ -833,7 +922,7 @@ public class Main {
 	
 	
 	// obtain source code path
-	private static String get_source_path(String path){	
+	public static String get_source_path(String path){	
 		String src_path = "";
 		final File folder = new File(path);
 		for(File fileEntry : folder.listFiles()){
@@ -867,7 +956,6 @@ public class Main {
 					}
 					break;
 				}
-
 			}
 		}
 		print("src_path: \n"+ src_path + '\n');

@@ -96,6 +96,117 @@ public class CodeBlockMatcher {
 		return varReward + methodReward;
 	}
 	
+	public static List<Modification> matchPatch(CodeBlock buggyBlock, CodeBlock similarBlock, Map<String, Type> allUsableVariables){
+		List<Modification> modifications = new LinkedList<>();
+		
+		// match variables first
+		Map<String, String> varTrans = matchVariables(buggyBlock, similarBlock);
+		
+//		for(Entry<String, String> entry : varTrans.entrySet()){
+//			System.out.println(entry.getKey() + " : " + entry.getValue());
+//		}
+		
+		
+		List<Node> bNodes = buggyBlock.getParsedNode();
+		List<Node> sNodes = similarBlock.getParsedNode();
+		
+		Map<Integer, Integer> match = new HashMap<>();
+		Map<Integer, Integer> reverseMatch = new HashMap<>();
+		for(int i = 0; i < bNodes.size(); i++){
+			Node buggyNode = bNodes.get(i);
+			for(int j = 0; j < sNodes.size(); j++){
+				if(reverseMatch.containsKey(j)){
+					continue;
+				}
+				Node simNode = sNodes.get(j);
+				List<Modification> tmp = new LinkedList<>();
+				if(buggyNode.match(simNode, varTrans, allUsableVariables, tmp)){
+					match.put(i, j);
+					reverseMatch.put(j, i);
+					modifications.addAll(tmp);
+					break;
+				}
+			}
+		}
+		
+		// insert nodes at buggy code site only some node has been matched
+		if(match.size() > 0){
+			for(int j = 0; j < sNodes.size(); j++){
+				if(!reverseMatch.containsKey(j)){
+					Node tarNode = sNodes.get(j);
+					if (tarNode instanceof ReturnStmt || tarNode instanceof ThrowStmt || tarNode instanceof BreakStmt
+							|| tarNode instanceof ContinueStmt || tarNode instanceof WhileStmt
+							|| tarNode instanceof ForStmt || tarNode instanceof DoStmt || tarNode instanceof VarDeclarationStmt) {
+						continue;
+					}
+					Map<SName, Pair<String, String>> record = NodeUtils.tryReplaceAllVariables(tarNode, varTrans, allUsableVariables);
+					if(record == null){
+						continue;
+					}
+					int nextMatchIndex = -1;
+					for(int index = j; index < sNodes.size(); index++){
+						if(reverseMatch.containsKey(index)){
+							nextMatchIndex = reverseMatch.get(index);
+							break;
+						}
+					}
+					if(nextMatchIndex == -1){
+						int last = nextMatchIndex;
+						for(; last >= 0; last --){
+							Node node = bNodes.get(last);
+							if(!(node instanceof ReturnStmt) && !(node instanceof ThrowStmt) && !(node instanceof BreakStmt) && !(node instanceof ContinueStmt)){
+								List<Variable> bVariables = node.getVariables();
+								List<Variable> sVariables = tarNode.getVariables();
+								boolean dependency = false;
+								for(Variable variable : sVariables){
+									if(bVariables.contains(variable)){
+										dependency = true;
+										break;
+									}
+								}
+								if(!dependency){
+									break;
+								}
+							}
+						}
+						nextMatchIndex = last >= 0 ? last : 0;
+					}
+					
+					NodeUtils.replaceVariable(record);
+					String target = tarNode.toSrcString().toString();
+					NodeUtils.restoreVariables(record);
+					Insertion insertion = new Insertion(buggyBlock, nextMatchIndex, target, TYPE.UNKNOWN);
+					modifications.add(insertion);
+					
+				}
+			}
+		}
+		// revision first
+		List<Modification> revisions = new LinkedList<>();
+		List<Modification> insertions = new LinkedList<>();
+		List<Modification> deletions = new LinkedList<>();
+		List<Modification> finalModifications = new ArrayList<>(modifications.size());
+		for(Modification modification : modifications){
+			if(modification instanceof Revision){
+				revisions.add(modification);
+			} else if(modification instanceof Insertion){
+				//						if(modification.getTargetString().startsWith("if(")){
+				//							finalModifications.add(modification);
+				//						} else {
+				insertions.add(modification);
+				//						}
+			} else {
+				deletions.add(modification);
+			}
+		}
+
+		finalModifications.addAll(revisions);
+		finalModifications.addAll(insertions);
+		finalModifications.addAll(deletions);
+
+		return finalModifications;
+	}
+	
 	public static List<Modification> match(CodeBlock buggyBlock, CodeBlock similarBlock, Map<String, Type> allUsableVariables){
 		List<Modification> modifications = new LinkedList<>();
 		
