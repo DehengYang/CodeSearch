@@ -1,0 +1,16 @@
+-------- Original Code ---------
+throw new VerificationInOrderFailure(join("No interactions wanted here:",new LocationImpl(),"But found this interaction on mock \'"+safelyGetMockName(undesired.getMock()),undesired.getLocation()));
+
+/home/dale/d4j/fixed_bugs_dir/Mockito/Mockito_4/src/org/mockito/exceptions/Reporter.java<431,436>
+
+-------- Similar Code ---------
+throw new VerificationInOrderFailure(join("No interactions wanted here:",new LocationImpl(),"But found this interaction on mock \'"+undesired.getMock(),undesired.getLocation()));
+
+2.9968895725584535
+/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/exceptions/Reporter.java<431,436>
+
+-------- Similar Code ---------
+throw new NoInteractionsWanted(join("No interactions wanted here:",new LocationImpl(),"But found this interaction on mock \'"+undesired.getMock(),undesired.getLocation(),scenario));
+
+1.7791300486523294
+/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/exceptions/Reporter.java<421,427>

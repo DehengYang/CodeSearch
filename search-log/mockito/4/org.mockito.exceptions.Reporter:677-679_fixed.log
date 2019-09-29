@@ -1,0 +1,41 @@
+-------- Original Code ---------
+if(details.getCause()==null){
+return details.getMessage();
+}
+
+/home/dale/d4j/fixed_bugs_dir/Mockito/Mockito_4/src/org/mockito/exceptions/Reporter.java<677,679>
+
+-------- Similar Code ---------
+if(e.getCause() instanceof InvocationTargetException){
+Throwable realCause=e.getCause().getCause();
+new Reporter().fieldInitialisationThrewException(field,realCause);
+}
+
+1.7378477030708366
+/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java<91,94>
+
+-------- Similar Code ---------
+if(e.getCause() instanceof InvocationTargetException){
+Throwable realCause=e.getCause().getCause();
+new Reporter().fieldInitialisationThrewException(field,realCause);
+}
+
+1.7378477030708366
+/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/configuration/injection/ConstructorInjection.java<56,59>
+
+-------- Similar Code ---------
+{
+String message=methodInvocationReport.getThrowable().getMessage()==null?"":" with message "+methodInvocationReport.getThrowable().getMessage();
+printlnIndented("has thrown: "+methodInvocationReport.getThrowable().getClass());
+}
+
+1.3110226892706862
+/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/debugging/VerboseMockInvocationLogger.java<43,46>
+
+-------- Similar Code ---------
+MockName mockName=mockUtil.getMockName(mockitoMock);
+String mockedType=mockUtil.getMockSettings(mockitoMock).getTypeToMock().getCanonicalName();
+throw new MockitoSerializationIssue(join("The mock \'"+mockName,"The Java Standard Serialization reported an \'"+ioe.getClass().getSimpleName(),"  "+ioe.getMessage()),ioe);
+
+0.8573214099741123
+/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/creation/cglib/AcrossJVMSerializationFeature.java<126,132>

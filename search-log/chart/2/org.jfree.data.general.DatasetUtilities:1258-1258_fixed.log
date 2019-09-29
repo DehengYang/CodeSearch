@@ -1,0 +1,2094 @@
+-------- Original Code ---------
+maximum=Math.max(maximum,lvalue);
+
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1258,1258>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,runningTotal);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<300,300>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<126,126>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<137,137>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<182,182>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<193,193>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<188,188>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<761,761>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<774,774>
+
+-------- Similar Code ---------
+maximum=Math.max(v,maximum);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<989,989>
+
+-------- Similar Code ---------
+maximum=Math.max(v,maximum);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<995,995>
+
+-------- Similar Code ---------
+maximum=Math.max(v,maximum);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1001,1001>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,v);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1015,1015>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,v);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1125,1125>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,v);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1174,1174>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1248,1248>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1265,1265>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,value);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1278,1278>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1335,1335>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,x);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1351,1351>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1417,1417>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1463,1463>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,y);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1482,1482>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,value);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1593,1593>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,value);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1827,1827>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,positive);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1890,1890>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,total);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2035,2035>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,runningTotal);
+
+2.6666666666666665
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2153,2153>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,mean+std);
+
+2.5516246302481784
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1156,1156>
+
+-------- Similar Code ---------
+maximum[g]=Math.max(maximum[g],positive[g]);
+
+2.3601324624729196
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1952,1952>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue.doubleValue());
+
+2.3051586491408833
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1079,1079>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue.doubleValue());
+
+2.3051586491408833
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1101,1101>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,uvalue.doubleValue());
+
+2.3051586491408833
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1440,1440>
+
+-------- Similar Code ---------
+maximum=Math.max(maximum,value.doubleValue());
+
+2.3051586491408833
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1767,1767>
+
+-------- Similar Code ---------
+double centerHeight=Math.max(h[2],Math.max(h[3],h[4]));
+
+2.125451367714673
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<217,217>
+
+-------- Similar Code ---------
+double width=Math.max(w[0],Math.max(w[1],w[2]+w[4]));
+
+2.0832735509411453
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<216,216>
+
+-------- Similar Code ---------
+double width=Math.max(w[0],Math.max(w[1],w[2]+w[4]));
+
+2.0832735509411453
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<387,387>
+
+-------- Similar Code ---------
+tickMarkSpace=Math.max(tickMarkSpace,this.minorTickMarkOutsideLength);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<641,642>
+
+-------- Similar Code ---------
+result+=Math.max(w1,w2);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<787,787>
+
+-------- Similar Code ---------
+result+=Math.max(w1,w2);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<1480,1480>
+
+-------- Similar Code ---------
+result+=Math.max(w1,w2);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<1533,1533>
+
+-------- Similar Code ---------
+result+=Math.max(w1,w2);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<1029,1029>
+
+-------- Similar Code ---------
+result=Math.max(result,dim);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/SubCategoryAxis.java<235,235>
+
+-------- Similar Code ---------
+barLow=Math.max(barLow,min);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/BarRenderer.java<847,847>
+
+-------- Similar Code ---------
+l_minuendMaxY=Math.max(l_minuendMaxY,l_y1);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java<583,583>
+
+-------- Similar Code ---------
+l_subtrahendMaxY=Math.max(l_subtrahendMaxY,l_y3);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java<605,605>
+
+-------- Similar Code ---------
+maxval=Math.max(maxval,v);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/DefaultMultiValueCategoryDataset.java<137,137>
+
+-------- Similar Code ---------
+maxRegularValue=Math.max(maxRegularValue,value);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/BoxAndWhiskerCalculator.java<156,156>
+
+-------- Similar Code ---------
+maxOutlier=Math.max(maxOutlier,maxRegularValue);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/BoxAndWhiskerCalculator.java<159,159>
+
+-------- Similar Code ---------
+result=Math.max(result,hiX);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeriesCollection.java<575,575>
+
+-------- Similar Code ---------
+upper=Math.max(upper,maxX);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeriesCollection.java<608,608>
+
+-------- Similar Code ---------
+upper=Math.max(upper,maxY);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeriesCollection.java<708,708>
+
+-------- Similar Code ---------
+result=Math.max(result,hiY);
+
+2.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeriesCollection.java<764,764>
+
+-------- Similar Code ---------
+this.top=Math.max(this.top,space.top);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/AxisSpace.java<191,191>
+
+-------- Similar Code ---------
+this.bottom=Math.max(this.bottom,space.bottom);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/AxisSpace.java<192,192>
+
+-------- Similar Code ---------
+this.left=Math.max(this.left,space.left);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/AxisSpace.java<193,193>
+
+-------- Similar Code ---------
+this.right=Math.max(this.right,space.right);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/AxisSpace.java<194,194>
+
+-------- Similar Code ---------
+maxHeight=Math.max(maxHeight,size.height);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/FlowArrangement.java<195,195>
+
+-------- Similar Code ---------
+maxWidth=Math.max(maxWidth,size.width);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/ColumnArrangement.java<218,218>
+
+-------- Similar Code ---------
+maxW=Math.max(maxW,s.width);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/GridArrangement.java<165,165>
+
+-------- Similar Code ---------
+maxH=Math.max(maxH,s.height);
+
+1.9988681377244377
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/GridArrangement.java<166,166>
+
+-------- Similar Code ---------
+s.highY=Math.max(s.highY,y);
+
+1.996815278536125
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/SamplingXYLineRenderer.java<266,266>
+
+-------- Similar Code ---------
+maxHeight=Math.max(sizes[i].height,maxHeight);
+
+1.9836118442057922
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/FlowArrangement.java<368,368>
+
+-------- Similar Code ---------
+maxWidth=Math.max(sizes[i].width,maxWidth);
+
+1.9836118442057922
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/ColumnArrangement.java<323,323>
+
+-------- Similar Code ---------
+columnCount=Math.max(columnCount,data[r].length);
+
+1.9836118442057922
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<447,447>
+
+-------- Similar Code ---------
+lower=Math.max(upper-fixedAutoRange,this.smallestValue);
+
+1.9801960588196068
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<405,405>
+
+-------- Similar Code ---------
+long start=Math.max(from,this.segmentStart);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/SegmentedTimeline.java<1672,1672>
+
+-------- Similar Code ---------
+double v=Math.max(value,this.lowerBound);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/GrayPaintScale.java<165,165>
+
+-------- Similar Code ---------
+double high=Math.max(start2d,end2d);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1249,1249>
+
+-------- Similar Code ---------
+double barHigh=Math.max(this.base,value);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/BarRenderer.java<840,840>
+
+-------- Similar Code ---------
+double top=Math.max(translatedValue0,translatedValue1);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYBarRenderer.java<844,844>
+
+-------- Similar Code ---------
+double yyMaxOpenClose=Math.max(yyOpen,yyClose);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<799,799>
+
+-------- Similar Code ---------
+double maxOpenClose=Math.max(yOpen,yClose);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<801,801>
+
+-------- Similar Code ---------
+double high=Math.max(start2d,end2d);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java<1401,1401>
+
+-------- Similar Code ---------
+double high=Math.max(start2d,end2d);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java<1600,1600>
+
+-------- Similar Code ---------
+double adjustedRadius=Math.max(radius,axisMin);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/PolarPlot.java<1291,1291>
+
+-------- Similar Code ---------
+ final int end=Math.max(s1,s2);
+
+1.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/SpreadsheetDate.java<420,420>
+
+-------- Similar Code ---------
+lower=Math.max(0.0,lower);
+
+1.9506541513652698
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<442,442>
+
+-------- Similar Code ---------
+upper=Math.max(0.0,upper);
+
+1.9506541513652698
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<443,443>
+
+-------- Similar Code ---------
+upper=Math.max(upper,0.0);
+
+1.9506541513652698
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<452,452>
+
+-------- Similar Code ---------
+x=Math.max(x,0);
+
+1.9506541513652698
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/RefineryUtilities.java<226,226>
+
+-------- Similar Code ---------
+y=Math.max(y,0);
+
+1.9506541513652698
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/RefineryUtilities.java<228,228>
+
+-------- Similar Code ---------
+upper=Math.max(0.0,upper+upperMargin);
+
+1.945905302926917
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/SymbolAxis.java<501,501>
+
+-------- Similar Code ---------
+lower=Math.max(0.0,lower-lowerMargin);
+
+1.945905302926917
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/SymbolAxis.java<514,514>
+
+-------- Similar Code ---------
+max=Math.max(max,stackValues[1]);
+
+1.945905302926917
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java<179,179>
+
+-------- Similar Code ---------
+this.size=Math.max(this.size,index+1);
+
+1.945905302926917
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/AbstractObjectList.java<132,132>
+
+-------- Similar Code ---------
+adjust=Math.max(0,targetWeekday-baseDOW);
+
+1.945905302926917
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/SerialDate.java<684,684>
+
+-------- Similar Code ---------
+int w=Math.max(s.width-f.width,0);
+
+1.9442673704375606
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/RefineryUtilities.java<175,175>
+
+-------- Similar Code ---------
+int h=Math.max(s.height-f.height,0);
+
+1.9442673704375606
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/RefineryUtilities.java<176,176>
+
+-------- Similar Code ---------
+return Math.max(a,b);
+
+1.9203579866168443
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeries.java<730,730>
+
+-------- Similar Code ---------
+return Math.max(a,b);
+
+1.9203579866168443
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/TimeSeries.java<1298,1298>
+
+-------- Similar Code ---------
+return Math.max(value+delta,0.0);
+
+1.840168050416806
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/Range.java<333,333>
+
+-------- Similar Code ---------
+double maxW=Math.max(width-w[2],0.0);
+
+1.8273403039920306
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<301,301>
+
+-------- Similar Code ---------
+return Math.max(index,0);
+
+1.7921180343813394
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/RendererUtilities.java<241,241>
+
+-------- Similar Code ---------
+return Math.max(result,0.0);
+
+1.7921180343813394
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/AbstractBlock.java<386,386>
+
+-------- Similar Code ---------
+return Math.max(result,0.0);
+
+1.7921180343813394
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/AbstractBlock.java<404,404>
+
+-------- Similar Code ---------
+maximum=positive;
+
+1.776187060183953
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2087,2087>
+
+-------- Similar Code ---------
+this.maximumItemCount=maximum;
+
+1.776187060183953
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeries.java<384,384>
+
+-------- Similar Code ---------
+this.maximumItemCount=maximum;
+
+1.776187060183953
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/ComparableObjectSeries.java<160,160>
+
+-------- Similar Code ---------
+this.maximumItemCount=maximum;
+
+1.776187060183953
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/TimeSeries.java<295,295>
+
+-------- Similar Code ---------
+double maximum=base;
+
+1.770142500145332
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2070,2070>
+
+-------- Similar Code ---------
+adjust=-7+Math.max(0,targetWeekday-baseDOW);
+
+1.752772652709081
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/SerialDate.java<650,650>
+
+-------- Similar Code ---------
+h[2]=Math.max(h[2],h[3]);
+
+1.6969320524371696
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<207,207>
+
+-------- Similar Code ---------
+h[2]=Math.max(h[2],h[3]);
+
+1.6969320524371696
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<311,311>
+
+-------- Similar Code ---------
+h[2]=Math.max(h[2],h[3]);
+
+1.6969320524371696
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<374,374>
+
+-------- Similar Code ---------
+result=new Double(maximum);
+
+1.691132788679007
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1601,1601>
+
+-------- Similar Code ---------
+result=new Double(maximum);
+
+1.691132788679007
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2038,2038>
+
+-------- Similar Code ---------
+firstItem=Math.max(itemBounds[0]-1,0);
+
+1.688032961232452
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/XYPlot.java<3846,3846>
+
+-------- Similar Code ---------
+firstItem=Math.max(itemBounds[0]-1,0);
+
+1.688032961232452
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/XYPlot.java<3877,3877>
+
+-------- Similar Code ---------
+return Math.max(last-this.firstCategoryIndex+1,0);
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/gantt/SlidingGanttCategoryDataset.java<276,276>
+
+-------- Similar Code ---------
+return Math.max(last-this.firstCategoryIndex+1,0);
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/category/SlidingCategoryDataset.java<277,277>
+
+-------- Similar Code ---------
+double maximum=0.0;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<283,283>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<107,107>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<163,163>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<175,175>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<746,746>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<974,974>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1054,1054>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1232,1232>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1318,1318>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1397,1397>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1577,1577>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1752,1752>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1808,1808>
+
+-------- Similar Code ---------
+double maximum=Double.NEGATIVE_INFINITY;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1870,1870>
+
+-------- Similar Code ---------
+double maximum=0.0;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2020,2020>
+
+-------- Similar Code ---------
+double maximum=0.0;
+
+1.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2141,2141>
+
+-------- Similar Code ---------
+double[] maximum=new double[groupCount];
+
+1.6677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1927,1927>
+
+-------- Similar Code ---------
+double maximum=getMaximum(values);
+
+1.6677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/HistogramDataset.java<136,136>
+
+-------- Similar Code ---------
+result=Math.max(result,fragment.calculateBaselineOffset(g2,anchor));
+
+1.6502785108724587
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/text/TextLine.java<231,232>
+
+-------- Similar Code ---------
+max=Math.max(max,calculateTextBlockHeight(label,position,g2));
+
+1.6502785108724587
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/CategoryAxis.java<1126,1127>
+
+-------- Similar Code ---------
+max=Math.max(max,calculateTextBlockWidth(label,position,g2));
+
+1.6502785108724587
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/CategoryAxis.java<1131,1132>
+
+-------- Similar Code ---------
+volumeWidth=Math.max(Math.min(1,this.maxCandleWidth),xxWidth);
+
+1.6468627254862735
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<746,746>
+
+-------- Similar Code ---------
+stickWidth=Math.max(Math.min(3,this.maxCandleWidth),xxWidth);
+
+1.6468627254862735
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<747,747>
+
+-------- Similar Code ---------
+height=Math.max(height,dimension.getHeight());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/text/TextLine.java<184,184>
+
+-------- Similar Code ---------
+width=Math.max(width,dimension.getWidth());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/text/TextBlock.java<168,168>
+
+-------- Similar Code ---------
+low=Math.max(low,dataArea.getMinX());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1255,1255>
+
+-------- Similar Code ---------
+low=Math.max(low,dataArea.getMinY());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java<1263,1263>
+
+-------- Similar Code ---------
+l_minuendMaxY=Math.max(l_minuendMaxY,l_minuendNextY.doubleValue());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java<796,797>
+
+-------- Similar Code ---------
+l_subtrahendMaxY=Math.max(l_subtrahendMaxY,l_subtrahendNextY.doubleValue());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java<798,799>
+
+-------- Similar Code ---------
+bottom=Math.max(bottom,dataArea.getMinX());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYBarRenderer.java<893,893>
+
+-------- Similar Code ---------
+bottom=Math.max(bottom,dataArea.getMinY());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYBarRenderer.java<900,900>
+
+-------- Similar Code ---------
+low=Math.max(low,dataArea.getMinY());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java<1407,1407>
+
+-------- Similar Code ---------
+low=Math.max(low,dataArea.getMinX());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java<1415,1415>
+
+-------- Similar Code ---------
+low=Math.max(low,dataArea.getMinX());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java<1606,1606>
+
+-------- Similar Code ---------
+low=Math.max(low,dataArea.getMinY());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java<1614,1614>
+
+-------- Similar Code ---------
+maxH=Math.max(maxH,s.getHeight());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/GridArrangement.java<378,378>
+
+-------- Similar Code ---------
+maxW=Math.max(maxW,s.getWidth());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/GridArrangement.java<411,411>
+
+-------- Similar Code ---------
+width=Math.max(width,bounds.getWidth());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/PolarPlot.java<786,786>
+
+-------- Similar Code ---------
+maxW=Math.max(tb.getWidth(),minW);
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/dial/DialValueIndicator.java<614,614>
+
+-------- Similar Code ---------
+maxH=Math.max(tb.getHeight(),minH);
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/dial/DialValueIndicator.java<615,615>
+
+-------- Similar Code ---------
+result=Math.max(result,explode.doubleValue());
+
+1.6384919824742168
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/PiePlot.java<1656,1656>
+
+-------- Similar Code ---------
+float xstart=(float)valueToJava2D(Math.max(first,axisMin),dataArea,edge);
+
+1.6236093340613467
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<891,892>
+
+-------- Similar Code ---------
+result=new Range(minimum,maximum);
+
+1.6173208180319363
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1893,1893>
+
+-------- Similar Code ---------
+bin=new HistogramBin(lower,maximum);
+
+1.6173208180319363
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/HistogramDataset.java<179,179>
+
+-------- Similar Code ---------
+state.cursorUp(Math.max(outsideLength,this.minorTickMarkOutsideLength));
+
+1.607843137254902
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<785,786>
+
+-------- Similar Code ---------
+state.cursorDown(Math.max(outsideLength,this.minorTickMarkOutsideLength));
+
+1.607843137254902
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<789,790>
+
+-------- Similar Code ---------
+double lower=Math.max(r.getLowerBound(),this.smallestValue);
+
+1.607843137254902
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<399,399>
+
+-------- Similar Code ---------
+double translatedWidth=Math.max(1,Math.abs(translatedEndX-translatedStartX));
+
+1.60018672268534
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYBarRenderer.java<879,880>
+
+-------- Similar Code ---------
+double translatedWidth=Math.max(1,Math.abs(translatedEndX-translatedStartX));
+
+1.60018672268534
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYBarRenderer.java<324,325>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<306,306>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1025,1025>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1184,1184>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1287,1287>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1361,1361>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1492,1492>
+
+-------- Similar Code ---------
+return new Range(minimum,maximum);
+
+1.5921180343813397
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2159,2159>
+
+-------- Similar Code ---------
+n=dataset.getValue(row,Math.max(column-1,0));
+
+1.567034238664838
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/StackedAreaRenderer.java<217,217>
+
+-------- Similar Code ---------
+int remove=this.data.size()-maximum;
+
+1.5441935756192233
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/xy/XYSeries.java<385,385>
+
+-------- Similar Code ---------
+double[] stack0=getStackValues(dataset,row,Math.max(column-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/StackedAreaRenderer.java<221,221>
+
+-------- Similar Code ---------
+double x0=dataset.getXValue(series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYAreaRenderer.java<513,513>
+
+-------- Similar Code ---------
+double y0=dataset.getYValue(series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYAreaRenderer.java<514,514>
+
+-------- Similar Code ---------
+double x0=dataset.getXValue(series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYAreaRenderer2.java<300,300>
+
+-------- Similar Code ---------
+double y0=dataset.getYValue(series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYAreaRenderer2.java<301,301>
+
+-------- Similar Code ---------
+double x0=dataset.getXValue(series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java<236,236>
+
+-------- Similar Code ---------
+double y0=dataset.getYValue(series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java<237,237>
+
+-------- Similar Code ---------
+double[] stack0=getStackValues(tdataset,series,Math.max(item-1,0));
+
+1.537880350404731
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java<241,242>
+
+-------- Similar Code ---------
+lower=Math.max(0.0,lower-getLowerMargin()*range);
+
+1.526393620287762
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<495,495>
+
+-------- Similar Code ---------
+return Math.min(Math.max(0,index),itemCount-1);
+
+1.4940069706586971
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/RendererUtilities.java<147,147>
+
+-------- Similar Code ---------
+double lvalue;
+
+1.4701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<109,109>
+
+-------- Similar Code ---------
+double lvalue;
+
+1.4701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<165,165>
+
+-------- Similar Code ---------
+double lvalue;
+
+1.4701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<177,177>
+
+-------- Similar Code ---------
+double lvalue;
+
+1.4701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<748,748>
+
+-------- Similar Code ---------
+rectWidth=Math.max(getMinimumBarLength(),Math.abs(j2dy1-j2dy0));
+
+1.4625334218796218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<384,385>
+
+-------- Similar Code ---------
+addSeries(key,values,bins,minimum,maximum);
+
+1.4513029883089883
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/HistogramDataset.java<137,137>
+
+-------- Similar Code ---------
+double binWidth=(maximum-minimum)/bins;
+
+1.439150402703196
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/HistogramDataset.java<168,168>
+
+-------- Similar Code ---------
+double barLength=Math.max(Math.abs(translatedValue-translatedBase),getMinimumBarLength());
+
+1.4335200560186734
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/GroupedStackedBarRenderer.java<321,322>
+
+-------- Similar Code ---------
+double rectHeight=Math.max(getMinimumBarLength(),Math.abs(j2dy1-j2dy0));
+
+1.4335200560186734
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/WaterfallBarRenderer.java<372,373>
+
+-------- Similar Code ---------
+double barLength=Math.max(Math.abs(translatedValue-translatedBase),getMinimumBarLength());
+
+1.4335200560186734
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/StackedBarRenderer.java<368,369>
+
+-------- Similar Code ---------
+if(count>maximum){
+delete(0,count-maximum);
+}
+
+1.4182383698685124
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/TimeSeries.java<297,299>
+
+-------- Similar Code ---------
+y=Math.max(line.getY1(),line.getY2())-deltaY;
+
+1.4147743679249676
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/panel/CrosshairOverlay.java<414,414>
+
+-------- Similar Code ---------
+x=Math.max(line.getX1(),line.getX2())-deltaX;
+
+1.4147743679249676
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/panel/CrosshairOverlay.java<424,424>
+
+-------- Similar Code ---------
+uvalue=lvalue;
+
+1.3761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<135,135>
+
+-------- Similar Code ---------
+uvalue=lvalue;
+
+1.3761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<191,191>
+
+-------- Similar Code ---------
+uvalue=lvalue;
+
+1.3761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<771,771>
+
+-------- Similar Code ---------
+Number lvalue,uvalue;
+
+1.3701425001453318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1089,1089>
+
+-------- Similar Code ---------
+result=Range.combine(result,new Range(minimum[j],maximum[j]));
+
+1.3679925896272433
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1957,1958>
+
+-------- Similar Code ---------
+double w=Math.max(b1.getWidth(),b2.getWidth());
+
+1.3677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<854,854>
+
+-------- Similar Code ---------
+double u=Math.max(range1.getUpperBound(),range2.getUpperBound());
+
+1.3677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/Range.java<224,225>
+
+-------- Similar Code ---------
+while(this.data.size()>maximum){
+this.data.remove(0);
+dataRemoved=true;
+}
+
+1.3649206190444436
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/ComparableObjectSeries.java<162,165>
+
+-------- Similar Code ---------
+if(minimum>maximum){
+return null;
+}else {
+return new Range(minimum,maximum);
+}
+
+1.363546605809911
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<141,146>
+
+-------- Similar Code ---------
+if(minimum>maximum){
+return null;
+}else {
+return new Range(minimum,maximum);
+}
+
+1.363546605809911
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<197,202>
+
+-------- Similar Code ---------
+if(minimum>maximum){
+return null;
+}else {
+return new Range(minimum,maximum);
+}
+
+1.363546605809911
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<192,197>
+
+-------- Similar Code ---------
+if(minimum>maximum){
+return null;
+}else {
+return new Range(minimum,maximum);
+}
+
+1.363546605809911
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<779,784>
+
+-------- Similar Code ---------
+if(minimum<=maximum){
+return new Range(minimum,maximum);
+}else {
+return null;
+}
+
+1.363546605809911
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<2093,2098>
+
+-------- Similar Code ---------
+x=Math.max(area.getMinX(),Math.min(x,area.getMaxX()));
+
+1.3469425238482127
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/ShapeUtilities.java<546,546>
+
+-------- Similar Code ---------
+y=Math.max(area.getMinY(),Math.min(y,area.getMaxY()));
+
+1.3469425238482127
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/util/ShapeUtilities.java<547,547>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<125,125>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<136,136>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<181,181>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<192,192>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<187,187>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<758,758>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<773,773>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1245,1245>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1262,1262>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1332,1332>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1414,1414>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue);
+
+1.3333333333333333
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1460,1460>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue.doubleValue());
+
+1.3051586491408835
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1076,1076>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue.doubleValue());
+
+1.3051586491408835
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1098,1098>
+
+-------- Similar Code ---------
+minimum=Math.min(minimum,lvalue.doubleValue());
+
+1.3051586491408835
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1437,1437>
+
+-------- Similar Code ---------
+Number value,lvalue,uvalue;
+
+1.3034758334786654
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<981,981>
+
+-------- Similar Code ---------
+lvalue=uvalue+delta;
+
+1.283987484698603
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<119,119>
+
+-------- Similar Code ---------
+uvalue=lvalue+delta;
+
+1.283987484698603
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<123,123>
+
+-------- Similar Code ---------
+lvalue=uvalue+delta;
+
+1.283987484698603
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<175,175>
+
+-------- Similar Code ---------
+uvalue=lvalue+delta;
+
+1.283987484698603
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<179,179>
+
+-------- Similar Code ---------
+lvalue=lvalue-offset;
+
+1.283987484698603
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<185,185>
+
+-------- Similar Code ---------
+lvalue=vdataset.getXValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<122,122>
+
+-------- Similar Code ---------
+lvalue=dataset.getXValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<134,134>
+
+-------- Similar Code ---------
+lvalue=vdataset.getYValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<178,178>
+
+-------- Similar Code ---------
+lvalue=dataset.getYValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/VectorRenderer.java<190,190>
+
+-------- Similar Code ---------
+lvalue=dataset.getStartXValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<182,182>
+
+-------- Similar Code ---------
+lvalue=intervalXYData.getStartXValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<755,755>
+
+-------- Similar Code ---------
+lvalue=dataset.getXValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<770,770>
+
+-------- Similar Code ---------
+lvalue=icd.getStartValue(row,column);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<991,991>
+
+-------- Similar Code ---------
+lvalue=bx.getValue(series,item);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1069,1069>
+
+-------- Similar Code ---------
+lvalue=icd.getStartValue(series,column);
+
+1.2575396015218359
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1095,1095>
+
+-------- Similar Code ---------
+Number lvalue=bx.getMinRegularValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1067,1067>
+
+-------- Similar Code ---------
+double lvalue=ixyd.getStartYValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1242,1242>
+
+-------- Similar Code ---------
+double lvalue=ohlc.getLowValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1259,1259>
+
+-------- Similar Code ---------
+double lvalue=ixyd.getStartXValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1329,1329>
+
+-------- Similar Code ---------
+double lvalue=ohlc.getLowValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1411,1411>
+
+-------- Similar Code ---------
+Number lvalue=bx.getMinRegularValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1434,1434>
+
+-------- Similar Code ---------
+double lvalue=ixyd.getStartYValue(series,item);
+
+1.226890756302521
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/general/DatasetUtilities.java<1457,1457>
+
+-------- Similar Code ---------
+int upper=Math.max(getDatasetCount(),getRendererCount());
+
+1.1859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/XYPlot.java<3909,3909>
+
+-------- Similar Code ---------
+int upper=Math.max(getDatasetCount(),getRendererCount());
+
+1.1859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/XYPlot.java<3936,3936>
+
+-------- Similar Code ---------
+record1.setAllocatedY(Math.max(minY+record1.getLabelHeight()/2.0,record0.getLowerY()-this.minGap));
+
+1.1848839282012742
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/plot/PieLabelDistributor.java<169,171>
+
+-------- Similar Code ---------
+double start=Math.max(marker.getStartValue(),this.axis.getRange().getLowerBound());
+
+1.1761140001162655
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/MarkerAxisBand.java<193,195>
+
+-------- Similar Code ---------
+if(values[i]<maximum){
+double fraction=(values[i]-minimum)/(maximum-minimum);
+if(fraction<0.0){
+fraction=0.0;
+}
+binIndex=(int)(fraction*bins);
+if(binIndex>=bins){
+binIndex=bins-1;
+}
+}
+
+1.1127545152415905
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/HistogramDataset.java<191,203>
+
+-------- Similar Code ---------
+double offset=(uvalue-lvalue)/2.0;
+
+1.1111778015959306
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java<184,184>
+
+-------- Similar Code ---------
+area.setRect(area.getX(),Math.min(area.getY()+size.height,area.getMaxY()),area.getWidth(),Math.max(area.getHeight()-size.height,0));
+
+1.0781377641680125
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/JFreeChart.java<1326,1328>
+
+-------- Similar Code ---------
+barHigh=Math.min(barHigh,max);
+
+1.0
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/BarRenderer.java<848,848>
+
+-------- Similar Code ---------
+this.max=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/AxisState.java<191,191>
+
+-------- Similar Code ---------
+this.maxWidth=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/annotations/XYTitleAnnotation.java<207,207>
+
+-------- Similar Code ---------
+this.maxHeight=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/annotations/XYTitleAnnotation.java<227,227>
+
+-------- Similar Code ---------
+this.maximumLinesToDisplay=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/title/TextTitle.java<468,468>
+
+-------- Similar Code ---------
+value=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYStepAreaRenderer.java<603,603>
+
+-------- Similar Code ---------
+this.maximumCategoryCount=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/gantt/SlidingGanttCategoryDataset.java<149,149>
+
+-------- Similar Code ---------
+this.maximumCategoryCount=max;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/category/SlidingCategoryDataset.java<150,150>
+
+-------- Similar Code ---------
+max=tmp;
+
+0.9761870601839528
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/DynamicTimeSeriesCollection.java<628,628>
+
+-------- Similar Code ---------
+double min,max;
+
+0.9701425001453319
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<763,763>
+
+-------- Similar Code ---------
+if(max!=null){
+double maxv=max.doubleValue();
+if(!Double.isNaN(maxv)){
+if(maxv>this.maximumRangeValue||Double.isNaN(this.maximumRangeValue)){
+this.maximumRangeValue=maxv;
+this.maximumRangeValueRow=r;
+this.maximumRangeValueColumn=c;
+}
+}
+}
+
+0.9644489131709931
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<873,883>
+
+-------- Similar Code ---------
+max=values[i];
+
+0.9506541513652698
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/HistogramDataset.java<254,254>
+
+-------- Similar Code ---------
+{
+double max=0.0;
+for(int s=0;s<getSeriesCount();s++){
+for(int i=0;i<this.historyCount;i++){
+double tmp=getYValue(s,i);
+if(tmp>max){
+max=tmp;
+}
+}
+}
+return max;
+}
+
+0.9273420957271555
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/DynamicTimeSeriesCollection.java<622,633>
+
+-------- Similar Code ---------
+double maxY=rangeAxis.valueToJava2D(this.max,dataArea,plot.getRangeAxisEdge());
+
+0.9007546982220901
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<373,374>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<1037,1037>
+
+-------- Similar Code ---------
+max=area.getY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<1041,1041>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<313,313>
+
+-------- Similar Code ---------
+max=area.getY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<317,317>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<354,354>
+
+-------- Similar Code ---------
+max=area.getMinY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<357,357>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<823,823>
+
+-------- Similar Code ---------
+max=area.getY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<827,827>
+
+-------- Similar Code ---------
+max=plotArea.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogarithmicAxis.java<636,636>
+
+-------- Similar Code ---------
+max=plotArea.getMinY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogarithmicAxis.java<640,640>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<537,537>
+
+-------- Similar Code ---------
+max=area.getMinY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<540,540>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<577,577>
+
+-------- Similar Code ---------
+max=area.getY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<581,581>
+
+-------- Similar Code ---------
+max=area.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<251,251>
+
+-------- Similar Code ---------
+max=area.getMinY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<256,256>
+
+-------- Similar Code ---------
+this.max=value.doubleValue();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<364,364>
+
+-------- Similar Code ---------
+this.max=value.doubleValue();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<391,391>
+
+-------- Similar Code ---------
+max=dataArea.getMaxY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYStepAreaRenderer.java<593,593>
+
+-------- Similar Code ---------
+max=dataArea.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYStepAreaRenderer.java<597,597>
+
+-------- Similar Code ---------
+max=dataArea.getMaxX();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<766,766>
+
+-------- Similar Code ---------
+max=dataArea.getMaxY();
+
+0.8911327886790069
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<770,770>
+
+-------- Similar Code ---------
+return arrangeRR(g2,max,max);
+
+0.8775269089525567
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/title/TextTitle.java<538,538>
+
+-------- Similar Code ---------
+return arrangeRR(g2,max,max);
+
+0.8775269089525567
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/title/ShortTextTitle.java<143,143>
+
+-------- Similar Code ---------
+state.setMax(max);
+
+0.8677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/CategoryAxis.java<1141,1141>
+
+-------- Similar Code ---------
+double zzVolume=volumeHeight*(max-min);
+
+0.8677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<773,773>
+
+-------- Similar Code ---------
+Number max=item.getMaxOutlier();
+
+0.8677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java<872,872>
+
+-------- Similar Code ---------
+double max=getRangeUpperBound(includeInterval);
+
+0.8677218312746247
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/DynamicTimeSeriesCollection.java<963,963>
+
+-------- Similar Code ---------
+g2.fill(new Rectangle2D.Double(xx-volumeWidth/2,max-zzVolume,volumeWidth,zzVolume));
+
+0.8555852638929972
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/CandlestickRenderer.java<785,786>
+
+-------- Similar Code ---------
+this.valueRange=new Range(0.0,max);
+
+0.82502864732539
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/data/time/DynamicTimeSeriesCollection.java<964,964>
+
+-------- Similar Code ---------
+max=area.getX()+area.getWidth();
+
+0.8140915784106942
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<178,178>
+
+-------- Similar Code ---------
+max=area.getMaxY()-area.getHeight();
+
+0.8140915784106942
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<182,182>
+
+-------- Similar Code ---------
+max=area.getX()+area.getWidth()*length1/(length1+length2);
+
+0.8031157077540444
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<214,214>
+
+-------- Similar Code ---------
+max=area.getMaxY()-area.getHeight()*length1/(length1+length2);
+
+0.8031157077540444
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<218,219>
+
+-------- Similar Code ---------
+result=axisMax-((java2DValue-min)/(max-min)*(axisMax-axisMin));
+
+0.7963954906445218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<1044,1045>
+
+-------- Similar Code ---------
+result=axisMin+((java2DValue-min)/(max-min)*(axisMax-axisMin));
+
+0.7963954906445218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<1048,1049>
+
+-------- Similar Code ---------
+log=axisMax-(java2DValue-min)/(max-min)*(axisMax-axisMin);
+
+0.7963954906445218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<321,322>
+
+-------- Similar Code ---------
+log=axisMin+(java2DValue-min)/(max-min)*(axisMax-axisMin);
+
+0.7963954906445218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<325,326>
+
+-------- Similar Code ---------
+result=axisMax-((java2DValue-min)/(max-min)*(axisMax-axisMin));
+
+0.7963954906445218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<832,833>
+
+-------- Similar Code ---------
+result=axisMin+((java2DValue-min)/(max-min)*(axisMax-axisMin));
+
+0.7963954906445218
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<836,837>
+
+-------- Similar Code ---------
+return new Range(min,max);
+
+0.7921180343813395
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java<184,184>
+
+-------- Similar Code ---------
+double valueRange=max.doubleValue()-min.doubleValue();
+
+0.7778444682625973
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/WaferMapRenderer.java<269,269>
+
+-------- Similar Code ---------
+setRange(max-1.0,max);
+
+0.733358797622569
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ValueAxis.java<1214,1214>
+
+-------- Similar Code ---------
+return max-((value-axisMin)/(axisMax-axisMin))*(max-min);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<361,362>
+
+-------- Similar Code ---------
+return min+((value-axisMin)/(axisMax-axisMin))*(max-min);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<365,366>
+
+-------- Similar Code ---------
+return max-(((value-axisMin)/(axisMax-axisMin))*(max-min));
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogarithmicAxis.java<646,647>
+
+-------- Similar Code ---------
+return min+(((value-axisMin)/(axisMax-axisMin))*(max-min));
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogarithmicAxis.java<650,651>
+
+-------- Similar Code ---------
+return max-((value-axisMin)/(axisMax-axisMin))*(max-min);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<544,545>
+
+-------- Similar Code ---------
+return min+((value-axisMin)/(axisMax-axisMin))*(max-min);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<548,549>
+
+-------- Similar Code ---------
+return axisMax-(java2DValue-min)/(max-min)*(axisMax-axisMin);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<584,585>
+
+-------- Similar Code ---------
+return axisMin+(java2DValue-min)/(max-min)*(axisMax-axisMin);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<588,589>
+
+-------- Similar Code ---------
+return max-((value-this.displayStart)/(this.displayEnd-this.displayStart))*(max-min);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<185,186>
+
+-------- Similar Code ---------
+return min+((value-this.displayStart)/(this.displayEnd-this.displayStart))*(max-min);
+
+0.732292093352318
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<189,190>
+
+-------- Similar Code ---------
+return max-((value-this.displayStart)/(this.fixedRange.getUpperBound()-this.displayStart))*(max-min);
+
+0.7280713544892813
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<222,224>
+
+-------- Similar Code ---------
+return min+((value-this.displayStart)/(this.fixedRange.getUpperBound()-this.displayStart))*(max-min);
+
+0.7280713544892813
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<227,229>
+
+-------- Similar Code ---------
+return max-((value-this.fixedRange.getLowerBound())/(this.displayEnd-this.fixedRange.getLowerBound()))*(max-min);
+
+0.715833989590879
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<261,263>
+
+-------- Similar Code ---------
+return min+((value-this.fixedRange.getLowerBound())/(this.displayEnd-this.fixedRange.getLowerBound()))*(max-min);
+
+0.715833989590879
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<266,268>
+
+-------- Similar Code ---------
+double height=h[0]+h[1];
+
+0.6859943405700354
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<322,322>
+
+-------- Similar Code ---------
+double height=h[0]+h[1];
+
+0.6859943405700354
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/block/BorderArrangement.java<388,388>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/PeriodAxis.java<1032,1032>
+
+-------- Similar Code ---------
+return this.max;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/AxisState.java<182,182>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<310,310>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogAxis.java<351,351>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/CategoryAxis.java<1096,1096>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/DateAxis.java<820,820>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/LogarithmicAxis.java<633,633>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<534,534>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/NumberAxis.java<574,574>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<175,175>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<211,211>
+
+-------- Similar Code ---------
+double max=0.0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/axis/ModuloAxis.java<249,249>
+
+-------- Similar Code ---------
+if(barLow>max){
+return null;
+}
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/category/BarRenderer.java<844,846>
+
+-------- Similar Code ---------
+double max=0;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/XYStepAreaRenderer.java<590,590>
+
+-------- Similar Code ---------
+double max=Double.NEGATIVE_INFINITY;
+
+0.6859943405700353
+/home/dale/d4j/Chart/Chart_2/source/org/jfree/chart/renderer/xy/StackedXYAreaRenderer2.java<172,172>

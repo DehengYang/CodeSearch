@@ -1,0 +1,44 @@
+-------- Original Code ---------
+if((endIndex<0)||(endIndex<startIndex)){
+emptyRange=true;
+}
+
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_9/source/org/jfree/data/time/TimeSeries.java<944,946>
+
+-------- Similar Code ---------
+if(endIndex<0){
+emptyRange=true;
+}
+
+1.9284141650970552
+/home/dale/d4j/Chart/Chart_9/source/org/jfree/data/time/TimeSeries.java<944,946>
+
+-------- Similar Code ---------
+if(startIndex<0){
+startIndex=-(startIndex+1);
+if(startIndex==this.data.size()){
+emptyRange=true;
+}
+}
+
+1.3287650618019042
+/home/dale/d4j/Chart/Chart_9/source/org/jfree/data/time/TimeSeries.java<933,938>
+
+-------- Similar Code ---------
+if(endIndex<0){
+endIndex=-(endIndex+1);
+endIndex=endIndex-1;
+}
+
+1.2967234132481775
+/home/dale/d4j/Chart/Chart_9/source/org/jfree/data/time/TimeSeries.java<940,943>
+
+-------- Similar Code ---------
+if(start.compareTo(end)>0){
+throw new IllegalArgumentException("Requires start on or before end.");
+}
+boolean emptyRange=false;
+int startIndex=getIndex(start);
+
+1.2673257575112347
+/home/dale/d4j/Chart/Chart_9/source/org/jfree/data/time/TimeSeries.java<927,932>

@@ -69,8 +69,25 @@ public class CodeSnippet {
 		this.extendedStatement = extendedStatement;
 		this.MAX_LESS_THRESHOLD = max_less_threshold;
 		this.MAX_MORE_THRESHOLD = max_more_threshold;
-		searchNodes(extendedLine);
-		searchNodes(last_extendedLine);
+		
+		for (int lineNo = extendedLine; lineNo <= last_extendedLine; lineNo ++){
+			// bug fix: exclude repeated AST 
+			int repeat = 0;
+			for (ASTNode node : nodes){
+				int start = unit.getLineNumber(node.getStartPosition());
+				int end = unit.getLineNumber(node.getStartPosition() + node.getLength());
+				if (start <= lineNo && lineNo <= end){
+					repeat = 1;
+					break;
+				}
+			}
+			if (repeat == 0){
+				searchNodes(lineNo);
+			}
+			
+		}
+//		searchNodes(extendedLine);
+//		searchNodes(last_extendedLine);
 	}
 	public CodeSnippet(CompilationUnit unit, int first_extendedLine,
 			int lineRange, Statement extendedStatement,

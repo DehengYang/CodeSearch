@@ -84,12 +84,12 @@ public class Main {
 		// init subject & search log
 		proj = proj.toLowerCase();
 		Subject subject = getSubject(proj, Integer.parseInt(id));
-		ProjectInfo.init(subject);
+//		ProjectInfo.init(subject);
 		
 		init();
 		
 		// obtain source code path (recipient code) & target path(for code search)
-		src_path = get_source_path(src_path);
+//		src_path = get_source_path(src_path);
 		fixed_src_path = get_source_path(fixed_src_path);
 		target_source_path = get_source_path(target_source_path);
 
@@ -432,7 +432,8 @@ public class Main {
 		
 		// save original code snippet
 		writeStringToFile(logfile, "-------- Original Code ---------\n",true);
-		writeStringToFile(logfile, currentBlockString + "\n" + oneBuggyBlock.getFileName()
+		writeStringToFile(logfile, currentBlockString + "\n" 
+			+ oneBuggyBlock.getFileName()
 			+ "<" + oneBuggyBlock.getCodeRange().getFirst() 
 			+ "," + oneBuggyBlock.getCodeRange().getSecond() + ">\n", true);
 		
