@@ -1,5 +1,0 @@
-fixed code:/home/dale/d4j/fixed_bugs_dir/Mockito/Mockito_4/src/org/mockito/exceptions/Reporter.java-677-679
-similar code:/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java-91-94
-similar code:/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/configuration/injection/ConstructorInjection.java-56-59
-similar code:/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/debugging/VerboseMockInvocationLogger.java-43-46
-similar code:/home/dale/d4j/Mockito/Mockito_4/src/org/mockito/internal/creation/cglib/AcrossJVMSerializationFeature.java-126-132

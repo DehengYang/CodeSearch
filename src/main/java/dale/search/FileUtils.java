@@ -12,6 +12,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -27,6 +28,19 @@ import dale.parser.Subject;
 
 public class FileUtils {
 	private static Logger logger = Logger.getLogger(Main.class.getName());
+
+	// only contains(all lower case): string, double, int, float, char, 
+	// =, !, !=, &&, &, ==, ++, +, -.
+	// boolean, byte, char, short, int, long, float and double
+	// Integer, Float, Double, String, Array
+	private static List<String> basicType=  new ArrayList<>(Arrays.asList(
+			"boolean", "byte", "char", "short", "int", "long", "float", "double",
+			"Integer", "Float", "Double", "String", "Array",
+			"=", "==", "!", "!=", "&", "&&", "+", "++", "-", "--",
+			"<", "<=", ">", ">=", "/", "/=", "|", "||",	"*", "*=", "%", "%=",
+			// extra: "===", "false", "true"
+			"==="
+			));
 	
 	//
 	public static CompilationUnit genASTFromFile(String fileName){
@@ -112,6 +126,14 @@ public class FileUtils {
 		return fileList;
 	}
 	
+	/**
+	 * read file, return lines.
+	 * @param proj
+	 * @param id
+	 * @param flag
+	 * @return
+	 * @throws IOException
+	 */
 	public static List<String> readFile(String proj, String id, String flag) throws IOException {
 		String file_path = "";
 		proj = upperFirstCase(proj);
@@ -119,8 +141,11 @@ public class FileUtils {
 			file_path = "buggy_locs/" + proj + '/' + proj + '_' + id + ".txt";
 		}else if(flag.equals("fixed")){
 			file_path = "buggy_locs/" + proj + '/' + proj + '_' + id + "_fixed.txt";
+		}else if(flag.equals("modification")){
+			file_path = "modifications/" + proj + '/' + proj + '_' + id + ".txt";
 		}else{
 			print("Invalid flag:" + flag);
+			return null;
 		}
 		
 		List<String> lines = new ArrayList<>();
@@ -389,6 +414,23 @@ public class FileUtils {
 	 */
 	public static void print(String str){
 		System.out.println(str);
+	}
+
+	public static void checkPatchType(List<String> fixed_chunk, String proj, String id, Map<String, Pair<String, String>> lineTypesMap) throws IOException {
+		List<String> lines = readFile(proj, id, "modification");
+		for(int i = 0; i < lines.size(); i++){
+			String line = lines.get(i).trim();
+			// get modification of the patch line.
+			if(fixed_chunk.contains(line)){
+				String modification = lines.get(i+1).trim();
+				// Chart 1: only contains =
+				if (basicType.contains(modification)){
+					lineTypesMap.put(line, new Pair<>("type1", modification));
+				}else{
+					lineTypesMap.put(line, new Pair<>("type2", modification));
+				}
+			}
+		}
 	}
 	
 }

@@ -59,18 +59,19 @@ public class CodeSnippet {
 	
 	// initialization. 
 	// e.g., unit, lineNo, 5, null, 3
-	public CodeSnippet(CompilationUnit unit, int first_extendedLine, int last_extendedLine,
+	public CodeSnippet(CompilationUnit unit, List<Integer> linesList,
 			int lineRange, Statement extendedStatement,
 			int max_less_threshold, int max_more_threshold) {
 		this.unit = unit;
-		this.extendedLine = first_extendedLine;
+		this.extendedLine = linesList.get(0);
 		this.last_extendedLine = last_extendedLine;
 		this.lineRange = lineRange;
 		this.extendedStatement = extendedStatement;
 		this.MAX_LESS_THRESHOLD = max_less_threshold;
 		this.MAX_MORE_THRESHOLD = max_more_threshold;
 		
-		for (int lineNo = extendedLine; lineNo <= last_extendedLine; lineNo ++){
+//		for (int lineNo = extendedLine; lineNo <= last_extendedLine; lineNo ++){
+		for(int lineNo : linesList){
 			// bug fix: exclude repeated AST 
 			int repeat = 0;
 			for (ASTNode node : nodes){

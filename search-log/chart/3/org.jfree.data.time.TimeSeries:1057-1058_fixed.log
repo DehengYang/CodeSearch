@@ -10,7 +10,7 @@ this.minY=Double.NaN;
 this.maxY=Double.NaN;
 
 1.7970544855015815
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<175,177>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<175,177>
 
 -------- Similar Code ---------
 this.maximumItemAge=Long.MAX_VALUE;
@@ -18,7 +18,7 @@ this.minY=Double.NaN;
 this.maxY=Double.NaN;
 
 1.7788389158235427
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<192,194>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<192,194>
 
 -------- Similar Code ---------
 {
@@ -30,7 +30,7 @@ fireSeriesChanged();
 }
 
 1.6278279803335733
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<950,956>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<950,956>
 
 -------- Similar Code ---------
 {
@@ -43,7 +43,7 @@ fireSeriesChanged();
 }
 
 1.5593733362751694
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<601,608>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<601,608>
 
 -------- Similar Code ---------
 if(y<=this.minY||y>=this.maxY){
@@ -51,7 +51,7 @@ findBoundsByIteration();
 }
 
 1.4758214465453445
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1232,1234>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1234,1236>
 
 -------- Similar Code ---------
 if(y<=this.minY||y>=this.maxY){
@@ -59,7 +59,7 @@ itemContributesToYBounds=true;
 }
 
 1.4580492663621445
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<278,280>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<278,280>
 
 -------- Similar Code ---------
 {
@@ -68,7 +68,7 @@ minY=maxY-4*getSize();
 }
 
 1.4323446362038985
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<107,110>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<107,110>
 
 -------- Similar Code ---------
 if(!Double.isNaN(oldY)){
@@ -76,7 +76,7 @@ iterate=oldY<=this.minY||oldY>=this.maxY;
 }
 
 1.4316142209946916
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<673,675>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<673,675>
 
 -------- Similar Code ---------
 if(!Double.isNaN(oldY)){
@@ -84,7 +84,7 @@ iterate=oldY<=this.minY||oldY>=this.maxY;
 }
 
 1.4316142209946916
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<814,816>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<814,816>
 
 -------- Similar Code ---------
 if(!Double.isNaN(oldY)){
@@ -92,7 +92,7 @@ iterate=oldY<=this.minY||oldY>=this.maxY;
 }
 
 1.4316142209946916
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<726,728>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<726,728>
 
 -------- Similar Code ---------
 if(!Double.isNaN(oldY)){
@@ -100,7 +100,7 @@ iterate=oldY<=this.minY||oldY>=this.maxY;
 }
 
 1.4316142209946916
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<834,836>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<834,836>
 
 -------- Similar Code ---------
 if(Double.isInfinite(minY)||Double.isNaN(minY)){
@@ -108,7 +108,7 @@ throw new IllegalArgumentException("\'minY\' cannot be INF or NaN.");
 }
 
 1.346809798439941
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<103,105>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<103,105>
 
 -------- Similar Code ---------
 if(Double.isInfinite(maxY)||Double.isNaN(maxY)){
@@ -116,7 +116,7 @@ throw new IllegalArgumentException("\'maxY\' cannot be INF or NaN.");
 }
 
 1.346809798439941
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<106,108>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<106,108>
 
 -------- Similar Code ---------
 {
@@ -130,7 +130,7 @@ updateBoundsForAddedItem(item);
 }
 
 1.3440686400617012
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1245,1253>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1247,1255>
 
 -------- Similar Code ---------
 {
@@ -140,7 +140,7 @@ this.maxY=maxIgnoreNaN(this.maxY,y);
 }
 
 1.3397429877987295
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<251,255>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<251,255>
 
 -------- Similar Code ---------
 {
@@ -150,7 +150,7 @@ this.maxY=maxIgnoreNaN(this.maxY,yy);
 }
 
 1.3397429877987295
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<681,685>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<681,685>
 
 -------- Similar Code ---------
 {
@@ -160,7 +160,7 @@ this.maxY=maxIgnoreNaN(this.maxY,yy);
 }
 
 1.3397429877987295
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<734,738>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<734,738>
 
 -------- Similar Code ---------
 {
@@ -170,7 +170,7 @@ this.maxY=maxIgnoreNaN(this.maxY,y);
 }
 
 1.3397429877987295
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1212,1216>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<1214,1218>
 
 -------- Similar Code ---------
 {
@@ -186,7 +186,7 @@ updateBoundsForAddedItem(item);
 }
 
 1.308895666153064
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<303,313>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<303,313>
 
 -------- Similar Code ---------
 if(this.minY!=that.minY){
@@ -194,7 +194,7 @@ return false;
 }
 
 1.307207352795575
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<298,300>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<298,300>
 
 -------- Similar Code ---------
 if(this.maxY!=that.maxY){
@@ -202,7 +202,7 @@ return false;
 }
 
 1.307207352795575
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<301,303>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<301,303>
 
 -------- Similar Code ---------
 if(!Double.isNaN(minY)){
@@ -210,7 +210,7 @@ lower=Math.min(lower,minY);
 }
 
 1.304252880059105
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<703,705>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<703,705>
 
 -------- Similar Code ---------
 if(!Double.isNaN(maxY)){
@@ -218,7 +218,7 @@ upper=Math.max(upper,maxY);
 }
 
 1.304252880059105
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<707,709>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeriesCollection.java<707,709>
 
 -------- Similar Code ---------
 {
@@ -228,7 +228,7 @@ this.maxY=minIgnoreNaN(this.maxY,yy);
 }
 
 1.2997354108424375
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<822,826>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/xy/XYSeries.java<822,826>
 
 -------- Similar Code ---------
 {
@@ -238,7 +238,7 @@ this.maxY=minIgnoreNaN(this.maxY,yy);
 }
 
 1.2997354108424375
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<841,845>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/time/TimeSeries.java<841,845>
 
 -------- Similar Code ---------
 {
@@ -247,7 +247,7 @@ return y;
 }
 
 1.2803584520815892
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<208,212>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/data/general/DefaultHeatMapDataset.java<208,212>
 
 -------- Similar Code ---------
 if(y<minY){
@@ -255,7 +255,7 @@ y=minY;
 }
 
 1.2792386362602504
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<96,98>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<96,98>
 
 -------- Similar Code ---------
 {
@@ -264,7 +264,7 @@ minY+=4*getSize();
 }
 
 1.1930602869544287
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<103,106>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/needle/ArrowNeedle.java<103,106>
 
 -------- Similar Code ---------
 {
@@ -274,7 +274,7 @@ this.maxIcon.paintIcon(null,g2,(int)x1,(int)maxY);
 }
 
 1.184043948309936
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<376,380>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<376,380>
 
 -------- Similar Code ---------
 {
@@ -284,7 +284,7 @@ this.maxIcon.paintIcon(null,g2,(int)maxY,(int)x1);
 }
 
 1.184043948309936
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<381,385>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<381,385>
 
 -------- Similar Code ---------
 g2.setStroke(this.groupStroke);
@@ -292,7 +292,7 @@ double minY=rangeAxis.valueToJava2D(this.min,dataArea,plot.getRangeAxisEdge());
 double maxY=rangeAxis.valueToJava2D(this.max,dataArea,plot.getRangeAxisEdge());
 
 1.181230439694592
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<370,374>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java<370,374>
 
 -------- Similar Code ---------
 if(isOverlap()){
@@ -300,7 +300,7 @@ adjustDownwards(minY,height);
 }
 
 1.1467616667635547
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<78,80>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<78,80>
 
 -------- Similar Code ---------
 if(isOverlap()){
@@ -308,7 +308,7 @@ adjustUpwards(minY,height);
 }
 
 1.1467616667635547
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<82,84>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<82,84>
 
 -------- Similar Code ---------
 if(isOverlap()){
@@ -316,7 +316,7 @@ spreadEvenly(minY,height);
 }
 
 1.1467616667635547
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<86,88>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<86,88>
 
 -------- Similar Code ---------
 y=this.zoomPoint.getY();
@@ -324,7 +324,7 @@ w=screenDataArea.getWidth();
 h=Math.min(this.zoomRectangle.getHeight(),maxY-this.zoomPoint.getY());
 
 1.1144253506028683
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<188,191>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<188,191>
 
 -------- Similar Code ---------
 {
@@ -333,7 +333,7 @@ y1=maxY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<99,102>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<99,102>
 
 -------- Similar Code ---------
 {
@@ -342,7 +342,7 @@ y1=minY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<104,107>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<104,107>
 
 -------- Similar Code ---------
 {
@@ -351,7 +351,7 @@ y2=maxY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<124,127>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<124,127>
 
 -------- Similar Code ---------
 {
@@ -360,7 +360,7 @@ y2=minY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<129,132>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/LineUtilities.java<129,132>
 
 -------- Similar Code ---------
 {
@@ -369,7 +369,7 @@ y1=maxY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<664,667>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<664,667>
 
 -------- Similar Code ---------
 {
@@ -378,7 +378,7 @@ y1=minY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<669,672>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<669,672>
 
 -------- Similar Code ---------
 {
@@ -387,7 +387,7 @@ y2=maxY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<689,692>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<689,692>
 
 -------- Similar Code ---------
 {
@@ -396,7 +396,7 @@ y2=minY;
 }
 
 1.0997354108424373
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<694,697>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/util/ShapeUtilities.java<694,697>
 
 -------- Similar Code ---------
 float midX=(float)(minX+(plotArea.getWidth()*0.5));
@@ -404,7 +404,7 @@ float midY=(float)(minY+(plotArea.getHeight()*0.8));
 float y=maxY-(2*(maxY-midY));
 
 1.0955492673000393
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<93,95>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/needle/LongNeedle.java<93,95>
 
 -------- Similar Code ---------
 y=this.zoomPoint.getY();
@@ -412,7 +412,7 @@ w=Math.min(this.zoomRectangle.getWidth(),maxX-this.zoomPoint.getX());
 h=Math.min(this.zoomRectangle.getHeight(),maxY-this.zoomPoint.getY());
 
 1.0835414349198564
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<195,199>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<195,199>
 
 -------- Similar Code ---------
 {
@@ -426,7 +426,7 @@ result=maxY-(((value-axisMin)/(axisMax-axisMin))*(maxY-minY));
 }
 
 1.0237410234509017
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/axis/PeriodAxis.java<1001,1012>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/axis/PeriodAxis.java<1001,1012>
 
 -------- Similar Code ---------
 {
@@ -440,7 +440,7 @@ result=maxY-(((value-axisMin)/(axisMax-axisMin))*(maxY-minY));
 }
 
 1.0237410234509017
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/axis/DateAxis.java<767,778>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/axis/DateAxis.java<767,778>
 
 -------- Similar Code ---------
 Rectangle2D screenDataArea=panel.getScreenDataArea((int)this.zoomPoint.getX(),(int)this.zoomPoint.getY());
@@ -448,7 +448,7 @@ double maxX=screenDataArea.getMaxX();
 double maxY=screenDataArea.getMaxY();
 
 1.0226791947664973
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<171,175>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/panel/ZoomHandler.java<171,175>
 
 -------- Similar Code ---------
 if(record1.getUpperY()>record0.getLowerY()){
@@ -456,7 +456,7 @@ record1.setAllocatedY(Math.max(minY+record1.getLabelHeight()/2.0,record0.getLowe
 }
 
 0.9944845161805463
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<168,172>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<168,172>
 
 -------- Similar Code ---------
 if(record1.getLowerY()<record0.getUpperY()){
@@ -464,4 +464,4 @@ record1.setAllocatedY(Math.min(minY+height-record1.getLabelHeight()/2.0,record0.
 }
 
 0.9809496481471622
-/home/dale/d4j/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<148,153>
+/home/dale/d4j/fixed_bugs_dir/Chart/Chart_3/source/org/jfree/chart/plot/PieLabelDistributor.java<148,153>

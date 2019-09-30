@@ -1,9 +1,6 @@
 package dale.search;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,18 +19,19 @@ import org.eclipse.jdt.core.dom.FieldAccess;
 import org.eclipse.jdt.core.dom.Name;
 import org.eclipse.jdt.core.dom.Type;
 
-import dale.parser.Subject;
 import dale.modify.Revision;
 import dale.search.Node;
 import dale.modify.Modification;
 import dale.parser.NodeUtils;
-import dale.parser.Constant;
 
 import java.util.regex.Pattern;
 
 public class Main {
 	private static String project_dir = System.getProperty("user.dir");
 	private static String logfile = project_dir + "/codesearch.log";
+	
+	// for checking patch types (basic type = "type1")
+	private static Map<String, Pair<String, String>> lineTypesMap = new HashMap<String, Pair<String, String>>();
 	
 	// args
 	private static String proj = "";
@@ -70,18 +68,18 @@ public class Main {
 		// get all chunks && do code search for each chunk.
 		List<List<String>> fixed_chunks = getFixedChunks(fixed_lines);
 		for (List<String> fixed_chunk : fixed_chunks){
+			FileUtils.checkPatchType(fixed_chunk, proj, id, lineTypesMap);
 			codeSearchForLine(fixed_chunk, fixed_src_path, "fixed");
 		}
 	}
-	
-	
+
 	/**
 	 * do code search for each chunk of line(s).
 	 * @param line_chunk
 	 * @param src_path
 	 * @param flag
 	 */
-	private static void codeSearchForLine(List<String> line_chunk, String src_path, String flag) {
+	private static int codeSearchForLine(List<String> line_chunk, String src_path, String flag) {
 		// get compilation unit for the line
 		String first_line = line_chunk.get(0);
 		String last_line = line_chunk.get(line_chunk.size() - 1);
@@ -93,9 +91,28 @@ public class Main {
 		int first_lineNo = Integer.parseInt(first_line.split(":")[1]);
 		int last_lineNo = Integer.parseInt(last_line.split(":")[1]);
 		
+		// get all type1 lines && save to file
+		List<Integer> linesList = new ArrayList<>();
+		for(String line : line_chunk){
+			// find a type1 patch line
+			if (lineTypesMap.containsKey(line) && lineTypesMap.get(line).getFirst().equals("type1")){
+				String typelog = "./search-log/" + proj + '/' + id + '/' + line + "_type1.log";
+				FileUtils.writeStringToFile(typelog,lineTypesMap.get(line).getSecond());
+				print("line is type1:" + line);
+			}else{
+				int lineNo = Integer.parseInt(line.split(":")[1]);
+				linesList.add(lineNo);
+			}
+		}
+		
+		// bug fix: return if empty
+		if (linesList.isEmpty()){
+			return -1;
+		}
+		
 		// TODO: make more attempts here.
-		// for test: change 5 to 1
-		CodeSnippet codeSnippet = new CodeSnippet(unit, first_lineNo, last_lineNo, snippet_line_range, null, MAX_LESS_THRESHOLD, MAX_MORE_THRESHOLD);
+				// for test: change 5 to 1
+		CodeSnippet codeSnippet = new CodeSnippet(unit, linesList, snippet_line_range, null, MAX_LESS_THRESHOLD, MAX_MORE_THRESHOLD);
 
 		// get code block
 		CodeBlock codeBlock = new CodeBlock(line_path, unit, codeSnippet.getASTNodes());
@@ -150,7 +167,7 @@ public class Main {
 			getAllPatches(oneBuggyBlock, candidates,
 					usableVars, currentBlockString, haveTryPatches, logfile, log2, flag);
 		}
-		
+		return 1;
 	}
 
 	private static void getAllPatches(CodeBlock oneBuggyBlock, List<Triple<CodeBlock, Double, String>> candidates,
@@ -196,6 +213,7 @@ public class Main {
 					+ "\n"
 					, true);
 			
+			// TODO: the rest code probably can be deleted.
 			// compute transformation
 			List<Modification> modifications = CodeBlockMatcher.match(oneBuggyBlock, similar.getFirst(), usableVars);
 			if (modifications.size() == 0 && flag.equals("buggy")){
