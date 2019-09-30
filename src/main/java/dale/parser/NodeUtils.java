@@ -92,6 +92,7 @@ import dale.metric.Variable;
 import dale.modify.Insertion;
 import dale.modify.Modification;
 import dale.modify.Revision;
+import dale.search.FileUtils;
 import dale.search.Main;
 import dale.search.Node;
 import dale.search.Node.TYPE;
@@ -1357,7 +1358,7 @@ public class NodeUtils {
  	}
 	
 	public static Map<String, Type> getUsableVarTypes(String file, int line){
-		CompilationUnit unit = Main.genASTFromFile(file);
+		CompilationUnit unit = FileUtils.genASTFromFile(file);
 		VariableVisitor variableVisitor = new VariableVisitor(line, unit);
 		unit.accept(variableVisitor);
 		return variableVisitor.getVars();

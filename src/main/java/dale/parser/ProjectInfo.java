@@ -13,6 +13,7 @@ import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Type;
 
 import dale.parser.Subject;
+import dale.search.FileUtils;
 import dale.search.Main;
 
 public class ProjectInfo {
@@ -24,10 +25,10 @@ public class ProjectInfo {
 	public static void init(Subject subject){
 		_classMap = new HashMap<>();
 		String srcPath = subject.getHome() + subject.getSsrc();
-		List<String> files = Main.ergodic(srcPath, new ArrayList<String>());
+		List<String> files = FileUtils.ergodic(srcPath, new ArrayList<String>());
 		TypeParseVisitor typeParseVisitor = new TypeParseVisitor();
 		for(String file : files){
-			CompilationUnit unit = (CompilationUnit) Main.genASTFromSource(Main.readFileToString(file), ASTParser.K_COMPILATION_UNIT);
+			CompilationUnit unit = (CompilationUnit) FileUtils.genASTFromSource(FileUtils.readFileToString(file), ASTParser.K_COMPILATION_UNIT);
 			unit.accept(typeParseVisitor);
 		}
 	}

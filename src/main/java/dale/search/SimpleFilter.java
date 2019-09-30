@@ -72,13 +72,13 @@ public class SimpleFilter {
 	
 	public List<Triple<CodeBlock, Double, String>> filter(String srcPath, double guard){
 		// get all files in the src path
-		List<String> files = Main.ergodic(srcPath, new ArrayList<String>());
+		List<String> files = FileUtils.ergodic(srcPath, new ArrayList<String>());
 		// pair of codeBlock and Similarity
 		List<Triple<CodeBlock, Double, String>> filtered = new ArrayList<>();
 		CollectorVisitor collectorVisitor = new CollectorVisitor();
 		// for each file, start to find similar code
 		for(String file : files){
-			CompilationUnit unit = Main.genASTFromFile(file);
+			CompilationUnit unit = FileUtils.genASTFromFile(file);
 			collectorVisitor.setUnit(file, unit);
 			unit.accept(collectorVisitor);
 			filtered = filter(filtered, guard);

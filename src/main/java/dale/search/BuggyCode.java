@@ -33,7 +33,7 @@ import dale.search.CodeBlock;
 public class BuggyCode {
 
 	public static CodeBlock getBuggyCodeBlock(String fileName, int buggyLine){
-		CompilationUnit unit = Main.genASTFromFile(fileName);
+		CompilationUnit unit = FileUtils.genASTFromFile(fileName);
 //		FindNodeVisitor visitor = new FindNodeVisitor(unit, buggyLine);
 //		unit.accept(visitor);
 //		CodeBlock codeBlock = new CodeBlock(fileName, unit, visitor.getNodes());
