@@ -196,8 +196,8 @@ public class MainTest
     @Test
     public void test_chart() throws IOException{
     	// /home/dale/ALL_APR_TOOLS/d4j-repo
-    	String proj = "Time";
-    	String id = "9";
+    	String proj = "Chart";
+    	String id = "2";
     	String projId = proj + "_" + id;
     	
     	String repoBuggy = "/home/dale/d4j/";

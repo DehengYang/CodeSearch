@@ -149,6 +149,13 @@ public class FileUtils {
 		}
 		
 		List<String> lines = new ArrayList<>();
+		
+		// bug fix: if file does not exist (especially when flag is modifications), return empty lines. 
+		File file = new File(file_path);
+		if(!file.exists()){
+			return lines;
+		}
+		
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(file_path));

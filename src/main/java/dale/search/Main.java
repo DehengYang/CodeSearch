@@ -158,6 +158,7 @@ public class Main {
 			
 			LocalLog.log("print candidates ---");
 			// each chunk (of lines) corresponds a specified log
+			// TODO: consider using linesList.get(0) to replace first_line, and the same operation for last_lineNo. 
 			logfile = "./search-log/" + proj + '/' + id + '/' + first_line + "-"
 					+ last_lineNo + "_" + flag + ".log";
 			String log2 = "./search-log/" + proj + '/' + id + "/lines_" + first_line + "-"
