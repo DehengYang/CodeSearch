@@ -193,11 +193,10 @@ public class MainTest
         process.destroy();
 	}
     
-    @Test
-    public void test_chart() throws IOException{
+    public void testProjId(String proj, String id) throws IOException{
     	// /home/dale/ALL_APR_TOOLS/d4j-repo
-    	String proj = "Chart";
-    	String id = "2";
+//    	String proj = "Chart";
+//    	String id = "10";
     	String projId = proj + "_" + id;
     	
     	String repoBuggy = "/home/dale/d4j/";
@@ -221,6 +220,13 @@ public class MainTest
     			};
     	Main.main(args2);
     }
+    
+    
+    @Test
+    public void test() throws IOException{
+    	testProjId("Time","1");
+    }
+    
 }
 
 class ReadShellProcess implements Callable<String> {
