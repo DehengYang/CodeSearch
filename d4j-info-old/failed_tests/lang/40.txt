@@ -1,2 +1,0 @@
-org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_LocaleIndependence
-org.apache.commons.lang.time.StopWatchTest::testStopWatchSimple

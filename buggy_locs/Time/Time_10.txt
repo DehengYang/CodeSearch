@@ -1,3 +1,0 @@
-org.joda.time.base.BaseSingleFieldPeriod:104
-org.joda.time.base.BaseSingleFieldPeriod:54
-org.joda.time.base.BaseSingleFieldPeriod:50

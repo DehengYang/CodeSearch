@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.TypeCheck:1661
- && fnType.hasInstanceType()

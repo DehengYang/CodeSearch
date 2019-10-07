@@ -1,2 +1,0 @@
-org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected
-org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected

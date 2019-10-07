@@ -1,2 +1,0 @@
-com.google.javascript.rhino.TokenStream:200
-Character.isIdentifierIgnorable(scharAt(i)) ||

@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.ScopedAliases:468
-.getQualifiedName() + name.substring(endIndex)

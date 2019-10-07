@@ -1,2 +1,0 @@
-org.apache.commons.lang3.text.translate.CharSequenceTranslator:83
-Character.codePointCount(, 0, input)

@@ -1,2 +1,0 @@
-org.mockito.internal.creation.DelegatingMethod:68
-method.hashCode()

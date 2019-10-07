@@ -1,6 +1,0 @@
-org.apache.commons.math.estimation.AbstractEstimator:166
-getAllParameters
-org.apache.commons.math.estimation.AbstractEstimator:202
-getAllParameters
-org.apache.commons.math.estimation.AbstractEstimator:207
-getAllParameters

@@ -1,2 +1,0 @@
-org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
-org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283

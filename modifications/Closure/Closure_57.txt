@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.ClosureCodingConvention:197
- && target.getType() == TokenSTRING

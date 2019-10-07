@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter:613
-return resultEqualsValue && ctorType.isSubtype(type) ? ctorType : null;

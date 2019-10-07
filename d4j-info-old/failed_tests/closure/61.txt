@@ -1,3 +1,0 @@
-com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1
-com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2
-com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps

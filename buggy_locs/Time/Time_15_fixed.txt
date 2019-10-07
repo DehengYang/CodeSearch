@@ -1,3 +1,0 @@
-org.joda.time.field.FieldUtils:138
-org.joda.time.field.FieldUtils:139
-org.joda.time.field.FieldUtils:140

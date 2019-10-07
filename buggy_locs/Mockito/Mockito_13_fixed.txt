@@ -1,3 +1,0 @@
-org.mockito.internal.MockHandler:84
-org.mockito.internal.MockHandler:77
-org.mockito.internal.MockHandler:81

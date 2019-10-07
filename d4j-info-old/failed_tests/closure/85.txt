@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
-com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311

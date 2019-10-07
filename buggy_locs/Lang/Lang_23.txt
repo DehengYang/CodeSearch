@@ -1,2 +1,0 @@
-org.apache.commons.lang3.text.ExtendedMessageFormat:72
-org.apache.commons.lang3.text.ExtendedMessageFormat:74

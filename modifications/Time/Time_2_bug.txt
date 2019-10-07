@@ -1,2 +1,0 @@
-org.joda.time.Partial:218
- || (compare != 0&& loopUnitField.isSupported() ==false)

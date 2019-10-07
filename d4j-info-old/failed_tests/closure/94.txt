@@ -1,3 +1,0 @@
-com.google.javascript.jscomp.NodeUtilTest::testValidDefine
-com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1
-com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3

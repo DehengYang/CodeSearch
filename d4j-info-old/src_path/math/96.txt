@@ -1,4 +1,0 @@
-/src/java
-/target/classes
-/src/test
-/target/test-classes

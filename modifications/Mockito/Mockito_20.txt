@@ -1,4 +1,0 @@
-org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker:35
-instantiator.newInstance
-org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker:46
-instantiator

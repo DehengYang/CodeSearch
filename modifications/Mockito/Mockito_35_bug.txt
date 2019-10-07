@@ -1,6 +1,0 @@
-org.mockito.Matchers:362
-returnNull(
-org.mockito.Matchers:479
-returnNull(
-org.mockito.Matchers:516
-returnNull(

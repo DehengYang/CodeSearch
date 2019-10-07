@@ -1,3 +1,0 @@
-com.google.javascript.rhino.jstype.FunctionType:879
-com.google.javascript.jscomp.FunctionTypeBuilder:184
-com.google.javascript.rhino.jstype.FunctionType:880

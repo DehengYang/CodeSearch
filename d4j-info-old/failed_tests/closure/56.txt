@@ -1,3 +1,0 @@
-com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine
-com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError1
-com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError2

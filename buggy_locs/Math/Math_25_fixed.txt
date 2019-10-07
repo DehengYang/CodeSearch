@@ -1,3 +1,0 @@
-org.apache.commons.math3.optimization.fitting.HarmonicFitter:327
-org.apache.commons.math3.optimization.fitting.HarmonicFitter:326
-org.apache.commons.math3.optimization.fitting.HarmonicFitter:323

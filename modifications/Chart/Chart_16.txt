@@ -1,6 +1,0 @@
-org.jfree.data.category.DefaultIntervalCategoryDataset:207
-new Comparable[0]
-org.jfree.data.category.DefaultIntervalCategoryDataset:208
-new Comparable[0]
-org.jfree.data.category.DefaultIntervalCategoryDataset:338
-getCategoryCount()

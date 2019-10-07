@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2
-com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3

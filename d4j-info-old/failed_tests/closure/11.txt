@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.TypeCheckTest::testGetprop4
-com.google.javascript.jscomp.TypeCheckTest::testIssue810

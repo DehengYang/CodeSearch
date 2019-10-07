@@ -1,6 +1,0 @@
-com.google.javascript.rhino.IR:224
-isLabelName
-com.google.javascript.rhino.IR:225
-isLabelName
-com.google.javascript.rhino.IR:233
-block

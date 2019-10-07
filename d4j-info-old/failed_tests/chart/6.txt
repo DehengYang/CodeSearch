@@ -1,2 +1,0 @@
-org.jfree.chart.util.junit.ShapeListTests::testSerialization
-org.jfree.chart.util.junit.ShapeListTests::testEquals

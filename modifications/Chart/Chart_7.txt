@@ -1,4 +1,0 @@
-org.jfree.data.time.TimePeriodValues:300
-maxMiddleIndex
-org.jfree.data.time.TimePeriodValues:302
-maxMiddleIndex

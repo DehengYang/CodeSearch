@@ -1,2 +1,0 @@
-org.apache.commons.math.fraction.Fraction:260
-org.apache.commons.math.fraction.Fraction:259

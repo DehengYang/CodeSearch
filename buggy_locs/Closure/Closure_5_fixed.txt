@@ -1,3 +1,0 @@
-com.google.javascript.jscomp.InlineObjectLiterals:176
-com.google.javascript.jscomp.InlineObjectLiterals:177
-com.google.javascript.jscomp.InlineObjectLiterals:178

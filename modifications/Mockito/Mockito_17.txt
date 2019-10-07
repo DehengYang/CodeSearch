@@ -1,2 +1,0 @@
-org.mockito.internal.creation.MockSettingsImpl:76
-serializable

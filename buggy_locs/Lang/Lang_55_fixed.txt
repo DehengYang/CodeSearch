@@ -1,2 +1,0 @@
-org.apache.commons.lang.time.StopWatch:120
-org.apache.commons.lang.time.StopWatch:118

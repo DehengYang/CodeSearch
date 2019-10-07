@@ -1,2 +1,0 @@
-com.google.javascript.jscomp.VarCheck:220
-com.google.javascript.jscomp.Normalize:122

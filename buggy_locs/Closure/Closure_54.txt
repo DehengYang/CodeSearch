@@ -1,5 +1,0 @@
-com.google.javascript.rhino.jstype.FunctionType:370
-com.google.javascript.rhino.jstype.FunctionType:375
-com.google.javascript.rhino.jstype.FunctionType:341
-com.google.javascript.jscomp.TypedScopeCreator:1413
-com.google.javascript.rhino.jstype.FunctionType:366
