@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Sep 23 02:27:49 PDT 2019
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=codesearch_fat.jar
+manifest.mergeall=false
+manifest.mainclass=dale.search.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
