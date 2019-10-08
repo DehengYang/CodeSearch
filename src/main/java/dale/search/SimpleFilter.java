@@ -17,10 +17,15 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.AnonymousClassDeclaration;
 import org.eclipse.jdt.core.dom.CompilationUnit;
+import org.eclipse.jdt.core.dom.ConditionalExpression;
+import org.eclipse.jdt.core.dom.IfStatement;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.MethodInvocation;
+import org.eclipse.jdt.core.dom.ReturnStatement;
 import org.eclipse.jdt.core.dom.SimpleName;
 import org.eclipse.jdt.core.dom.Statement;
+import org.eclipse.jdt.core.dom.SwitchStatement;
+import org.eclipse.jdt.core.dom.ThrowStatement;
 import org.eclipse.jdt.core.dom.Type;
 
 import dale.parser.Constant;
@@ -78,6 +83,8 @@ public class SimpleFilter {
 		CollectorVisitor collectorVisitor = new CollectorVisitor();
 		// for each file, start to find similar code
 		for(String file : files){
+			// test here.(math5)
+//			file = "/home/dale/d4j/Math/Math_5/src/main/java/org/apache/commons/math3/complex/Complex.java";
 			CompilationUnit unit = FileUtils.genASTFromFile(file);
 			collectorVisitor.setUnit(file, unit);
 			unit.accept(collectorVisitor);
@@ -218,10 +225,14 @@ public class SimpleFilter {
 			// SimpleName class: AST node for a simple name. A simple name is an identifier other than a keyword, boolean literal ("true", "false") or null literal ("null"). 
 			// getFullyQualifiedName(): Returns the standard dot-separated representation of this name. If the name is a simple name, the result is the name's identifier. If the name is a qualified name, the result is the name of the qualifier (as computed by this method) followed by "." followed by the name's identifier.
 			String name = node.getFullyQualifiedName();
-//			Main.print("name in visit:" + name);
-			if(Character.isUpperCase(name.charAt(0))){
-				return true;
+			if (name.equals("INF")){
+				Main.print("name in visit:" + name);
 			}
+			
+			// TODO: (need further check!) I comment this if block for the sake of math5 code search.
+//			if(Character.isUpperCase(name.charAt(0))){
+//				return true;
+//			}
 			Pair<String, String> classAndMethodName = NodeUtils.getTypeDecAndMethodDec(node);
 			Type type = ProjectInfo.getVariableType(classAndMethodName.getFirst(), classAndMethodName.getSecond(), name);
 			Variable variable = new Variable(null, name, type);
@@ -251,10 +262,12 @@ public class SimpleFilter {
 				ASTNode parent = node.getParent();
 				Statement statement = null;
 				while(parent != null && !(parent instanceof MethodDeclaration)){
-					parent = parent.getParent();
+//					parent = parent.getParent();
 					if(statement == null && parent instanceof Statement){
 						statement = (Statement) parent;
 					}
+					// TODO: (needs further check!) I move the "parent = parent.getParent();" into here! 
+					parent = parent.getParent();
 				}
 				// filter out anonymous classes
 				if(parent != null && !(parent.getParent() instanceof AnonymousClassDeclaration)){
@@ -275,41 +288,43 @@ public class SimpleFilter {
 			return true;
 		}
 		
+		// TODO: I comment the first return false; && uncomment other statements.
+		// This needs further check!
 		private boolean sameStructure(SimpleName name){
-			return false;
-//			if(_condStruct.size() == 0 && _otherStruct.size() == 0){
-//				return false;
-//			}
-//			ASTNode parent = name.getParent();
-//			Object kind = null;
-//			while(parent != null){
-//				if(parent instanceof MethodDeclaration){
-//					break;
-//				} else if(parent instanceof IfStatement){
-//					kind = CondStruct.KIND.IF;
-//					break;
-//				} else if(parent instanceof SwitchStatement){
-//					kind = CondStruct.KIND.SC;
-//					break;
-//				} else if(parent instanceof ReturnStatement){
-//					kind = OtherStruct.KIND.RETURN;
-//					break;
-//				} else if(parent instanceof ConditionalExpression){
-//					kind = CondStruct.KIND.CE;
-//					break;
-//				} else if(parent instanceof ThrowStatement){
-//					kind = OtherStruct.KIND.THROW;
-//					break;
-//				}
-//				parent = parent.getParent();
-//			}
-//			if(kind == null){
-//				return false;
-//			}
-//			if(_condStruct.contains(kind) || _otherStruct.contains(kind)){
-//				return true;
-//			}
 //			return false;
+			if(_condStruct.size() == 0 && _otherStruct.size() == 0){
+				return false;
+			}
+			ASTNode parent = name.getParent();
+			Object kind = null;
+			while(parent != null){
+				if(parent instanceof MethodDeclaration){
+					break;
+				} else if(parent instanceof IfStatement){
+					kind = CondStruct.KIND.IF;
+					break;
+				} else if(parent instanceof SwitchStatement){
+					kind = CondStruct.KIND.SC;
+					break;
+				} else if(parent instanceof ReturnStatement){
+					kind = OtherStruct.KIND.RETURN;
+					break;
+				} else if(parent instanceof ConditionalExpression){
+					kind = CondStruct.KIND.CE;
+					break;
+				} else if(parent instanceof ThrowStatement){
+					kind = OtherStruct.KIND.THROW;
+					break;
+				}
+				parent = parent.getParent();
+			}
+			if(kind == null){
+				return false;
+			}
+			if(_condStruct.contains(kind) || _otherStruct.contains(kind)){
+				return true;
+			}
+			return false;
 		}
 	}
 	

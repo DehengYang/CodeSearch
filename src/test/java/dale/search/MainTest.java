@@ -221,20 +221,65 @@ public class MainTest
     	Main.main(args2);
     }
     
+    public void testProjIdOutSide(String proj, String id, String proj2) throws IOException{
+    	// /home/dale/ALL_APR_TOOLS/d4j-repo
+//    	String proj = "Chart";
+//    	String id = "10";
+    	String projId = proj + "_" + id;
+    	String id2 = "1";
+    	
+    	String repoBuggy = "/home/dale/d4j/";
+		String repoFixed = "/home/dale/d4j/fixed_bugs_dir/";
+		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
+				+ " && " + "/bin/bash single-download.sh "
+				+ proj + " " + id + " 1"};
+		shellRun2(cmd);
+		
+		String[] cmdProj2 = {"/bin/sh","-c", "cd " + repoFixed 
+				+ " && " + "/bin/bash fixed_single_download.sh "
+				+ proj2 + " " + id2 + " 1"};
+		shellRun2(cmdProj2);
+		
+		String[] cmd2 = {"/bin/sh","-c", "cd " + repoFixed 
+				+ " && " + "/bin/bash  fixed_single_download.sh "
+				+ proj + " " + id + " 1"};
+		shellRun2(cmd2);
+    	
+    	String[] args2 = new String[] {
+    			proj,
+    		    id,
+    		    "/home/dale/d4j/" + proj + "/" + projId, 
+    		    "/home/dale/d4j/fixed_bugs_dir/" + proj + "/" + projId,  
+    		    "/home/dale/d4j/fixed_bugs_dir/" + proj2 + "/" + proj2 + "_" + id2
+    			};
+    	Main.main(args2);
+    }
+    
     
     @Test
     public void test() throws IOException{
 //    	testProjId("Time","1");
-    	
 //    	testProjId("Time","2");
-    	
 //    	testProjId("Time","3");
-    	
 //    	testProjId("Time","4");
-    	
 //    	testProjId("Closure","1");
+//    	testProjId("Closure","2");
+//    	testProjId("Closure","3");
+//    	testProjId("Closure","89");
+//    	testProjId("Closure","90");
+//    	testProjId("Mockito","1");
+//    	testProjId("Mockito","2");
+//    	testProjId("Mockito","4");
+//    	testProjId("Math","4");
+//    	testProjIdOutSide("Math","4","Chart");
+//    	testProjIdOutSide("Math","4","Mockito");
+//    	testProjIdOutSide("Math","4","Time");
+//    	testProjIdOutSide("Math","4","Closure");
+//    	testProjIdOutSide("Math","4","Lang");
+//    	testProjIdOutSide("Math","4","Math");
     	
-    	testProjId("Closure","2");
+//    	testProjId("Math","5");
+    	testProjIdOutSide("Math","5","Math");
     }
     
 }

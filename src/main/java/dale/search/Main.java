@@ -43,7 +43,7 @@ public class Main {
 	
 	// code block line range
 	private static int snippet_line_range = 5;
-	private static int MAX_LESS_THRESHOLD = 3;
+	private static int MAX_LESS_THRESHOLD = 1;//3; TODO: attempt
 	private static int MAX_MORE_THRESHOLD = 5;
 	
 	public static void main(String[] args) throws IOException{
