@@ -126,9 +126,9 @@ public class SimpleFilter {
 //		guard = 0;
 //		System.out.println("Real guard value : " + guard);
 		Set<String> codeRec = new HashSet<>();
-		if(_candidates.size() != 0){
-			Main.print("_candidates: "+ _candidates.size() + "\n");
-		}
+//		if(_candidates.size() != 0){
+//			Main.print("_candidates: "+ _candidates.size() + "\n");
+//		}
 		for(CodeBlock block : _candidates){
 			if(_otherStruct.size() + _condStruct.size() > 0){
 				if((block.getCondStruct().size() + block.getOtherStruct().size()) == 0){
@@ -188,7 +188,8 @@ public class SimpleFilter {
 			}
 		});
 		_candidates = new ArrayList<>();
-		if(filtered.size() > 1000){
+		// TODO: ori: 1000. now: 300
+		if(filtered.size() > 300){ // actually this size is still 1000 rather than 300. 
 			for(int i = filtered.size() - 1; i > 1000; i--){
 				filtered.remove(i);
 			}
@@ -225,9 +226,9 @@ public class SimpleFilter {
 			// SimpleName class: AST node for a simple name. A simple name is an identifier other than a keyword, boolean literal ("true", "false") or null literal ("null"). 
 			// getFullyQualifiedName(): Returns the standard dot-separated representation of this name. If the name is a simple name, the result is the name's identifier. If the name is a qualified name, the result is the name of the qualifier (as computed by this method) followed by "." followed by the name's identifier.
 			String name = node.getFullyQualifiedName();
-			if (name.equals("INF")){
-				Main.print("name in visit:" + name);
-			}
+//			if (name.equals("INF")){
+//				Main.print("name in visit:" + name);
+//			}
 			
 			// TODO: (need further check!) I comment this if block for the sake of math5 code search.
 //			if(Character.isUpperCase(name.charAt(0))){

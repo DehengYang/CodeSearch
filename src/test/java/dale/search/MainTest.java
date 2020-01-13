@@ -199,8 +199,8 @@ public class MainTest
 //    	String id = "10";
     	String projId = proj + "_" + id;
     	
-    	String repoBuggy = "/home/dale/d4j/";
-		String repoFixed = "/home/dale/d4j/fixed_bugs_dir/";
+    	String repoBuggy = "/home/deheng/ALL_APR_TOOLS/d4j-repo/";
+		String repoFixed = "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/";
 		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
 				+ " && " + "/bin/bash single-download.sh "
 				+ proj + " " + id + " 1"};
@@ -214,9 +214,9 @@ public class MainTest
     	String[] args2 = new String[] {
     			proj,
     		    id,
-    		    "/home/dale/d4j/" + proj + "/" + projId, 
-    		    "/home/dale/d4j/fixed_bugs_dir/" + proj + "/" + projId,  
-    		    "/home/dale/d4j/" + proj + "/" + projId
+    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/" + proj + "/" + projId, 
+    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
+    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/" + proj + "/" + projId
     			};
     	Main.main(args2);
     }
@@ -228,8 +228,8 @@ public class MainTest
     	String projId = proj + "_" + id;
     	String id2 = "1";
     	
-    	String repoBuggy = "/home/dale/d4j/";
-		String repoFixed = "/home/dale/d4j/fixed_bugs_dir/";
+    	String repoBuggy = "/home/deheng/ALL_APR_TOOLS/d4j-repo/";
+		String repoFixed = "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/";
 		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
 				+ " && " + "/bin/bash single-download.sh "
 				+ proj + " " + id + " 1"};
@@ -248,9 +248,9 @@ public class MainTest
     	String[] args2 = new String[] {
     			proj,
     		    id,
-    		    "/home/dale/d4j/" + proj + "/" + projId, 
-    		    "/home/dale/d4j/fixed_bugs_dir/" + proj + "/" + projId,  
-    		    "/home/dale/d4j/fixed_bugs_dir/" + proj2 + "/" + proj2 + "_" + id2
+    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/" + proj + "/" + projId, 
+    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
+    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/" + proj2 + "/" + proj2 + "_" + id2
     			};
     	Main.main(args2);
     }
@@ -259,6 +259,7 @@ public class MainTest
     @Test
     public void test() throws IOException{
 //    	testProjId("Time","1");
+//    	testProjIdOutSide("Time","1","Chart");
 //    	testProjId("Time","2");
 //    	testProjId("Time","3");
 //    	testProjId("Time","4");
@@ -279,7 +280,13 @@ public class MainTest
 //    	testProjIdOutSide("Math","4","Math");
     	
 //    	testProjId("Math","5");
-    	testProjIdOutSide("Math","5","Math");
+//    	testProjIdOutSide("Math","5","Math");
+    	// TODO: similarity metric should be improved! as in this case, return INF; ranks not the highest, besides, with many ties.
+    
+//    	testProjId("Math","6");
+//    	testProjId("Chart","1");
+    	
+    	testProjId("Chart","3");
     }
     
 }
