@@ -1,5 +1,12 @@
 package donor.main;
 
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.HelpFormatter;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -54,12 +61,15 @@ public class Main {
 	private static int MAX_MORE_THRESHOLD = 5;
 	
 	public static void main(String[] args) throws IOException{
+		// parse parameter.
+		List<String> parameters = setParameters(args);
+		
 		// conduct code search for buggy lines
-		proj = args[0];
-		id = args[1];
-		buggy_src_path = args[2];
-		fixed_src_path = args[3];
-		target_source_path = args[4];
+		proj = parameters.get(0);
+		id = parameters.get(1);
+		buggy_src_path = parameters.get(2); // not necessary
+		fixed_src_path = parameters.get(3);
+		target_source_path = parameters.get(4);
 		
 		// init search log
 		proj = proj.toLowerCase();
@@ -169,8 +179,10 @@ public class Main {
 //			LocalLog.log("print candidates ---");
 			// each chunk (of lines) corresponds a specified log
 			// TODO: consider using linesList.get(0) to replace first_line, and the same operation for last_lineNo. 
+			// e.g., ./search-log/chart/3/org.jfree.data.time.TimeSeries:1057-1058_fixed.log
 			logfile = "./search-log/" + proj + '/' + id + '/' + first_line + "-"
 					+ last_lineNo + "_" + flag + ".log";
+			// e.g., ./search-log/chart/3/lines_org.jfree.data.time.TimeSeries:1057-1058_fixed.log
 			String log2 = "./search-log/" + proj + '/' + id + "/lines_" + first_line + "-"
 					+ last_lineNo + "_" + flag + ".log";
 			
@@ -535,4 +547,63 @@ public class Main {
 	public static void print(String str){
 		System.out.println(str);
 	}
+	
+	/*
+	 * receive parameters
+	 */
+	private static List<String> setParameters(String[] args) {
+//		proj = parameters[0];
+//		id = parameters[1];
+//		buggy_src_path = parameters[2];
+//		fixed_src_path = parameters[3];
+//		target_source_path = parameters[4];
+		
+		List<String> parameters = new ArrayList<>();
+		
+        Option opt1 = new Option("proj","project_name",true,"e.g., ../d4j-repo/");
+        opt1.setRequired(true);
+        Option opt2 = new Option("id","id",true,"e.g., Chart");
+        opt2.setRequired(true);   
+        Option opt3 = new Option("buggy_src_path","buggy_src_path",true,"e.g., jfreechart");
+        opt3.setRequired(true);
+        Option opt4 = new Option("fixed_src_path","fixed_src_path",true,"e.g., 2");
+        opt4.setRequired(true);
+        Option opt5 = new Option("target_source_path","target_source_path",true,"e.g., false");
+        opt4.setRequired(true);
+
+        Options options = new Options();
+        options.addOption(opt1);
+        options.addOption(opt2);
+        options.addOption(opt3);
+        options.addOption(opt4);
+        options.addOption(opt5);
+
+        CommandLine cli = null;
+        CommandLineParser cliParser = new DefaultParser();
+        HelpFormatter helpFormatter = new HelpFormatter();
+
+        try {
+            cli = cliParser.parse(options, args);
+        } catch (org.apache.commons.cli.ParseException e) {
+            helpFormatter.printHelp(">>>>>> test cli options", options);
+            e.printStackTrace();
+        } 
+
+        if (cli.hasOption("proj")){
+        	parameters.add(cli.getOptionValue("d4j"));
+        }
+        if(cli.hasOption("id")){
+        	parameters.add(cli.getOptionValue("bugProj"));
+        }
+        if(cli.hasOption("buggy_src_path")){
+        	parameters.add(cli.getOptionValue("oriProj"));
+        }
+        if(cli.hasOption("fixed_src_path")){
+        	parameters.add(cli.getOptionValue("id"));
+        }
+        if(cli.hasOption("target_source_path")){
+        	parameters.add(cli.getOptionValue("id"));
+        }
+		return parameters;
+    }
 }
