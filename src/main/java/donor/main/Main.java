@@ -7,8 +7,11 @@ import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -18,6 +21,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -631,7 +635,7 @@ public class Main {
 	
 	private static String getShellOut(Process process) {
 		ExecutorService service = Executors.newSingleThreadExecutor();
-        Future<String> future = service.submit(new ReadShellProcess(process));
+        Future<String> future = service.submit(new ReadShellProcessMain(process));
         String returnString = "";
         try {
             returnString = future.get(10800L, TimeUnit.SECONDS);
@@ -695,6 +699,61 @@ public class Main {
 			shellRun2(cmd2);
 		}
     }
+}
 
+class ReadShellProcessMain implements Callable<String> {
+    public Process process;
+
+    public ReadShellProcessMain(Process p) {
+        this.process = p;
+    }
+
+    public synchronized String call() {
+        StringBuilder sb = new StringBuilder();
+        BufferedInputStream in = null;
+        BufferedReader br = null;
+        try {
+            String s;
+            in = new BufferedInputStream(process.getInputStream());
+            br = new BufferedReader(new InputStreamReader(in));
+            while ((s = br.readLine()) != null && s.length()!=0) {
+                if (sb.length() < 1000000){
+                    if (Thread.interrupted()){
+                        return sb.toString();
+                    }
+                    sb.append(System.getProperty("line.separator"));
+                    sb.append(s);
+                }
+            }
+            in = new BufferedInputStream(process.getErrorStream());
+            br = new BufferedReader(new InputStreamReader(in));
+            while ((s = br.readLine()) != null && s.length()!=0) {
+                if (Thread.interrupted()){
+                    return sb.toString();
+                }
+                if (sb.length() < 1000000){
+                    sb.append(System.getProperty("line.separator"));
+                    sb.append(s);
+                }
+            }
+        } catch (IOException e){
+            e.printStackTrace();
+        } finally {
+            if (br != null){
+                try {
+                    br.close();
+                } catch (IOException e){
+                }
+            }
+            if (in != null){
+                try {
+                    in.close();
+                } catch (IOException e){
+                }
+            }
+            process.destroy();
+        }
+        return sb.toString();
+    }
 }
 

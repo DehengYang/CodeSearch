@@ -1536,7 +1536,7 @@ public class CodeBlock extends Node{
 		 } else if(node instanceof SingleVariableDeclaration){
 			 return visit((SingleVariableDeclaration) node);
 		 } else {
-			 System.out.println("UNKNOWN ASTNode type : " + node.toString());
+			 //System.out.println("UNKNOWN ASTNode type : " + node.toString());
 			 return null;
 		 }
 	}
