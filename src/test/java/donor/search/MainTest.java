@@ -39,22 +39,6 @@ public class MainTest
         super( testName );
     }
 
-//    /**
-//     * @return the suite of tests being tested
-//     */
-//    public static Test suite()
-//    {
-//        return new TestSuite( MainTest.class );
-//    }
-
-//    /**
-//     * Rigourous Test :-)
-//     */
-//    public void testApp()
-//    {
-//        assertTrue( true );
-//    }
-    
 //    @Test
 //    public void test_source_path() throws IOException{
 //    	log.info("Testing Chart 1");
@@ -67,78 +51,6 @@ public class MainTest
 //    	String[] args2 = new String[] {
 //    			null,
 //    			"/home/dale/d4j/Math/Math_1"};
-//    	Main.main(args2);
-//    }
-    
-    
-//    Chart 
-//    3 
-//    /home/dale/d4j/Chart/Chart_3 
-//    /home/dale/d4j/fixed_bugs_dir/Chart/Chart_3  
-//    /home/dale/d4j/fixed_bugs_dir/Chart/Chart_3
-    
-    //Chart 3 /home/dale/d4j/Chart/Chart_3 /home/dale/d4j/fixed_bugs_dir/Chart/Chart_3  /home/dale/d4j/Chart/Chart_3
-//    @Test
-//    public void test_time2() throws IOException{
-//    	log.info("Testing time 2");
-//    	String[] args2 = new String[] {
-//    			"Time",
-//    			"2",
-//    			"/home/dale/d4j/fixed_bugs_dir/Time/Time_2",
-//    			"/home/dale/d4j/fixed_bugs_dir/Time/Time_2",
-//    			"/home/dale/d4j/fixed_bugs_dir/Time/Time_2",
-//    			};
-//    	Main.main(args2);
-//    }
-    
-//    Mockito 
-//    4
-//    /home/dale/d4j/Mockito/Mockito_4 
-//    /home/dale/d4j/fixed_bugs_dir/Mockito/Mockito_4  
-//    /home/dale/d4j/fixed_bugs_dir/Mockito/Mockito_4
-//    @Test
-//    public void test_mock4() throws IOException{
-//    	log.info("Testing mock 4");
-//    	// /home/dale/ALL_APR_TOOLS/d4j-repo
-//    	String[] args2 = new String[] {
-//    			"Mockito",
-//    		    "4",
-//    		    "/home/dale/d4j/Mockito/Mockito_4", 
-//    		    "/home/dale/d4j/fixed_bugs_dir/Mockito/Mockito_4",  
-//    		    "/home/dale/d4j/Mockito/Mockito_4"
-//    			};
-//    	Main.main(args2);
-//    }
-//    
-//    @Test
-//    public void test_chart1() throws IOException{
-//    	// /home/dale/ALL_APR_TOOLS/d4j-repo
-//    	String proj = "Chart";
-//    	String id = "1";
-//    	String projId = proj + "_" + id;
-//    	String[] args2 = new String[] {
-//    			proj,
-//    		    id,
-//    		    "/home/dale/d4j/" + proj + "/" + projId, 
-//    		    "/home/dale/d4j/fixed_bugs_dir/" + proj + "/" + projId,  
-//    		    "/home/dale/d4j/" + proj + "/" + projId
-//    			};
-//    	Main.main(args2);
-//    }
-    
-//    @Test
-//    public void test_chart2() throws IOException{
-//    	// /home/dale/ALL_APR_TOOLS/d4j-repo
-//    	String proj = "Chart";
-//    	String id = "2";
-//    	String projId = proj + "_" + id;
-//    	String[] args2 = new String[] {
-//    			proj,
-//    		    id,
-//    		    "/home/dale/d4j/" + proj + "/" + projId, 
-//    		    "/home/dale/d4j/fixed_bugs_dir/" + proj + "/" + projId,  
-//    		    "/home/dale/d4j/" + proj + "/" + projId
-//    			};
 //    	Main.main(args2);
 //    }
     
