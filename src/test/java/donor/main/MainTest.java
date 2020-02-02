@@ -135,11 +135,11 @@ public class MainTest
 		}
     	
     	String[] args2 = new String[] {
-    			proj,
-    		    id,
-    		    "d4j-repo/" + proj + "/" + projId, 
-    		    "d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
-    		    "d4j-repo/" + proj + "/" + projId
+    			"-proj", proj,
+    			"-id", id,
+    			"-buggy_src_path", "d4j-repo/" + proj + "/" + projId, 
+    			"-fixed_src_path", "d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
+    			"-target_source_path", "d4j-repo/" + proj + "/" + projId
     			};
     	Main.main(args2);
     }

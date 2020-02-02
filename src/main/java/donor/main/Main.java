@@ -62,14 +62,14 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException{
 		// parse parameter.
-		List<String> parameters = setParameters(args);
+		Map<String, String> parameters = setParameters(args);
 		
 		// conduct code search for buggy lines
-		proj = parameters.get(0);
-		id = parameters.get(1);
-		buggy_src_path = parameters.get(2); // not necessary
-		fixed_src_path = parameters.get(3);
-		target_source_path = parameters.get(4);
+		proj = parameters.get("proj");
+		id = parameters.get("id");
+		buggy_src_path = parameters.get("buggy_src_path"); // not necessary
+		fixed_src_path = parameters.get("fixed_src_path");
+		target_source_path = parameters.get("target_source_path");
 		
 		// init search log
 		proj = proj.toLowerCase();
@@ -551,24 +551,24 @@ public class Main {
 	/*
 	 * receive parameters
 	 */
-	private static List<String> setParameters(String[] args) {
+	private static Map<String, String> setParameters(String[] args) {
 //		proj = parameters[0];
 //		id = parameters[1];
 //		buggy_src_path = parameters[2];
 //		fixed_src_path = parameters[3];
 //		target_source_path = parameters[4];
 		
-		List<String> parameters = new ArrayList<>();
+		Map<String, String> parameters = new HashMap<>();
 		
-        Option opt1 = new Option("proj","project_name",true,"e.g., ../d4j-repo/");
+        Option opt1 = new Option("proj","project_name",true,"e.g., Chart");
         opt1.setRequired(true);
-        Option opt2 = new Option("id","id",true,"e.g., Chart");
+        Option opt2 = new Option("id","id",true,"e.g., 3");
         opt2.setRequired(true);   
-        Option opt3 = new Option("buggy_src_path","buggy_src_path",true,"e.g., jfreechart");
+        Option opt3 = new Option("buggy_src_path","buggy_src_path",true,"e.g., d4j-repo/Chart/Chart_3");
         opt3.setRequired(true);
-        Option opt4 = new Option("fixed_src_path","fixed_src_path",true,"e.g., 2");
+        Option opt4 = new Option("fixed_src_path","fixed_src_path",true,"e.g., d4j-repo/fixed_bugs_dir/Chart/Chart_3");
         opt4.setRequired(true);
-        Option opt5 = new Option("target_source_path","target_source_path",true,"e.g., false");
+        Option opt5 = new Option("target_source_path","target_source_path",true,"e.g., d4j-repo/Chart/Chart_3");
         opt4.setRequired(true);
 
         Options options = new Options();
@@ -590,19 +590,19 @@ public class Main {
         } 
 
         if (cli.hasOption("proj")){
-        	parameters.add(cli.getOptionValue("d4j"));
+        	parameters.put("proj", cli.getOptionValue("d4j"));
         }
         if(cli.hasOption("id")){
-        	parameters.add(cli.getOptionValue("bugProj"));
+        	parameters.put("id", cli.getOptionValue("bugProj"));
         }
         if(cli.hasOption("buggy_src_path")){
-        	parameters.add(cli.getOptionValue("oriProj"));
+        	parameters.put("buggy_src_path", cli.getOptionValue("oriProj"));
         }
         if(cli.hasOption("fixed_src_path")){
-        	parameters.add(cli.getOptionValue("id"));
+        	parameters.put("fixed_src_path", cli.getOptionValue("id"));
         }
         if(cli.hasOption("target_source_path")){
-        	parameters.add(cli.getOptionValue("id"));
+        	parameters.put("target_source_path", cli.getOptionValue("id"));
         }
 		return parameters;
     }
