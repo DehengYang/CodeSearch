@@ -433,7 +433,7 @@ public class FileUtils {
 				String modification = lines.get(i+1).trim();
 				// Chart 1: only contains =
 				if (basicType.contains(modification)){
-					lineTypesMap.put(line, new Pair<>("type1", modification));
+					lineTypesMap.put(line, new Pair<>("intrinsic", modification));
 				}else{
 					lineTypesMap.put(line, new Pair<>("type2", modification));
 				}

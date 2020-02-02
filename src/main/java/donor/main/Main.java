@@ -38,7 +38,7 @@ public class Main {
 	private static String project_dir = System.getProperty("user.dir");
 	private static String logfile = project_dir + "/codesearch.log";
 	
-	// for checking patch types (basic type = "type1")
+	// for checking patch types (basic type = "intrinsic")
 	private static Map<String, Pair<String, String>> lineTypesMap = new HashMap<String, Pair<String, String>>();
 	
 	// args
@@ -66,10 +66,13 @@ public class Main {
 		init();
 		
 		// obtain source code path (recipient code) & target path(for code search)
-		fixed_src_path = FileUtils.get_source_path(fixed_src_path);
+		// e.g., d4j-repo/fixed_bugs_dir/Chart/Chart_3/source
+		fixed_src_path = FileUtils.get_source_path(fixed_src_path);  
+		// e.g., d4j-repo/Chart/Chart_3/source
 		target_source_path = FileUtils.get_source_path(target_source_path);
 		
 		// read fixed lines for each buggy program
+		// e.g., org.jfree.data.time.TimeSeries:1057, org.jfree.data.time.TimeSeries:1058
 		List<String> fixed_lines = FileUtils.readFile(proj, id, "fixed");
 
 		// get all chunks && do code search for each chunk.
@@ -98,14 +101,14 @@ public class Main {
 		int first_lineNo = Integer.parseInt(first_line.split(":")[1]);
 		int last_lineNo = Integer.parseInt(last_line.split(":")[1]);
 		
-		// get all type1 lines && save to file
+		// get all intrinsic lines && save to file
 		List<Integer> linesList = new ArrayList<>();
 		for(String line : line_chunk){
-			// find a type1 patch line
-			if (lineTypesMap.containsKey(line) && lineTypesMap.get(line).getFirst().equals("type1")){
-				String typelog = "./search-log/" + proj + '/' + id + '/' + line + "_type1.log";
+			// find a intrinsic patch line
+			if (lineTypesMap.containsKey(line) && lineTypesMap.get(line).getFirst().equals("intrinsic")){
+				String typelog = "./search-log/" + proj + '/' + id + '/' + line + "_intrinsic.log";
 				FileUtils.writeStringToFile(typelog,lineTypesMap.get(line).getSecond());
-				print("line is type1:" + line);
+				print("line is intrinsic:" + line);
 			}else{
 				int lineNo = Integer.parseInt(line.split(":")[1]);
 				linesList.add(lineNo);
