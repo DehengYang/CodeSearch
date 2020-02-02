@@ -121,7 +121,7 @@ public class Main {
 		}
 		
 		// TODO: make more attempts here.
-				// for test: change 5 to 1
+		// for test: change 5 to 1
 		CodeSnippet codeSnippet = new CodeSnippet(unit, linesList, snippet_line_range, null, MAX_LESS_THRESHOLD, MAX_MORE_THRESHOLD);
 
 		// get code block

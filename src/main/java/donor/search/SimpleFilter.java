@@ -190,7 +190,7 @@ public class SimpleFilter {
 		});
 		_candidates = new ArrayList<>();
 		// TODO: ori: 1000. now: 300
-		if(filtered.size() > 300){ // actually this size is still 1000 rather than 300. 
+		if(filtered.size() > 1000){ // actually this size is still 1000 rather than 300. 
 			for(int i = filtered.size() - 1; i > 1000; i--){
 				filtered.remove(i);
 			}
