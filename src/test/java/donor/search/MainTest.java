@@ -282,7 +282,6 @@ public class MainTest
     	
 //    	testProjId("Math","5");
 //    	testProjIdOutSide("Math","5","Math");
-    	// TODO: similarity metric should be improved! as in this case, return INF; ranks not the highest, besides, with many ties.
     
 //    	testProjId("Math","6");
 //    	testProjId("Chart","1");
