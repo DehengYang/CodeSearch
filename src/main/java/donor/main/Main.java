@@ -437,13 +437,16 @@ public class Main {
 		return unique;
 	}
 	
+	/*
+	 * delete/init log dir 
+	 */
 	private static void init() {
-		logfile = "./search-log/" + proj + '/' + id + '/' ;
+		logfile = "./search-log/" + proj + '/' + id + '/' ; // e.g., ./search-log/chart/3/
 		File dir = new File(logfile);
 		if (dir.exists() && dir.isDirectory()) {
 			for (File file : dir.listFiles()){
 				file.delete();
-				print(file.getName() + " exists, and now clear it at the beginning of the process.");
+				print(file.getName() + " exists, and now clear it.");
 			}
 		}
 	}

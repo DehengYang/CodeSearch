@@ -2,6 +2,7 @@ package donor.main;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.concurrent.Callable;
@@ -111,24 +112,34 @@ public class MainTest
 //    	String id = "10";
     	String projId = proj + "_" + id;
     	
-    	String repoBuggy = "../d4j-repo/";
-		String repoFixed = "../d4j-repo/fixed_bugs_dir/";
+    	String repoBuggy = "d4j-repo/";
+		String repoFixed = "d4j-repo/fixed_bugs_dir/";
 		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
 				+ " && " + "/bin/bash single-download.sh "
 				+ proj + " " + id + " 1"};
-		shellRun2(cmd);
+		// if exist, do not download
+		if (new File(repoBuggy + proj + "/" + projId).exists()){
+			System.out.println(repoBuggy + proj + "/" + projId + " exists, so skip downloading.");
+		}else{
+			shellRun2(cmd);
+		}
 		
 		String[] cmd2 = {"/bin/sh","-c", "cd " + repoFixed 
 				+ " && " + "/bin/bash  fixed_single_download.sh "
 				+ proj + " " + id + " 1"};
-		shellRun2(cmd2);
+		// if exist, do not download
+		if (new File(repoFixed + proj + "/" + projId).exists()){
+			System.out.println(repoFixed + proj + "/" + projId + " exists, so skip downloading.");
+		}else{
+			shellRun2(cmd2);
+		}
     	
     	String[] args2 = new String[] {
     			proj,
     		    id,
-    		    "../d4j-repo/" + proj + "/" + projId, 
-    		    "../d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
-    		    "../d4j-repo/" + proj + "/" + projId
+    		    "d4j-repo/" + proj + "/" + projId, 
+    		    "d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
+    		    "d4j-repo/" + proj + "/" + projId
     			};
     	Main.main(args2);
     }
@@ -139,17 +150,27 @@ public class MainTest
     	String projId = proj + "_" + id;
     	String id2 = "1";
     	
-    	String repoBuggy = "../d4j-repo/";
-		String repoFixed = "../d4j-repo/fixed_bugs_dir/";
+    	String repoBuggy = "d4j-repo/";
+		String repoFixed = "d4j-repo/fixed_bugs_dir/";
 		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
 				+ " && " + "/bin/bash single-download.sh "
 				+ proj + " " + id + " 1"};
-		shellRun2(cmd);
+		// if exist, do not download
+		if (new File(repoBuggy + proj + "/" + projId).exists()){
+			System.out.println(repoBuggy + proj + "/" + projId + " exists, so skip downloading.");
+		}else{
+			shellRun2(cmd);
+		}
 		
 		String[] cmdProj2 = {"/bin/sh","-c", "cd " + repoFixed 
 				+ " && " + "/bin/bash fixed_single_download.sh "
 				+ proj2 + " " + id2 + " 1"};
-		shellRun2(cmdProj2);
+		// if exist, do not download
+		if (new File(repoFixed + proj + "/" + projId).exists()){
+			System.out.println(repoFixed + proj + "/" + projId + " exists, so skip downloading.");
+		}else{
+			shellRun2(cmdProj2);
+		}
 		
 		String[] cmd2 = {"/bin/sh","-c", "cd " + repoFixed 
 				+ " && " + "/bin/bash fixed_single_download.sh "
@@ -159,9 +180,9 @@ public class MainTest
     	String[] args2 = new String[] {
     			proj,
     		    id,
-    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/" + proj + "/" + projId, 
-    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
-    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/" + proj2 + "/" + proj2 + "_" + id2
+    		    "d4j-repo/" + proj + "/" + projId, 
+    		    "d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
+    		    "d4j-repo/fixed_bugs_dir/" + proj2 + "/" + proj2 + "_" + id2
     			};
     	Main.main(args2);
     }
