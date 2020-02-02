@@ -119,7 +119,7 @@ public class Subject {
 	 * get absolute home path for subject
 	 * 
 	 * @return e.g., "/home/user/chart/chart_1_buggy"
-	 * modified by dale.
+	 * modified by apr.
 	 * @return e.g., "/home/user/Chart/Chart_1
 	 */
 	public String getHome() {

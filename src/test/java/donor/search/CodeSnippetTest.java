@@ -25,7 +25,7 @@ public class CodeSnippetTest extends TestCase{
 	// test
 	public void test_simple_extend(){
 		log.info("test_simple_extend");
-		String line_path = "/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java";
+		String line_path = "/home/apr/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java";
 //		int lineNo = 1797;
 		int lineNo = 860; // 188 250 293 296
 		CompilationUnit unit = (CompilationUnit)FileUtils.genASTFromFile(line_path, ASTParser.K_COMPILATION_UNIT);

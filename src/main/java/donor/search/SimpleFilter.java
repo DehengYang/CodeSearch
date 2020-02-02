@@ -85,7 +85,7 @@ public class SimpleFilter {
 		// for each file, start to find similar code
 		for(String file : files){
 			// test here.(math5)
-//			file = "/home/dale/d4j/Math/Math_5/src/main/java/org/apache/commons/math3/complex/Complex.java";
+//			file = "/home/apr/d4j/Math/Math_5/src/main/java/org/apache/commons/math3/complex/Complex.java";
 			CompilationUnit unit = FileUtils.genASTFromFile(file);
 			collectorVisitor.setUnit(file, unit);
 			unit.accept(collectorVisitor);

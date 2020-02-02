@@ -26,11 +26,11 @@ public class Constant {
 	public final static int MAX_BLOCK_LINE = 10;
 	public static int PATCH_NUM = 1;
 	
-	//added by dale: time out (minutes)
+	//added by apr: time out (minutes)
 	public static int timeout = 0;
-	// by dale. topN to set FL level. e.g., 10.
+	// by apr. topN to set FL level. e.g., 10.
 	public static int topN;
-	// by dale. bugId
+	// by apr. bugId
 //	public static String bugId;
 //	// projName
 //	public static String projName;

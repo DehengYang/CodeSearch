@@ -192,7 +192,7 @@ public class CodeSnippet {
 				prefind.accept(new FindExactLineVisitor());
 			} else {
 				// TODO: I cannot imagine how the program comes into this branch.
-				// Answer: when String line_path = "/home/dale/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java";
+				// Answer: when String line_path = "/home/apr/d4j/Chart/Chart_1/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java";
 				//         and 	int lineNo = 188;
 //				System.out.println("Executing branch: this.unit.accept(new Traverse());");
 				this.unit.accept(new Traverse());
