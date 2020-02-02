@@ -597,20 +597,22 @@ public class Main {
         } 
 
         if (cli.hasOption("proj")){
-        	parameters.put("proj", cli.getOptionValue("d4j"));
+        	parameters.put("proj", cli.getOptionValue("proj"));
         }
         if(cli.hasOption("id")){
-        	parameters.put("id", cli.getOptionValue("bugProj"));
+        	parameters.put("id", cli.getOptionValue("id"));
         }
         if(cli.hasOption("buggy_src_path")){
-        	parameters.put("buggy_src_path", cli.getOptionValue("oriProj"));
+        	parameters.put("buggy_src_path", cli.getOptionValue("buggy_src_path"));
         }
         if(cli.hasOption("fixed_src_path")){
-        	parameters.put("fixed_src_path", cli.getOptionValue("id"));
+        	parameters.put("fixed_src_path", cli.getOptionValue("fixed_src_path"));
         }
         if(cli.hasOption("target_source_path")){
-        	parameters.put("target_source_path", cli.getOptionValue("id"));
+        	parameters.put("target_source_path", cli.getOptionValue("target_source_path"));
         }
+        
+        System.out.format("Proj: %s, Id: %s\n", parameters.get("proj"), parameters.get("id"));
 		return parameters;
     }
 	
