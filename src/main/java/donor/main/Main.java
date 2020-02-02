@@ -44,7 +44,6 @@ public class Main {
 	// args
 	private static String proj = "";
 	private static String id = "";
-	@SuppressWarnings("unused")
 	private static String buggy_src_path = "";
 	private static String fixed_src_path = "";
 	private static String target_source_path = "";

@@ -1,4 +1,4 @@
-package donor.search;
+package donor.main;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 import org.junit.Test;
 
-import donor.main.Main;
+//import donor.main.Main;
 import junit.framework.TestCase;
 
 
@@ -44,23 +44,23 @@ public class MainTest
 //    	log.info("Testing Chart 1");
 //    	String[] args = new String[] {
 //    			"org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797",
-//    			"/home/dale/d4j/Chart/Chart_1"};
+//    			"/home/apr/d4j/Chart/Chart_1"};
 //    	Main.main(args);
 //    	
 //    	log.info("Testing Math 1");
 //    	String[] args2 = new String[] {
 //    			null,
-//    			"/home/dale/d4j/Math/Math_1"};
+//    			"/home/apr/d4j/Math/Math_1"};
 //    	Main.main(args2);
 //    }
     
-	// dale: simple run
+	// apr: simple run
 	public static String shellRun2(String cmd) throws IOException {
         Process process= Runtime.getRuntime().exec(cmd);
         String results = getShellOut(process);
         return results;
 	}
-	// dale: simple run
+	// apr: simple run
 	public static String shellRun2(String[] cmd) throws IOException {
 		Process process= Runtime.getRuntime().exec(cmd);
 		String results = getShellOut(process);
@@ -107,13 +107,12 @@ public class MainTest
 	}
     
     public void testProjId(String proj, String id) throws IOException{
-    	// /home/dale/ALL_APR_TOOLS/d4j-repo
 //    	String proj = "Chart";
 //    	String id = "10";
     	String projId = proj + "_" + id;
     	
-    	String repoBuggy = "/home/deheng/ALL_APR_TOOLS/d4j-repo/";
-		String repoFixed = "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/";
+    	String repoBuggy = "../d4j-repo/";
+		String repoFixed = "../d4j-repo/fixed_bugs_dir/";
 		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
 				+ " && " + "/bin/bash single-download.sh "
 				+ proj + " " + id + " 1"};
@@ -127,22 +126,21 @@ public class MainTest
     	String[] args2 = new String[] {
     			proj,
     		    id,
-    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/" + proj + "/" + projId, 
-    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
-    		    "/home/deheng/ALL_APR_TOOLS/d4j-repo/" + proj + "/" + projId
+    		    "../d4j-repo/" + proj + "/" + projId, 
+    		    "../d4j-repo/fixed_bugs_dir/" + proj + "/" + projId,  
+    		    "../d4j-repo/" + proj + "/" + projId
     			};
     	Main.main(args2);
     }
     
     public void testProjIdOutSide(String proj, String id, String proj2) throws IOException{
-    	// /home/dale/ALL_APR_TOOLS/d4j-repo
 //    	String proj = "Chart";
 //    	String id = "10";
     	String projId = proj + "_" + id;
     	String id2 = "1";
     	
-    	String repoBuggy = "/home/deheng/ALL_APR_TOOLS/d4j-repo/";
-		String repoFixed = "/home/deheng/ALL_APR_TOOLS/d4j-repo/fixed_bugs_dir/";
+    	String repoBuggy = "../d4j-repo/";
+		String repoFixed = "../d4j-repo/fixed_bugs_dir/";
 		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
 				+ " && " + "/bin/bash single-download.sh "
 				+ proj + " " + id + " 1"};
@@ -154,7 +152,7 @@ public class MainTest
 		shellRun2(cmdProj2);
 		
 		String[] cmd2 = {"/bin/sh","-c", "cd " + repoFixed 
-				+ " && " + "/bin/bash  fixed_single_download.sh "
+				+ " && " + "/bin/bash fixed_single_download.sh "
 				+ proj + " " + id + " 1"};
 		shellRun2(cmd2);
     	
@@ -169,7 +167,7 @@ public class MainTest
     }
     
     
-    @Test
+//    @Test
     public void test() throws IOException{
 //    	testProjId("Time","1");
 //    	testProjIdOutSide("Time","1","Chart");
