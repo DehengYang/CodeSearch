@@ -18,6 +18,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTParser;
@@ -70,6 +76,7 @@ public class Main {
 		buggy_src_path = parameters.get("buggy_src_path"); // not necessary
 		fixed_src_path = parameters.get("fixed_src_path");
 		target_source_path = parameters.get("target_source_path");
+		downloadProjId(proj, id);
 		
 		// init search log
 		proj = proj.toLowerCase();
@@ -606,4 +613,86 @@ public class Main {
         }
 		return parameters;
     }
+	
+	// apr: simple run
+	public static String shellRun2(String cmd) throws IOException {
+        Process process= Runtime.getRuntime().exec(cmd);
+        String results = getShellOut(process);
+        return results;
+	}
+	// apr: simple run
+	public static String shellRun2(String[] cmd) throws IOException {
+		Process process= Runtime.getRuntime().exec(cmd);
+		String results = getShellOut(process);
+		return results;
+	}
+	
+	private static String getShellOut(Process process) {
+		ExecutorService service = Executors.newSingleThreadExecutor();
+        Future<String> future = service.submit(new ReadShellProcess(process));
+        String returnString = "";
+        try {
+            returnString = future.get(10800L, TimeUnit.SECONDS);
+        } catch (InterruptedException e){
+            future.cancel(true);
+            e.printStackTrace();
+            shutdownProcess(service, process);
+            return "";
+        } catch (TimeoutException e){
+            future.cancel(true);
+            e.printStackTrace();
+            shutdownProcess(service, process);
+            return "";
+        } catch (ExecutionException e){
+            future.cancel(true);
+            e.printStackTrace();
+            shutdownProcess(service, process);
+            return "";
+        } finally {
+            shutdownProcess(service, process);
+        }
+        return returnString;
+	}
+	
+	private static void shutdownProcess(ExecutorService service, Process process) {
+		service.shutdownNow();
+        try {
+			process.getErrorStream().close();
+			process.getInputStream().close();
+	        process.getOutputStream().close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        process.destroy();
+	}
+    
+    public static void downloadProjId(String proj, String id) throws IOException{
+//	    	String proj = "Chart";
+//	    	String id = "10";
+    	String projId = proj + "_" + id;
+    	
+    	String repoBuggy = "d4j-repo/";
+		String repoFixed = "d4j-repo/fixed_bugs_dir/";
+		String[] cmd = {"/bin/sh","-c", "cd " + repoBuggy 
+				+ " && " + "/bin/bash single-download.sh "
+				+ proj + " " + id + " 1"};
+		// if exist, do not download
+		if (new File(repoBuggy + proj + "/" + projId).exists()){
+			System.out.println(repoBuggy + proj + "/" + projId + " exists, so skip downloading.");
+		}else{
+			shellRun2(cmd);
+		}
+		
+		String[] cmd2 = {"/bin/sh","-c", "cd " + repoFixed 
+				+ " && " + "/bin/bash  fixed_single_download.sh "
+				+ proj + " " + id + " 1"};
+		// if exist, do not download
+		if (new File(repoFixed + proj + "/" + projId).exists()){
+			System.out.println(repoFixed + proj + "/" + projId + " exists, so skip downloading.");
+		}else{
+			shellRun2(cmd2);
+		}
+    }
+
 }
+
